@@ -7,16 +7,22 @@ permalink: /cv/
 <table>
   <tr>
     <th>Header 1</th>
-    <th colspan="2">Header 2</th>
+    <th>Header 2</th>
+    <th>Header 3</th>
   </tr>
   <tr>
-    <td>Row 1 Col 1</td>
+    <td rowspan="2">Row 1 and 2 Col 1 merged</td>
     <td>Row 1 Col 2</td>
     <td>Row 1 Col 3</td>
   </tr>
   <tr>
-    <td>Row 2 Col 1</td>
-    <td colspan="2">Row 2 Col 2 and 3 merged</td>
+    <td>Row 2 Col 2</td>
+    <td>Row 2 Col 3</td>
+  </tr>
+  <tr>
+    <td>Row 3 Col 1</td>
+    <td>Row 3 Col 2</td>
+    <td>Row 3 Col 3</td>
   </tr>
 </table>
 
