@@ -13,7 +13,7 @@ body {
 
 /* Styling for site title */
 .site-title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc; /* Dividing line */
   padding-bottom: 10px; /* Optional padding for space between title and info */
