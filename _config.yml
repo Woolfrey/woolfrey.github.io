@@ -4,8 +4,9 @@ theme: minima
 
 # Additional sidebar info
 sidebar_info:
-  - title: "Robotics engineer 🤖"
-  - title: "Lean Six Sigma Black Belt 🥋"
+  titles:
+  - "Robotics engineer 🤖"
+  - "Lean Six Sigma Black Belt 🥋"
   email: "jonathan.woolfrey@gmail.com"
   linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
   github: "https://github.com/woolfrey/"
