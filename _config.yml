@@ -7,7 +7,6 @@ sidebar_info:
   titles:
   - "Robotics Engineer 🤖"
   - "Lean Six Sigma Black Belt 🥋"
-  - " " # This is just a space
   email: "jonathan.woolfrey@gmail.com"
   linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
   github: "https://github.com/woolfrey/"
@@ -18,10 +17,8 @@ sidebar:
     url: "/"
   - title: "About Me"
     url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Blog"
-    url: "/blog/"
+  - title: "Curriculum Vitae"
+    url: "/cv/"
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
