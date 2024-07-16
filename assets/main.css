@@ -15,11 +15,3 @@ body {
   flex: 1;
   padding: 10px;
 }
-
-header, footer {
-  width: 100%;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
