@@ -5,6 +5,16 @@ body {
   padding: 0;
 }
 
+/* Titles */
+h1 {
+  color: #333; /* Change color for main titles */
+}
+
+/* Subtitles */
+h2 {
+  color: #666; /* Change color for subtitles */
+}
+
 .sidebar {
   width: 300px;
   background-color: #f4f4f4;
