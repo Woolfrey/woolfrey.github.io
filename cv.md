@@ -4,6 +4,22 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th colspan="2">Header 2</th>
+  </tr>
+  <tr>
+    <td>Row 1 Col 1</td>
+    <td>Row 1 Col 2</td>
+    <td>Row 1 Col 3</td>
+  </tr>
+  <tr>
+    <td>Row 2 Col 1</td>
+    <td colspan="2">Row 2 Col 2 and 3 merged</td>
+  </tr>
+</table>
+
 :construction: Under construction. :construction: 
 
 # Work
