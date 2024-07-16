@@ -13,8 +13,8 @@
         <p>{{ site.description }}</p>
       </div>
       <div class="sidebar-info">
-        {% for title in site.sidebar_info %}
-          <p>{{ site.sidebar_info.title }} </p>
+        {% for title in site.sidebar_info.titles %}
+          <p>{{ title }}</p>
         {% endfor %}
         <p><a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a></p>
         <p><a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a></p>
