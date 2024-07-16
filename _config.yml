@@ -2,17 +2,26 @@ title: Jon Woolfrey
 description: Under construction.
 theme: minima
 
+# Additional sidebar info
+sidebar_info:
+  job_title: "Robotics Engineer."
+  email: "jonathan.woolfrey@gmail.com"
+  linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
+  github: "https://github.com/woolfrey/"
+
 # Sidebar navigation links
 sidebar:
   - title: "Home"
     url: "/"
-  - title: "About"
+  - title: "About Me"
     url: "/about/"
   - title: "Projects"
     url: "/projects/"
   - title: "Blog"
     url: "/blog/"
 
-# Other configurations
+# Specify kramdown as the Markdown processor
 markdown: kramdown
+
+# Other configurations
 permalink: pretty
