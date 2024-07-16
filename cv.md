@@ -18,12 +18,13 @@ permalink: /cv/
 | April 2007 - <br> March 2011 | **Maintenance Fitter** <br> _Precision Valve Australia_ <br> ---|
 
 # Education
+
 | Year(s)     | Qualifaction |
 |-------------|--------------|
 | 2015 - 2020 | **Doctor of Philosophy** <br> _University of Technology Sydney_ <br> --- |
-| 2010 - 2015 | **B.E. Mechanical & Mechatronic Engineering** <br> _University of Technology Sydney_ <br> --- |
-| 2007 - 2009 | **Certificate IV in Mechanical Trades (MEM40105)** <br> _South Western Sydney Institute of TAFE_ <br> --- |
-| 2000 - 2005 | **High School Certificate** <br> _St Mary's Cathedral College, Sydney_ <br> --- |
+
+
+
 
 # Other Qualifications
 
