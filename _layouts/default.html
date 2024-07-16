@@ -8,6 +8,10 @@
   </head>
   <body>
     <div class="sidebar">
+      <div class="site-title">
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+      </div>
       <ul>
         {% for link in site.sidebar %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
