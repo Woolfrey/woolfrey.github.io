@@ -1,5 +1,18 @@
-theme: jekyll-theme-minimal
-title: Jon Woolfrey's Homepage.
+title: Jon Woolfrey
 description: Under construction.
+theme: minima
 
-email: "jonathan.woolfrey@gmail.com"
+# Sidebar navigation links
+sidebar:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Blog"
+    url: "/blog/"
+
+# Other configurations
+markdown: kramdown
+permalink: pretty
