@@ -6,14 +6,17 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 200px;
   background-color: #f4f4f4;
   padding: 10px;
 }
 
+/* Styling for site title */
 .site-title {
-  text-align: left;
-  margin-bottom: 10px; /* Reduced bottom margin */
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; /* Dividing line */
+  padding-bottom: 10px; /* Optional padding for space between title and info */
 }
 
 .site-title h1 {
@@ -27,12 +30,15 @@ body {
   color: #777;
 }
 
+/* Styling for sidebar info */
 .sidebar-info {
-  margin-bottom: 10px; /* Reduced bottom margin */
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; /* Dividing line */
+  padding-bottom: 10px; /* Optional padding for space between info and navigation */
 }
 
 .sidebar-info p {
-  margin: 0 0 5px 0; /* Reduced bottom margin */
+  margin: 0 0 5px 0;
   font-size: 0.9em;
 }
 
@@ -40,10 +46,29 @@ body {
   color: #333;
   text-decoration: none;
   display: block;
-  margin: 0 0 5px 0; /* Reduced bottom margin */
+  margin: 0 0 5px 0;
 }
 
 .sidebar-info a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for sidebar navigation links */
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
   text-decoration: underline;
 }
 
