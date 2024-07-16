@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   </head>
   <body>
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <p>{{ site.description }}</p>
-    </header>
     <div class="sidebar">
       <ul>
         {% for link in site.sidebar %}
@@ -21,8 +17,5 @@
     <div class="content">
       {{ content }}
     </div>
-    <footer>
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
-    </footer>
   </body>
 </html>
