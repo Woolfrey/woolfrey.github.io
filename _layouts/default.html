@@ -12,6 +12,12 @@
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
       </div>
+      <div class="sidebar-info">
+        <p>{{ site.sidebar_info.job_title }}</p>
+        <p><a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a></p>
+        <p><a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a></p>
+        <p><a href="{{ site.sidebar_info.github }}">GitHub</a></p>
+      </div>
       <ul>
         {% for link in site.sidebar %}
           <li><a href="{{ link.url }}">{{ link.title }}</a></li>
