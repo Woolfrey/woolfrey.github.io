@@ -15,11 +15,32 @@ h2 {
   color: #666; /* Change color for subtitles */
 }
 
+/* Links */
+a {
+  color: #007bff; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+  color: #800080; /* Visited link color */
+}
+
+
 .sidebar {
   width: 300px;
   background-color: #f4f4f4;
   padding: 10px;
 }
+
+/* Sidebar links */
+.sidebar ul li a {
+  color: #008000; /* Change color for sidebar links */
+}
+
 
 /* Styling for site title */
 .site-title {
