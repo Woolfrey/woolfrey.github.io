@@ -12,7 +12,7 @@ body {
 }
 
 .site-title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
 }
 
@@ -25,6 +25,24 @@ body {
   margin: 0;
   font-size: 1em;
   color: #777;
+}
+
+.sidebar-info {
+  margin-bottom: 20px;
+}
+
+.sidebar-info p {
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+}
+
+.sidebar-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar-info a:hover {
+  text-decoration: underline;
 }
 
 .content {
