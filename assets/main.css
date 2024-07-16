@@ -1,21 +1,3 @@
-body {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
-
-.sidebar {
-  width: 500px;
-  background-color: #f4f4f4;
-  padding: 10px;
-}
-
-.site-title {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
 .site-title h1 {
   margin: 0;
   font-size: 1.5em;
@@ -28,17 +10,19 @@ body {
 }
 
 .sidebar-info {
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Reduced bottom margin */
 }
 
 .sidebar-info p {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0; /* Reduced bottom margin */
   font-size: 0.9em;
 }
 
 .sidebar-info a {
   color: #333;
   text-decoration: none;
+  display: block;
+  margin: 0 0 5px 0; /* Reduced bottom margin */
 }
 
 .sidebar-info a:hover {
