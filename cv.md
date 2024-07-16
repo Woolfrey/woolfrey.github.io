@@ -26,9 +26,40 @@ permalink: /cv/
   </tr>
 </table>
 
-:construction: Under construction. :construction: 
+🚧 Under construction 🚧
 
 # Work
+
+<table>
+  <tr>
+    <th> Year(s) </th>
+    <th> Role </th>
+  </tr>
+
+  <tr>
+    <td> February 2024 - <br>
+         Present
+    </td>
+    <td> <b> Research Fellow </b> <br>
+         <i> STORM Lab UK, Univeristy of Leeds</i>  <br>
+         --- <br>
+         Job description.
+    </td>
+  </tr>
+
+  <tr>
+    <td> July 2021 - <br>
+         December 2023
+    </td>
+    <td> <b> Postdoc </b> <br>
+         <i> Humanoid Sensing & Perception, Istituto Italiano di Tecnologia </i>  <br>
+         --- <br>
+         Job description.
+    </td>
+  </tr>
+  
+</table>
+
 | Year(s) | Role |
 |---|---|
 | February 2024 - <br> Present | **Research Fellow** <br> _STORM Lab UK - University of Leeds_ <br> --- |
