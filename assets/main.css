@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+}
+
+header, footer {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
