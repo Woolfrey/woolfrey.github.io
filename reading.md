@@ -11,6 +11,7 @@ ___
 - The Visual Display of Quantitative Information
 - Envisioning Information
 - Visual Explanations
+  
 ___
 
 <br>
