@@ -4,44 +4,16 @@ title: "About Me"
 permalink: /about/
 ---
 
-🚧 This page is under construction 🚧
+My name is Jon.
 
-# My Table with Borders
+I'm a mechanic by trade (many years ago now...!). I worked in manufacturing, surrounded by robots, so decided to study engineering.
 
-This is an example table with cell borders:
+Along the way, I became involved in the Lean Six Sigma and Continuous Improvement methodology. I earned my Six Sigma Green Belt whilst working for Sydney Trains, and did my Black Belt training with the University of Technology Sydney (UTS) Business School.
 
-<table>
-  <tr>
-    <th>Header 1</th>
-    <th>Header 2</th>
-    <th>Header 3</th>
-  </tr>
-</table>
+In 2020 I earned my PhD from UTS, and have since been doing research in robotics.
 
-# My Table with Borders
-
-This is an example table with cell borders:
-
-<table style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <th style="border: 1px solid black; padding: 8px;">Header 1</th>
-    <th style="border: 1px solid black; padding: 8px;">Header 2</th>
-    <th style="border: 1px solid black; padding: 8px;">Header 3</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 8px;" rowspan="2">Row 1 and 2 Col 1 merged</td>
-    <td style="border: 1px solid black; padding: 8px;">Row 1 Col 2</td>
-    <td style="border: 1px solid black; padding: 8px;">Row 1 Col 3</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 8px;">Row 2 Col 2</td>
-    <td style="border: 1px solid black; padding: 8px;">Row 2 Col 3</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 8px;">Row 3 Col 1</td>
-    <td style="border: 1px solid black; padding: 8px;">Row 3 Col 2</td>
-    <td style="border: 1px solid black; padding: 8px;">Row 3 Col 3</td>
-  </tr>
-</table>
-
-Continue with more content below the table.
+I'm interested in:
+- Good coffee ☕
+- Books (science, philosophy, design, management, fiction & non-fiction) 📚
+- Solving problems 🧩
+- Optimisation 👌
