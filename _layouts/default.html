@@ -1,33 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Woolfrey's GitHub Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  </head>
-  <body>
-    <div class="sidebar">
-      <div class="site-title">
-        <h1><p>{{ site.title }}</p></h1>
-        <p>{{ site.description }}</p>
-      </div>
-      <div class="sidebar-info">
-        {% for title in site.sidebar_info.titles %}
-          <p>{{ title }}</p>
-        {% endfor %}
-        <p><a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a></p>
-        <p><a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a></p>
-        <p><a href="{{ site.sidebar_info.github }}">GitHub</a></p>
-      </div>
-      <ul>
-        {% for link in site.sidebar %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="content">
-      {{ content }}
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  {% include sidebar.html %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
 </html>
