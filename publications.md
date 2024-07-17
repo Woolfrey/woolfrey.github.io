@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: "Publications"
+permalink: /publications/
+---
 
 - Woolfrey, J., Ajoudani, A., Lu, W., & Natale, L. (2024). _Optimal Configurations for Stiffness and Compliance in Human & Robot Arms_. PLOS One, 19(5), e0302987.
 - Woolfrey, J., & Liu, D. (2022). _An Optimal Dynamic Control Method for Robots with Virtual Links_. In 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 12843-12848). IEEE.
