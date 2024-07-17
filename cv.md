@@ -4,7 +4,8 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-#### Jump to:
+Jump to:
+
 - [Work](#work)
 - [Education](#education)
 - [Other Qualifications](#other-qualifications)
