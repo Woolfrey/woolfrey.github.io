@@ -19,3 +19,6 @@ permalink: /publications/
 - Woolfrey, J., Lu, W., & Liu, D. (2019). _A Control Method for Joint Torque Minimization of Redundant Manipulators Handling Large External Forces_. Journal of Intelligent & Robotic Systems, 96, 3-16.
   
 - Woolfrey, J., Liu, D., & Carmichael, M. (2016). _Kinematic Control of An Autonomous Underwater Vehicle-Manipulator System (AUVMS) Using Autoregressive Prediction of Vehicle Motion and Model Predictive Control_. In 2016 IEEE International Conference on Robotics and Automation (ICRA) (pp. 4591-4596). IEEE.
+
+[⬆️ Back to top.](#top)
+[◀️ Back to CV.](#cv.md)
