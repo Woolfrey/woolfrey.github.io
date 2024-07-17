@@ -14,7 +14,8 @@ In 2020 I earned my PhD from UTS, and have since been doing research in robotics
 
 I'm interested in:
 - Good coffee ☕
-- Books 📚 (science, philosophy, design, management, fiction & non-fiction)
+- Books 📚
+   - science, philosophy, design, management, fiction & non-fiction
 - Solving problems 🧩
 - Optimisation 👌
 - Board games 🎲♟️
