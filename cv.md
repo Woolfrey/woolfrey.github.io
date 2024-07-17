@@ -21,7 +21,7 @@ permalink: /cv/
 | December 2011 - <br> December 2014 | **Engineering Scholar, Six Sigma Project Manager** <br> _Continuous Improvement Group, Maintenance Directorate, Sydney Trains_ <br> --- |
 | April 2007 - <br> March 2011 | **Maintenance Fitter** <br> _Precision Valve Australia_ <br> ---|
 
-[⬆️ Back to top.](#jump-to)
+[⬆️ Back to top.](#top)
 
 # Education
 
@@ -32,7 +32,7 @@ permalink: /cv/
 | 2007 - 2009 | **Certificate IV in Mechanical Trades (MEM40105)** <br> _South Western Sydney Institute of TAFE_ <br> --- |
 | 2000 - 2005 | **High School Certificate** <br> _St Mary's Cathedral College, Sydney_ <br> --- |
 
-[⬆️ Back to top.](#jump-to)
+[⬆️ Back to top.](#top)
 
 # Other Qualifications
 
@@ -45,8 +45,8 @@ permalink: /cv/
 | 2011 | Work Safely in the Construction Industry <br> _Advance OHS_ |
 | 2009 | Certificate III in Competitive Manufacturing (MCM 30104) <br> _Skillup Australia_ |
 
-[⬆️ Back to top.](#jump-to)
+[⬆️ Back to top.](#top)
 
 # Publications
 
-⬅️ Click the link on the sidebar, or click [here](publications.md)
+⬅️ Click the link on the sidebar, or click [here](publications.md).
