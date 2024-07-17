@@ -17,3 +17,4 @@ I'm interested in:
 - Books (science, philosophy, design, management, fiction & non-fiction) 📚
 - Solving problems 🧩
 - Optimisation 👌
+- Board games 🎲♟️
