@@ -25,10 +25,6 @@ sidebar:
     url: "/publications/"
   - title: "Blog"
     children:
-      {% for post in site.posts %}
-        - title: "{{ post.title }}"
-          url: "{{ post.url }}"
-      {% endfor %}
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
