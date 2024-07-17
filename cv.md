@@ -45,3 +45,7 @@ permalink: /cv/
 | 2009 | Certificate III in Competitive Manufacturing (MCM 30104) <br> _Skillup Australia_ |
 
 [⬆️ Back to top.](#jump-to)
+
+# Publications
+
+⬅️ Click the link on the sidebar, or click [here](publications.md)
