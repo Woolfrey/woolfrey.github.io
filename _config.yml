@@ -17,6 +17,8 @@ sidebar:
     url: "/"
   - title: "About Me"
     url: "/about/"
+  - title: "Recommended Reading"
+    url: "/reading/"
   - title: "Curriculum Vitae"
     url: "/cv/"
   - title: "Publications"
