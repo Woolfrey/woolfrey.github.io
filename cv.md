@@ -9,7 +9,7 @@ Jump to:
 - [Work](#work)
 - [Education](#education)
 - [Other Qualifications](#other-qualifications)
-- [Publications](#publications.md)
+- [Publications](#publications)
 
 # Work
 
