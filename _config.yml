@@ -12,7 +12,7 @@ sidebar_info:
   github: "https://github.com/woolfrey/"
 
 # Sidebar navigation links
-sidebar:
+    sidebar:
   - title: "Home"
     url: "/"
   - title: "About Me"
@@ -23,6 +23,12 @@ sidebar:
     url: "/cv/"
   - title: "Publications"
     url: "/publications/"
+  - title: "Blog"
+    children:
+      {% for post in site.posts %}
+        - title: "{{ post.title }}"
+          url: "{{ post.url }}"
+      {% endfor %}
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
