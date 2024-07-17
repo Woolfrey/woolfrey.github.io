@@ -19,6 +19,8 @@ sidebar:
     url: "/about/"
   - title: "Curriculum Vitae"
     url: "/cv/"
+  - title: "Publications"
+    url: "/publications/"
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
