@@ -6,17 +6,12 @@ permalink: /reading/
 
 This is a list of (some of the) books I have read that I think are worth reading.
 
-<table>
-  <tr>
-    <span style="color:green">
-    <td> <b>NOTE:</b> If you work with data of any sort, then I think these titles are <i>essential</i> (all by Edward Tufte): <br>
-         - The Visual Display of Quantitative Information <br>
-         - Envisioning Information <br>
-         - Visual Explanations
-    </td>
-    </span>
-  </tr>
-</table>
+___
+❗**NOTE**: If you work with data of any kind, I _highly_ recommend the following (all by Edward Tufte):
+- The Visual Display of Quantitative Information
+- Envisioning Information
+- Visual Explanations
+___
 
 <br>
 
