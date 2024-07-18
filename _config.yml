@@ -29,8 +29,3 @@ markdown: kramdown
 
 # Other configurations
 permalink: pretty
-
-# Custom head includes
-head:
-  includes:
-    - path: /assets/fontawesome/css/all.min.css
