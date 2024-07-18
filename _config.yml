@@ -17,12 +17,12 @@ sidebar:
     url: "/"
   - title: "About Me"
     url: "/about/"
-  - title: "Recommended Reading"
-    url: "/reading/"
   - title: "Curriculum Vitae"
     url: "/cv/"
   - title: "Publications"
     url: "/publications/"
+  - title: "Recommended Reading"
+    url: "/reading/"
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
