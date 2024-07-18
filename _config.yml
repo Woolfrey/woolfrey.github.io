@@ -16,14 +16,13 @@ sidebar:
   - title: "Home"
     url: "/"
   - title: "About Me"
-    url: "/_pages/about/"
+    url: "/about/"
   - title: "Recommended Reading"
-    url: "/_pages/reading/"
+    url: "/reading/"
   - title: "Curriculum Vitae"
-    url: "/_pages/cv/"
+    url: "/cv/"
   - title: "Publications"
-    url: "/_pages/publications/"
-  - tile: "Blog"
+    url: "/publications/"
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
