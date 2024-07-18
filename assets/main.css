@@ -33,11 +33,11 @@ a:visited {
 }
 
 h1, h2 {
-    color: var(--OliveNight);
+    color: var(--DeepLake);
 }
 
 p {
-    color: var(--Black);
+    color: var(--OliveNight);
 }
 
 table {
@@ -51,7 +51,7 @@ th, td {
 }
 
 ul, ul li {
-    color: var(--Black); /* Use var(--Black) for list text color */
+    color: var(--OliveNight);
     list-style: none;
     padding: 0;
 }
@@ -61,7 +61,7 @@ ul li {
 }
 
 ul li a {
-    color: var(--Moth);
+    color: var(--DeepLake);
     text-decoration: none;
 }
 
@@ -110,6 +110,7 @@ ul li a:hover {
 }
 
 .sidebar-info p {
+    color: var(--Moth);
     margin: 5px 0;
     font-size: 0.9em;
 }
