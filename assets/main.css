@@ -6,13 +6,17 @@ body {
   padding: 0; /* Removes default padding */
 }
 
+p {
+  color: #535040 /* Text color Olive Night */
+}
+
 /* Titles */
 h1 {
   color: #00656B; /* Sets main title color to Deep Lake */
 }
 
 h2 {
-  color:  #535040; /* Sets subtitle color to Olive Night */
+  color:  #00656B; /* Sets subtitle color to Deep Lake */
 }
 
 /* Links */
@@ -22,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #e2a829; /* Link color on hover to Golden Rod */
+  color: #E2A829; /* Link color on hover to Golden Rod */
   text-decoration: underline; /* Underlines link on hover */
 }
 
@@ -33,7 +37,7 @@ a:visited {
 /* Sidebar container */
 .sidebar {
   width: 290px; /* Sets sidebar width */
-  background-color: #d4d0b1; /* Sets sidebar background color to Moth */
+  background-color: #D4D0B1; /* Sets sidebar background color to Moth */
   padding: 5px; /* Adds padding inside sidebar */
 }
 
@@ -46,7 +50,7 @@ a:visited {
 .site-title {
   text-align: left; /* Aligns text to the left */
   margin-bottom: 10px; /* Adds space below the title */
-  border-bottom: 1px solid #ccc; /* Adds a dividing line below the title */
+  border-bottom: 1px solid #E2A829; /* Diving line color Golden Rod */
   padding-bottom: 10px; /* Adds space between the title and the dividing line */
 }
 
@@ -58,13 +62,13 @@ a:visited {
 .site-title p {
   margin: 0; /* Removes default margin */
   font-size: 1em; /* Sets font size for the subtitle */
-  color:  #535040; /* Sets subtitle color to Olive Night */
+  color:  #00656B; /* Sets subtitle color to Olive Night */
 }
 
 /* Styling for sidebar info section */
 .sidebar-info {
   margin-bottom: 10px; /* Adds space below the info section */
-  border-bottom: 1px solid #ccc; /* Adds a dividing line below the info section */
+  border-bottom: 1px solid #E2A829; /* Adds a dividing line below the info section */
   padding-bottom: 10px; /* Adds space between the info and the dividing line */
 }
 
@@ -74,13 +78,14 @@ a:visited {
 }
 
 .sidebar-info .icon-link {
-  color: #333; /* Sets link color to dark gray */
+  color: #00656B; /* Sets link color to Deep Lake */
   text-decoration: none; /* Removes underline from links */
   display: inline-block; /* Displays links as inline-block elements */
   margin-right: 10px; /* Adds space between icon and text */
 }
 
 .sidebar-info .icon-link:hover {
+  color: #E2A829;
   text-decoration: underline; /* Underlines link on hover */
 }
 
@@ -95,7 +100,7 @@ a:visited {
 }
 
 .sidebar ul li a {
-  color: #333; /* Sets link color to dark gray */
+  color: #00656B; /* Sets link color to Deep Lake */
   text-decoration: none; /* Removes underline from links */
 }
 
@@ -116,6 +121,6 @@ table {
 }
 
 th, td {
-  border: 1px solid black; /* Adds a black border around table cells */
+  border: 1px #D4D0B1; /* Cell color set to Moth */
   padding: 8px; /* Adds padding inside table cells */
 }
