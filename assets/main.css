@@ -68,15 +68,15 @@ a:visited {
 }
 
 .sidebar-info p {
-  margin: 0 0 5px 0; /* Adds space below each paragraph */
+  margin: 5px 0; /* Adds space below each paragraph */
   font-size: 0.9em; /* Sets font size for info text */
 }
 
 .sidebar-info a {
   color: #333; /* Sets link color to dark gray */
   text-decoration: none; /* Removes underline from links */
-  display: block; /* Displays links as block elements */
-  margin: 0 0 5px 0; /* Adds space below each link */
+  display: inline-block; /* Displays links as inline-block elements */
+  margin-right: 10px; /* Adds space between icon and text */
 }
 
 .sidebar-info a:hover {
