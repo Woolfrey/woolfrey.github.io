@@ -13,23 +13,23 @@ body {
     padding: 0;
 }
 
-a {
-    color: var(--DeepLake);
-    text-decoration: none;
+.content {
+    flex: 1;
+    padding: 10px;
 }
 
-a:hover {
+
+.content a {
+    color: var(--DeepLake);
+}
+
+.content a:hover {
     color: var(--GoldenRod);
     text-decoration: underline;
 }
 
-a:visited {
+.content a:visited {
     color: var(--DeepLake);
-}
-
-.content {
-    flex: 1;
-    padding: 10px;
 }
 
 h1, h2 {
