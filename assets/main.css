@@ -1,119 +1,120 @@
+/* Container for the entire body, sets up flexbox layout */
 body {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
+  display: flex; /* Enables flexbox layout */
+  flex-direction: row; /* Arranges children in a row */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
 }
 
 /* Titles */
 h1 {
-  color: #333; /* Change color for main titles */
+  color: #333; /* Sets main title color to dark gray */
 }
 
-/* Subtitles */
 h2 {
-  color: #666; /* Change color for subtitles */
+  color: #666; /* Sets subtitle color to medium gray */
 }
 
 /* Links */
 a {
-  color: #007bff; /* Default link color */
-  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Sets default link color to blue */
+  text-decoration: none; /* Removes underline from links */
 }
 
 a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline; /* Underlines link on hover */
 }
 
 a:visited {
-  color: #800080; /* Visited link color */
+  color: #800080; /* Sets visited link color to purple */
 }
 
-
+/* Sidebar container */
 .sidebar {
-  width: 250px;
-  background-color: #f4f4f4;
-  padding: 10px;
+  width: 275px; /* Sets sidebar width */
+  background-color: #f4f4f4; /* Sets sidebar background color to light gray */
+  padding: 10px; /* Adds padding inside sidebar */
 }
 
 /* Sidebar links */
 .sidebar ul li a {
-  color: #008000; /* Change color for sidebar links */
+  color: #008000; /* Sets sidebar link color to green */
 }
-
 
 /* Styling for site title */
 .site-title {
-  text-align: left;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc; /* Dividing line */
-  padding-bottom: 10px; /* Optional padding for space between title and info */
+  text-align: left; /* Aligns text to the left */
+  margin-bottom: 10px; /* Adds space below the title */
+  border-bottom: 1px solid #ccc; /* Adds a dividing line below the title */
+  padding-bottom: 10px; /* Adds space between the title and the dividing line */
 }
 
 .site-title h1 {
-  margin: 0;
-  font-size: 1.5em;
+  margin: 0; /* Removes default margin */
+  font-size: 1.5em; /* Sets font size for the main title */
 }
 
 .site-title p {
-  margin: 0;
-  font-size: 1em;
-  color: #777;
+  margin: 0; /* Removes default margin */
+  font-size: 1em; /* Sets font size for the subtitle */
+  color: #777; /* Sets subtitle color to light gray */
 }
 
-/* Styling for sidebar info */
+/* Styling for sidebar info section */
 .sidebar-info {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc; /* Dividing line */
-  padding-bottom: 10px; /* Optional padding for space between info and navigation */
+  margin-bottom: 10px; /* Adds space below the info section */
+  border-bottom: 1px solid #ccc; /* Adds a dividing line below the info section */
+  padding-bottom: 10px; /* Adds space between the info and the dividing line */
 }
 
 .sidebar-info p {
-  margin: 0 0 5px 0;
-  font-size: 0.9em;
+  margin: 0 0 5px 0; /* Adds space below each paragraph */
+  font-size: 0.9em; /* Sets font size for info text */
 }
 
 .sidebar-info a {
-  color: #333;
-  text-decoration: none;
-  display: block;
-  margin: 0 0 5px 0;
+  color: #333; /* Sets link color to dark gray */
+  text-decoration: none; /* Removes underline from links */
+  display: block; /* Displays links as block elements */
+  margin: 0 0 5px 0; /* Adds space below each link */
 }
 
 .sidebar-info a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underlines link on hover */
 }
 
 /* Styling for sidebar navigation links */
 .sidebar ul {
-  padding: 0;
-  list-style: none;
+  padding: 0; /* Removes default padding */
+  list-style: none; /* Removes default list bullets */
 }
 
 .sidebar ul li {
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Adds space below each list item */
 }
 
 .sidebar ul li a {
-  color: #333;
-  text-decoration: none;
+  color: #333; /* Sets link color to dark gray */
+  text-decoration: none; /* Removes underline from links */
 }
 
 .sidebar ul li a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underlines link on hover */
 }
 
+/* Main content area */
 .content {
-  flex: 1;
-  padding: 10px;
+  flex: 1; /* Allows the content area to grow and fill available space */
+  padding: 10px; /* Adds padding inside the content area */
 }
 
+/* Styling for tables */
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse; /* Collapses table borders into a single border */
+  width: 100%; /* Sets table width to 100% of its container */
 }
 
 th, td {
-    border: 1px solid black;
-    padding: 8px;
+  border: 1px solid black; /* Adds a black border around table cells */
+  padding: 8px; /* Adds padding inside table cells */
 }
