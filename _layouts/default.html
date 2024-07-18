@@ -17,9 +17,18 @@
         {% for title in site.sidebar_info.titles %}
           <p>{{ title }}</p>
         {% endfor %}
-        <p> <i class="fas fa-envelope"></i> <a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a></p>
-        <p> <i class="fab fa-linkedin"></i> <a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a></p>
-        <p> <i class="fab fa-github"></i>   <a href="{{ site.sidebar_info.github }}">GitHub</a></p>
+        <p>
+          <i class="fas fa-envelope">
+          <a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin">
+          <a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a>
+        </p>
+        <p>
+          <i class="fab fa-github">
+          <a href="{{ site.sidebar_info.github }}">GitHub</a>
+        </p>
       </div>
       <ul>
         {% for link in site.sidebar %}
