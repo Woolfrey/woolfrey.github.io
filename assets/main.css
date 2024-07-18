@@ -1,3 +1,11 @@
+:root {
+    --DeepLake:   #00656B;
+    --GoldenRod:  #E2A829;
+    --Moth:       #D2CBAF;
+    --OliveNight: #535040;
+    --Black:      #2D2926;
+}
+
 body {
     display: flex;
     flex-direction: row;
