@@ -33,7 +33,7 @@ a:visited {
 .sidebar {
   width: 280px; /* Sets sidebar width */
   background-color: #f4f4f4; /* Sets sidebar background color to light gray */
-  padding: 10px; /* Adds padding inside sidebar */
+  padding: 5px; /* Adds padding inside sidebar */
 }
 
 /* Sidebar links */
