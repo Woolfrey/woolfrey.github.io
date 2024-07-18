@@ -8,37 +8,38 @@ body {
 
 /* Titles */
 h1 {
-  color: #333; /* Sets main title color to dark gray */
+  color: #00656B; /* Sets main title color to Deep Lake */
 }
 
 h2 {
-  color: #666; /* Sets subtitle color to medium gray */
+  color:  #535040; /* Sets subtitle color to Olive Night */
 }
 
 /* Links */
 a {
-  color: #007bff; /* Sets default link color to blue */
+  color: #00656B; /* Sets default link color to Deep Lake */
   text-decoration: none; /* Removes underline from links */
 }
 
 a:hover {
+  color: #e2a829; /* Link color on hover to Golden Rod */
   text-decoration: underline; /* Underlines link on hover */
 }
 
 a:visited {
-  color: #800080; /* Sets visited link color to purple */
+  color: #00656B; /* Sets visited link color to Deep Lake */
 }
 
 /* Sidebar container */
 .sidebar {
   width: 290px; /* Sets sidebar width */
-  background-color: #f4f4f4; /* Sets sidebar background color to light gray */
+  background-color: #d4d0b1; /* Sets sidebar background color to Moth */
   padding: 5px; /* Adds padding inside sidebar */
 }
 
 /* Sidebar links */
 .sidebar ul li a {
-  color: #008000; /* Sets sidebar link color to green */
+  color: #00656B; /* Sets sidebar link color to Deep Lake */
 }
 
 /* Styling for site title */
@@ -57,7 +58,7 @@ a:visited {
 .site-title p {
   margin: 0; /* Removes default margin */
   font-size: 1em; /* Sets font size for the subtitle */
-  color: #777; /* Sets subtitle color to light gray */
+  color:  #535040; /* Sets subtitle color to Olive Night */
 }
 
 /* Styling for sidebar info section */
