@@ -14,26 +14,26 @@ Jump to:
 
 # Skills
 
-#### Technical Skills:
+**Technical:**
 - Mathematical optimisation
 - Statistics, regression, hypothesis testing
 - Classical mechanics
 - Robot control
 - Mechanical design
 
-#### Soft Skills:
+**Soft:**
 - Project management (Six Sigma & DMAIC)
 - Root cause analysis
 - Workshopping
 
-#### Programming Languages:
+**Programming Languages:**
 - C++ (advanced)
 - Python (basic)
 - MATLAB
 
-#### Spoken Languages:
-- English (native)
-- Italian (beginner)
+**Spoken Languages:**
+- 🇬🇧 English (native)
+- 🇮🇹 Italian (beginner)
 
 # Work
 
