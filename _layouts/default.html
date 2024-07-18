@@ -18,16 +18,13 @@
           <p>{{ title }}</p>
         {% endfor %}
         <p>
-          <i class="fas fa-envelope"></i>
-          <a href="mailto:{{ site.sidebar_info.email }}">{{ site.sidebar_info.email }}</a>
+          <a href="mailto:{{ site.sidebar_info.email }}" class="icon-link"><i class="fas fa-envelope"></i> {{ site.sidebar_info.email }}</a>
         </p>
         <p>
-          <i class="fab fa-linkedin"></i>
-          <a href="{{ site.sidebar_info.linkedin }}">LinkedIn</a>
+          <a href="{{ site.sidebar_info.linkedin }}" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </p>
         <p>
-          <i class="fab fa-github"></i>
-          <a href="{{ site.sidebar_info.github }}">GitHub</a>
+          <a href="{{ site.sidebar_info.github }}" target="_blank" class="icon-link"><i class="fab fa-github"></i> GitHub</a>
         </p>
       </div>
       <ul>
