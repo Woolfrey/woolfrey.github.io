@@ -6,10 +6,34 @@ permalink: /cv/
 
 Jump to:
 
+- [Skills](#skills)
 - [Work](#work)
 - [Education](#education)
 - [Other Qualifications](#other-qualifications)
 - [Publications](#publications)
+
+# Skills
+
+#### Technical Skills:
+- Mathematical optimisation
+- Statistics, regression, hypothesis testing
+- Classical mechanics
+- Robot control
+- Mechanical design
+
+#### Soft Skills:
+- Project management (Six Sigma & DMAIC)
+- Root cause analysis
+- Workshopping
+
+#### Programming Languages:
+- C++ (advanced)
+- Python (basic)
+- MATLAB
+
+#### Spoken Languages:
+- English (native)
+- Italian (beginner)
 
 # Work
 
