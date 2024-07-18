@@ -84,6 +84,17 @@ ul li a:hover {
     padding: 5px;
 }
 
+.sidebar h1, 
+.sidebar h2, 
+.sidebar h3, 
+.sidebar h4, 
+.sidebar h5, 
+.sidebar h6, 
+.sidebar p, 
+.sidebar li {
+    color: var(--Moth);
+}
+
 .sidebar ul {
     padding: 0;
     list-style: none;
