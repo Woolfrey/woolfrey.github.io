@@ -7,9 +7,9 @@ sidebar_info:
   titles:
   - "Robotics Engineer 🤖"
   - "Lean Six Sigma Black Belt 🥋"
-  email: "jonathan.woolfrey@gmail.com"
-  linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
-  github: "https://github.com/woolfrey/"
+  email: "<i class='fas fa-envelope'></i> jonathan.woolfrey@gmail.com"
+  linkedin: "<i class='fab fa-linkedin'></i> https://www.linkedin.com/in/jonathanwoolfrey/"
+  github: "<i class='fab fa-github'></i> https://github.com/woolfrey/"
 
 # Sidebar navigation links
 sidebar:
@@ -29,3 +29,8 @@ markdown: kramdown
 
 # Other configurations
 permalink: pretty
+
+# Custom head includes
+head:
+  includes:
+    - path: /assets/fontawesome/css/all.min.css
