@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: var(--Moth); /* Use var(--Moth) instead of just Moth */
+    color: var(--DeepLake);
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--Moth);
+    color: var(--DeepLake);
 }
 
 .content {
@@ -33,7 +33,7 @@ a:visited {
 }
 
 h1, h2 {
-    color: var(--DeepLake);
+    color: var(--OliveNight);
 }
 
 p {
@@ -71,7 +71,7 @@ ul li a:hover {
 }
 
 .site-title {
-    border-bottom: 1px solid var(--GoldenRod);
+    border-bottom: 1px solid var(--Moth);
     color: var(--Moth);
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -105,7 +105,7 @@ ul li a:hover {
 
 .sidebar-info {
     margin-bottom: 10px;
-    border-bottom: 1px solid var(--GoldenRod);
+    border-bottom: 1px solid var(--Moth);
     padding-bottom: 10px;
 }
 
