@@ -72,14 +72,14 @@ a:visited {
   font-size: 0.9em; /* Sets font size for info text */
 }
 
-.sidebar-info a {
+.sidebar-info .icon-link {
   color: #333; /* Sets link color to dark gray */
   text-decoration: none; /* Removes underline from links */
   display: inline-block; /* Displays links as inline-block elements */
   margin-right: 10px; /* Adds space between icon and text */
 }
 
-.sidebar-info a:hover {
+.sidebar-info .icon-link:hover {
   text-decoration: underline; /* Underlines link on hover */
 }
 
