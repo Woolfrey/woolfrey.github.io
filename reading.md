@@ -7,6 +7,7 @@ permalink: /reading/
 This is a list of (some of the) books I have read that I think are worth reading.
 
 ___
+
 ❗**NOTE**: If you work with data of any kind, I _highly_ recommend the following (all by Edward Tufte):
 - The Visual Display of Quantitative Information
 - Envisioning Information
@@ -18,39 +19,39 @@ ___
 
 | | Title | Author | Categories |
 |-|-------|--------|------------|
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/413d5289-c782-4e0e-87a7-d32e172236bf" width="100" height="auto"> | Action in Perception | Alva Noe | perception, philosophy |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/3ca3d163-1905-4d0d-830c-c1e0020210e3" width="100" height="auto"> | Bad Science | Ben Goldacre | science, statistics, medicine |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/5f125cc5-f0bb-42bb-824e-31f2d9ce6597" width="100" height="auto"> | Beautiful Evidence | Edward Tufte | statistics, graphics, charts, diagrams |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/ca6faef6-2a2e-49e7-ba0d-e90784ee1b89" width="100" height="auto"> | Biomimicry : Innovation Inspired by Nature | Janine Benyus | design, problem solving, systems thinking |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/1b0d7f72-f652-4912-872c-c20d72a73107" width="100" height="auto">| Book of Why, The | Judea Pearl | statistics, computer science, A.I. |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/28cc28fb-66f0-4656-95e7-d1288c626292" width="100" height="auto"> | Brutal Simplicity of Thought | Lord Saatchi | philosophy? |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/55b2fada-34ad-473a-a8e2-ab3e89d23a8b" width="100" height="auto"> | Case for Working With Your Hands, The | Matthew Crawford | philosophy, work, management, epsitemology |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/8ba37f52-e818-439d-9c93-c4782ea40335" width="100" height="auto"> | Change by Design | Tim Brown | design, problem solving, business |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/4319aec1-20c8-4fbc-aed2-901f054ff181" width="100" height="auto"> | Data Analysis for Politics & Policy | Edward Tufte | statistics, management |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/f0055c6b-06a2-42c2-bdc8-735201c92ef6" width="100" height="auto"> | Delft Design Guide, The | TU Delft | design, problem solving, engineering |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/99571ee3-f340-4509-816b-98a6721259a1" width="100" height="auto"> | Design of Everyday Things, The | Don Norman | design, psychology, human error |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/e653a5ba-121b-4297-8a01-e145031aaf7c" width="100" height="auto">| Envisioning Information | Edward Tufte | statistics, graphics, charts, diagrams |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/c09b8a26-cbb3-4eb5-a6fb-b0a69487f1e2" width="100" height="auto"> | Human Error | James Reason | human error, psychology, management |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/f69d9320-26c1-46cc-a9be-1b184861d6cc" width="100" height="auto"> | I Think You'll Find It's a Bit More Complicated Than That | Ben Goldacre | science, statistics, medicine |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/2726af84-7087-4ae5-808f-fdfc89225fb3" width="100" height="auto"> | Lateral Thinking | Edward de Bono | creativity, problem solving |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/67aab276-5de0-4852-ae5a-da85b5f2dc20" width="100" height="auto"> | Life Changing Magic of Tidying Up, The | Marie Kondo | wellbeing |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/52e6e2ee-49ae-4dbd-8267-1366fddeb1a5" width="100" height="auto"> | Living with Complexity | Don Norman | design, psychology |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/c138f529-4cd4-46c7-a17c-69083a603e14" width="100" height="auto"> | Logic of Scientific Discovery, The | Karl Popper | philosophy, science |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/eb79473a-0785-4837-a766-a197fce74c9c" width="100" height="auto"> | Mathematics and Art : A Cultural History | Lynn Gamwell | art, mathematics, culture |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/3cccc289-0a32-444a-ad9d-96383236c1dd" width="100" height="auto"> | Noise : A Flaw in Human Judgement | Daniel Kahneman, Olivier Sibony, Cass Sunstein | psychology, management |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/ef0b8751-3d1a-4bd5-b781-ef8a4d4982dd" width="100" height="auto"> | Principles of Scientific Management, The | Frederick Taylor | management, production, lean |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/59614086-b451-4583-a025-894ab3e3c687" width="100" height="auto"> | Signal & The Noise: The Art and Science of Prediction, The | Nate Silver | statistics, data, prediction, forecasting |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/5b0b549c-27bb-4cb8-9aa4-19fdaa8f8eb4" width="100" height="auto"> | Six Thinking Hats | Edward de Bono | creativity, problem solving, management |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/becbd698-ef7b-454c-8421-ae4ea4a2b25c" width="100" height="auto"> | Solving Complex Problems | Alexander de Haan | systems thinking, problem solving |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/4861bfb5-b9bd-42fe-a332-5b3cf41e2783" width="100" height="auto"> | Start With Why | Simon Sinek | management, business, philosophy |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/416372f3-da38-4181-bb87-bc3128ef88e3" width="100" height="auto"> | Strategic Design | Giulia Calabretta | design, management, business |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/da5c4c89-03c5-4263-8de0-eb139f2c6455" width="100" height="auto"> | Thinking, Fast and Slow | Daniel Kahneman | psychology, management, human error |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/c31bff77-6d0a-4d66-828f-26555e35443d" width="100" height="auto"> | Thinking in Systems : A Primer | Donella Meadows | systems thinking, problem solving |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/51bc06ce-e92f-44f8-b253-79a5a0c5cec3" width="100" height="auto"> | To Be A Machine | Mark O'Connell | philosophy, science, A.I. |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/12f6ea1a-6337-4947-9339-64d59334c09a" width="100" height="auto"> | Today and Tomorrow | Henry Ford | management, production, lean, business |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/f7014a50-1b68-4479-ad5c-27227f00935f" width="100" height="auto"> | Toyota Production System : Beyond Large Scale Production | Taiichi Ohno | management, production, lean |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/ff0b4eab-1892-4b28-802e-2cbda91c56e1" width="100" height="auto"> | Toyota Way : 14 Management Principles from the World's Greatest Manufacturer, The | Jeffrey Liker | management, production, lean, business|
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/2bd1eff1-a3f6-4681-a634-0141125fe0d9" width="100" height="auto"> | Visual Display of Quantitative Information, The | Edward Tufte | statistics, graphics, charts, diagrams |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/ea532b7a-21ad-48fa-b228-76f782516bc2" width="100" height="auto"> | Visual Explanations | Edward Tufte | statistics, graphics, charts, diagrams |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/ed85616d-0a43-4011-a222-bdbd9500c2b5" width="100" height="auto"> | World Beyond Your Head, The | Matthew Crawford | philosophy, wellbeing, perception |
-|<img src="https://github.com/Woolfrey/reading_list/assets/62581255/19d7e470-7237-4b58-9a01-a782bc409c5b" width="100" height="auto"> | Zen and the Art of Motorcycle Maintenance | Robert Pirsig | philosophy |
+|<img src="https://github.com/user-attachments/assets/fe9a92fe-c382-409b-b1a5-2f7eeb77aad1" width="100" height="auto"/> | Action in Perception | Alva Noe | perception, philosophy |
+|<img src="https://github.com/user-attachments/assets/45035199-7571-43c1-a212-4877b9c1c805" width="100" height="auto"> | Bad Science | Ben Goldacre | science, statistics, medicine |
+|<img src="https://github.com/user-attachments/assets/94f98373-86c8-4aac-a8e9-5a14fc8e01cd" width="100" height="auto"> | Beautiful Evidence | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="https://github.com/user-attachments/assets/2834b35b-16e4-41c2-b09f-a823364ab489" width="100" height="auto"> | Biomimicry : Innovation Inspired by Nature | Janine Benyus | design, problem solving, systems thinking |
+|<img src="https://github.com/user-attachments/assets/b4b1cab2-c680-4da5-9a40-0eed190c8938" width="100" height="auto">| Book of Why, The | Judea Pearl | statistics, computer science, A.I. |
+|<img src="https://github.com/user-attachments/assets/9a426430-0e5b-42dc-a423-76a848e275b1" width="100" height="auto"> | Brutal Simplicity of Thought | Lord Saatchi | philosophy? |
+|<img src="https://github.com/user-attachments/assets/b59bcffe-9efe-443a-afee-21593af91ecf" width="100" height="auto"> | Case for Working With Your Hands, The | Matthew Crawford | philosophy, work, management, epsitemology |
+|<img src="https://github.com/user-attachments/assets/3a8e5ef6-5ded-4fe8-8bbd-9be2d22f67a1" width="100" height="auto"> | Change by Design | Tim Brown | design, problem solving, business |
+|<img src="https://github.com/user-attachments/assets/072935e4-3869-4bd2-907a-968d0e31f880" width="100" height="auto"> | Data Analysis for Politics & Policy | Edward Tufte | statistics, management |
+|<img src="https://github.com/user-attachments/assets/25358317-8a20-4d1f-94a5-e1270135d86b" width="100" height="auto"> | Delft Design Guide, The | TU Delft | design, problem solving, engineering |
+|<img src="https://github.com/user-attachments/assets/31addf1f-af44-40ed-a295-76da4fe5d60a" width="100" height="auto"> | Design of Everyday Things, The | Don Norman | design, psychology, human error |
+|<img src="https://github.com/user-attachments/assets/31309298-5ff7-42fa-8428-ee948f7e4cb4" width="100" height="auto">| Envisioning Information | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="https://github.com/user-attachments/assets/8cd49786-2b62-4b53-8628-23070fa5715a" width="100" height="auto"> | Human Error | James Reason | human error, psychology, management |
+|<img src="https://github.com/user-attachments/assets/bc21b2f3-4b2e-4eca-878a-f5e689db0073" width="100" height="auto"> | I Think You'll Find It's a Bit More Complicated Than That | Ben Goldacre | science, statistics, medicine |
+|<img src="https://github.com/user-attachments/assets/4d9bc631-bf54-4d2c-8537-0346d08c327c" width="100" height="auto"> | Lateral Thinking | Edward de Bono | creativity, problem solving |
+|<img src="https://github.com/user-attachments/assets/5ba56b8c-49eb-4c50-bb71-117a0d3ca89d" width="100" height="auto"> | Life Changing Magic of Tidying Up, The | Marie Kondo | wellbeing |
+|<img src="https://github.com/user-attachments/assets/2c18e2c4-d43e-48d0-8bb7-8f379e0bb6c5" width="100" height="auto"> | Living with Complexity | Don Norman | design, psychology |
+|<img src="https://github.com/user-attachments/assets/e38a0b5d-a6e1-48cc-bc3e-2365af39302b" width="100" height="auto"> | Logic of Scientific Discovery, The | Karl Popper | philosophy, science |
+|<img src="https://github.com/user-attachments/assets/6b41c3f1-a61e-46de-aaca-38507daf9718" width="100" height="auto"> | Mathematics and Art : A Cultural History | Lynn Gamwell | art, mathematics, culture |
+|<img src="https://github.com/user-attachments/assets/3db905d6-6049-400b-b733-2490ddbb60eb" width="100" height="auto"> | Noise : A Flaw in Human Judgement | Daniel Kahneman, Olivier Sibony, Cass Sunstein | psychology, management |
+|<img src="https://github.com/user-attachments/assets/30f718f8-1223-4019-ba1e-4719ac4cae89" width="100" height="auto"> | Principles of Scientific Management, The | Frederick Taylor | management, production, lean |
+|<img src="https://github.com/user-attachments/assets/af9762fc-22c8-4c41-aeef-94c6740153e0" width="100" height="auto"> | Signal & The Noise: The Art and Science of Prediction, The | Nate Silver | statistics, data, prediction, forecasting |
+|<img src="https://github.com/user-attachments/assets/f022609b-f694-40fa-b557-f611ba5a5ee7" width="100" height="auto"> | Six Thinking Hats | Edward de Bono | creativity, problem solving, management |
+|<img src="https://github.com/user-attachments/assets/ef081167-2b88-45f7-a45e-f4508cb3f6e6" width="100" height="auto"> | Solving Complex Problems | Alexander de Haan | systems thinking, problem solving |
+|<img src="https://github.com/user-attachments/assets/d92e1fbe-4871-4c33-b381-67e1aa9b4077" width="100" height="auto"> | Start With Why | Simon Sinek | management, business, philosophy |
+|<img src="https://github.com/user-attachments/assets/7e30d16f-31ad-4bf4-b337-0ef1cde7fb2a" width="100" height="auto"> | Strategic Design | Giulia Calabretta | design, management, business |
+|<img src="https://github.com/user-attachments/assets/697fc767-5539-4cd1-b9c8-d500b046ef4f" width="100" height="auto"> | Thinking, Fast and Slow | Daniel Kahneman | psychology, management, human error |
+|<img src="https://github.com/user-attachments/assets/e60befea-be64-4927-a384-f29741a18d79" width="100" height="auto"> | Thinking in Systems : A Primer | Donella Meadows | systems thinking, problem solving |
+|<img src="https://github.com/user-attachments/assets/ace80c06-5abf-405c-8ea2-c9f20686dba9" width="100" height="auto"> | To Be A Machine | Mark O'Connell | philosophy, science, A.I. |
+|<img src="https://github.com/user-attachments/assets/9d973194-6150-436d-b077-a67691da3452" width="100" height="auto"> | Today and Tomorrow | Henry Ford | management, production, lean, business |
+|<img src="https://github.com/user-attachments/assets/915ceb44-8cde-4a81-8e84-a86a0a529b42" width="100" height="auto"> | Toyota Production System : Beyond Large Scale Production | Taiichi Ohno | management, production, lean |
+|<img src="https://github.com/user-attachments/assets/6f777e58-1d23-4a24-82ea-25fbf1a04d6c" width="100" height="auto"> | Toyota Way : 14 Management Principles from the World's Greatest Manufacturer, The | Jeffrey Liker | management, production, lean, business|
+|<img src="https://github.com/user-attachments/assets/d961d84d-d9fa-4475-800e-3dfe94cfd309" width="100" height="auto"> | Visual Display of Quantitative Information, The | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="https://github.com/user-attachments/assets/2b5facfe-0776-4ac0-93b5-d70af77659dd" width="100" height="auto"> | Visual Explanations | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="https://github.com/user-attachments/assets/5a44e37b-3724-4e73-8d1a-72919d4864a3" width="100" height="auto"> | World Beyond Your Head, The | Matthew Crawford | philosophy, wellbeing, perception |
+|<img src="https://github.com/user-attachments/assets/bcc47f36-34db-4d2e-b004-168e31524b4c" width="100" height="auto"> | Zen and the Art of Motorcycle Maintenance | Robert Pirsig | philosophy |
