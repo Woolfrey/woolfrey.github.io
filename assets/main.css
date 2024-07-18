@@ -43,7 +43,7 @@ a:visited {
 
 /* Sidebar links */
 .sidebar ul li a {
-  color: #00656B; /* Sets sidebar link color to Deep Lake */
+  color: #535040; /* Sets sidebar link color to Olive Night */
 }
 
 /* Styling for site title */
@@ -78,7 +78,7 @@ a:visited {
 }
 
 .sidebar-info .icon-link {
-  color: #00656B; /* Sets link color to Deep Lake */
+  color: #535040; /* Sets link color to Olive Night */
   text-decoration: none; /* Removes underline from links */
   display: inline-block; /* Displays links as inline-block elements */
   margin-right: 10px; /* Adds space between icon and text */
@@ -100,7 +100,7 @@ a:visited {
 }
 
 .sidebar ul li a {
-  color: #00656B; /* Sets link color to Deep Lake */
+  color: #535040; /* Sets link color to Olive Night */
   text-decoration: none; /* Removes underline from links */
 }
 
@@ -121,6 +121,6 @@ table {
 }
 
 th, td {
-  border: 1px #D4D0B1; /* Cell color set to Moth */
+  border: 1px #535040; /* Cell color set to Olive Night */
   padding: 8px; /* Adds padding inside table cells */
 }
