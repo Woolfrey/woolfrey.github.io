@@ -1,142 +1,119 @@
-:root {
-    --DeepLake:   #00656B;
-    --GoldenRod:  #E2A829;
-    --Moth:       #D2CBAF;
-    --OliveNight: #535040;
-    --Black:      #2D2926;
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-body
-{
-  display: flex;                            /* Enables flexbox layout */
-  flex-direction: row;                      /* Arranges children in a row */
-  margin: 0;                                /* Removes default margin */
-  padding: 0;                               /* Removes default padding */
+a {
+    color: var(--Moth); /* Use var(--Moth) instead of just Moth */
+    text-decoration: none;
 }
 
-a
-{
-  color: Moth;                              /* Sets default link color to Deep Lake */
-  text-decoration: none;                    /* Removes underline from links */
+a:hover {
+    color: var(--GoldenRod);
+    text-decoration: underline;
 }
 
-a:hover
-{
-  color: GoldenRod;                         /* Link color on hover to Golden Rod */
-  text-decoration: underline;               /* Underlines link on hover */
+a:visited {
+    color: var(--Moth);
 }
 
-a:visited
-{
-    color: Moth;                            /* Sets visited link color to Deep Lake */
+.content {
+    flex: 1;
+    padding: 10px;
 }
 
-.content
-{
-  flex: 1;                                  /* Allows the content area to grow and fill available space */
-  padding: 10px;                            /* Adds padding inside the content area */
+h1, h2 {
+    color: var(--OliveNight);
 }
 
-h1
-{
-    color: OliveNight;
+p {
+    color: var(--Black);
 }
 
-h2
-{ 
-    color:  OliveNight;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-p
-{
-    color: Black;                         /* Text color Olive Night*/
+th, td {
+    border: 1px solid var(--Moth); /* Use var(--Moth) for border color */
+    padding: 8px;
 }
 
-table
-{
-  border-collapse: collapse;                /* Collapses table borders into a single border */
-  width: 100%;                              /* Sets table width to 100% of its container */
+ul, ul li {
+    color: var(--Black); /* Use var(--Black) for list text color */
+    list-style: none;
+    padding: 0;
 }
 
-th, td
-{
-  border: 1px Moth;
-  padding: 8px;                             /* Adds padding inside table cells */
+ul li {
+    margin-bottom: 5px;
 }
 
-ul
-{
-  color: Black;                            /* Sets text color for all lists */
+ul li a {
+    color: var(--Moth);
+    text-decoration: none;
 }
 
-ul li
-{
-  color: Black;                            /* Sets text color for list items */
+ul li a:hover {
+    color: var(--GoldenRod);
+    text-decoration: underline;
 }
 
-/**************************************************************************************************/
-.site-title
-{
-    border-bottom:  1px solid GoldenRod;    /* Diving line color Golden Rod */
-    color: Moth;                            /* Moth */
-    padding-bottom: 10px;                   /* Adds space between the title and the dividing line */
-    margin-bottom:  10px;                   /* Adds space below the title */
-    text-align:     left;                   /* Aligns text to the left */
+.site-title {
+    border-bottom: 1px solid var(--GoldenRod);
+    color: var(--Moth);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-/**************************************************************************************************/
-.sidebar
-{
-  width: 290px;                             /* Sets sidebar width */
-  background-color: DeepLake;               /* Sets sidebar background color to Beryllonite */
-  padding: 5px;                             /* Adds padding inside sidebar */
+.sidebar {
+    width: 290px;
+    background-color: var(--DeepLake);
+    padding: 5px;
 }
 
-.sidebar ul
-{
-  padding: 0;                               /* Removes default padding */
-  list-style: none;                         /* Removes default list bullets */
+.sidebar ul {
+    padding: 0;
+    list-style: none;
 }
 
-.sidebar ul li
-{
-  margin-bottom: 5px;                       /* Adds space below each list item */
+.sidebar ul li {
+    margin-bottom: 5px;
 }
 
-.sidebar ul li a
-{
-    color: Moth;                         /* Sets sidebar link color to Olive Night */
-    text-decoration: none;                  /* Removes underline from links */
+.sidebar ul li a {
+    color: var(--Moth);
+    text-decoration: none;
 }
 
 .sidebar ul li a:hover {
-  color: GoldenRod;
-  text-decoration: underline;               /* Underlines link on hover */
+    color: var(--GoldenRod);
+    text-decoration: underline;
 }
 
-/**************************************************************************************************/
-.sidebar-info
-{
-  margin-bottom: 10px;                      /* Adds space below the info section */
-  border-bottom: 1px solid GoldenRod;       /* Adds a dividing line below the info section, GoldenRod color */
-  padding-bottom: 10px;                     /* Adds space between the info and the dividing line */
+.sidebar-info {
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--GoldenRod);
+    padding-bottom: 10px;
 }
 
-.sidebar-info p
-{
-  margin: 5px 0;                            /* Adds space below each paragraph */
-  font-size: 0.9em;                         /* Sets font size for info text */
+.sidebar-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
 }
 
-.sidebar-info .icon-link
-{
-  color: Moth;                              /* Sets link color to Olive Night */
-  text-decoration: none;                    /* Removes underline from links */
-  display: inline-block;                    /* Displays links as inline-block elements */
-  margin-right: 10px;                       /* Adds space between icon and text */
+.sidebar-info .icon-link {
+    color: var(--Moth);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .sidebar-info .icon-link:hover {
-  color: GoldenRod;
-  text-decoration: underline;               /* Underlines link on hover */
+    color: var(--GoldenRod);
+    text-decoration: underline;
 }
