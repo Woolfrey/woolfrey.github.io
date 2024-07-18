@@ -124,3 +124,12 @@ th, td {
   border: 1px #535040; /* Cell color set to Olive Night */
   padding: 8px; /* Adds padding inside table cells */
 }
+
+
+ul {
+  color: #535040; /* Sets text color for all lists */
+}
+
+ul li {
+  color: #535040; /* Sets text color for list items */
+}
