@@ -79,6 +79,12 @@ ul li a:hover {
     text-align: left;                     /* Align site title text to the left */
 }
 
+.site-description {
+    color: var(--GoldenRod);        /* Set the color for the site description */
+    font-size: 1.2em;               /* Adjust the font size for the description */
+    margin-top: 5px;                /* Add space above the description */
+}
+
 .sidebar {
     width: 290px;               /* Set sidebar width */
     background-color: var(--DeepLake); /* Set sidebar background color to Deep Lake */
