@@ -3,7 +3,6 @@
     --GoldenRod:  #E2A829;  /* Golden Rod color variable */
     --Moth:       #D2CBAF;  /* Moth color variable */
     --OliveNight: #535040;  /* Olive Night color variable */
-    --Black:      #2D2926;  /* Black color variable */
 }
 
 body {
@@ -31,7 +30,7 @@ body {
 
 h1 {
     color: var(--OliveNight);    /* Set heading color */
-    border-bottom: 2px solid var(--Moth); /* Add a 2px solid line with the Moth color underneath h1 */
+    border-bottom: 2px solid var(--OliveNight); /* Add a 2px solid line with the Moth color underneath h1 */
     padding-bottom: 10px;       /* Add some padding below the heading */
     margin-bottom: 10px;        /* Add margin below the line */
 }
