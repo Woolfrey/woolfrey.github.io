@@ -16,7 +16,7 @@ body {
 .content {
     flex: 1;                     /* Allow content to grow and fill available space */
     padding: 10px;               /* Add padding inside content */
-    margin-left: 20px;           /* Add left margin to create space between content and sidebar */
+    margin-left: 10px;           /* Add left margin to create space between content and sidebar */
 }
 
 .content a,
