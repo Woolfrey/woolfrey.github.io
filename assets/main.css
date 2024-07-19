@@ -72,7 +72,7 @@ ul li a:hover {
 
 .site-title {
     color: var(--Moth);                   /* Set site title color to Moth */
-    padding-bottom: 10px;                 /* Add padding below site title */
+    padding-bottom: 5px;                 /* Add padding below site title */
     margin-bottom: 5px;                   /* Add margin below site title */
     text-align: left;                     /* Align site title text to the left */
 }
@@ -107,6 +107,9 @@ ul li a:hover {
 }
 
 .sidebar-info .icon-link:hover {
+    color: var(--GoldenRod);    /* Change link color to Golden Rod on hover */
+    text-decoration: underline; /* Underline link on hover */
+}
 
 .sidebar {
     width: 290px;               /* Set sidebar width */
