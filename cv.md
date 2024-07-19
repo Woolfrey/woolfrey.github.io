@@ -35,6 +35,8 @@ Jump to:
 - 🇬🇧 English (native)
 - 🇮🇹 Italian (beginner)
 
+[⬆️ Back to top.](#top)
+
 # Work
 
 | Year(s) | Role |
