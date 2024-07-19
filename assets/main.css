@@ -47,11 +47,12 @@ table {
 th, td {
     border: 1px solid var(--Moth); /* Use Moth color for table cell borders */
     padding: 8px;                  /* Add padding inside table cells */
+    color: var(--OliveNight);      /* Set text color for table content to Olive Night */
 }
 
 ul, ul li {
     color: var(--OliveNight);    /* Set list and list item colors to Olive Night */
-    list-style: none;            /* Remove default list styling */
+    list-style: disc;            /* Remove default list styling */
     padding: 0;                  /* Remove default padding */
 }
 
