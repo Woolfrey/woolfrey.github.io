@@ -77,20 +77,15 @@ ul li a:hover {
     text-align: left;                     /* Align site title text to the left */
 }
 
-.site-description {
-    color: var(--GoldenRod);              /* Set the color for the site description */
-    font-size: 1.2em;                     /* Adjust the font size for the description */
-    margin-top: 5px;                      /* Add space above the description */
-    border-bottom: 1px solid var(--Moth); /* Add bottom border to site title */
-}
-
 /**********************************************************************************/
 
 .sidebar-info {
-    margin-bottom: 10px;                  /* Add margin below sidebar info */
+    margin-top: 5px;
+    padding-top: 5px;
     border-top: 1px solid var(--Moth);    /* Add bottom border to sidebar info */
+    margin-bottom: 5px;                  /* Add margin below sidebar info */
     border-bottom: 1px solid var(--Moth); /* Add bottom border to sidebar info */
-    padding-bottom: 10px;                 /* Add padding below sidebar info */
+    padding-bottom: 5px;                 /* Add padding below sidebar info */
 }
 
 .sidebar-info p {
