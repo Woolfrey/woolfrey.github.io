@@ -7,6 +7,8 @@ tags:
 - control
 ---
 
+# Inspiration in Nature
+
 ```math
 \mathrm{\dot{x} = \frac{dx}{dt} = a\cdot x(t)}
 ```
@@ -15,6 +17,7 @@ tags:
 \mathrm{x(t) = e^{a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = a\cdot\underbrace{e^{a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}
 ```
 
+# The Linear Control Problem
 ```math
 \boldsymbol{\epsilon} = \mathbf{x_\mathrm{d} - x}
 ```
@@ -31,3 +34,82 @@ Assign:
 ```math
 \dot{\epsilon} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}}\cdot\boldsymbol{\epsilon}_0
 ```
+
+# Examples
+
+## A Generic Control System
+
+```math
+\mathbf{\dot{x} = Ax + Bu}
+```
+
+```math
+\begin{align}
+\boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
+\dot{\boldsymbol{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}} \\
+&= \mathbf{\dot{x}_\mathrm{d} - Ax - Bu}
+\end{align}
+```
+
+```math
+\begin{align}
+\mathbf{\dot{x}_\mathrm{d} - Ax - Bu} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+\mathbf{Bu} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax} \\
+\mathbf{u} &= \mathbf{B}^\dagger \left(\mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax}\right)
+\end{align}
+```
+
+where:
+```math
+\mathbf{B}^\dagger =
+\begin{cases}
+\left(\mathbf{B^\mathrm{T}B}\right)^{-1}\mathbf{B}^\mathrm{T} & \text{for } \mathrm{m > n} \\
+\mathbf{B}^{-1} & \text{for } \mathrm{m = n} \\
+\mathbf{B}^\mathrm{T}\left(\mathbf{BB^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
+\end{cases}
+```
+
+## Torque Control of a Robot Arm
+
+```math
+\boldsymbol{\tau} = \mathbf{M(q)\ddot{q} + n(q,\dot{q})}
+```
+
+```math
+\begin{align}
+  \boldsymbol{\epsilon}        &= \mathbf{q_\mathrm{d} - q} \\
+  \dot{\boldsymbol{\epsilon}}  &= \mathbf{\dot{q}_\mathrm{d} - \dot{q}} \\
+  \ddot{\boldsymbol{\epsilon}} &= \mathbf{\ddot{q}_\mathrm{d} - \ddot{q}}
+\end{align}
+```
+
+```math
+\mathbf{\ddot{q}} = \mathbf{\ddot{q}}_\mathrm{d} + \underbrace{\mathbf{K}_\mathrm{d}\overbrace{\left(\mathbf{\dot{q}_\mathrm{d} - \dot{q}}\right)}^{\dot{\boldsymbol{\epsilon}}}}_{\text{velocity feedback}} + \underbrace{\mathbf{K}_\mathrm{p}\overbrace{\left(\mathbf{q_\mathrm{d} - q}\right)}^{\boldsymbol{\epsilon}}}_{\text{position feedback}}
+```
+
+```math
+\ddot{\boldsymbol{\epsilon}} = -\mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} - \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}
+```
+
+```math
+\begin{bmatrix}
+  \dot{\boldsymbol{\epsilon}} \\
+  \ddot{\boldsymbol{\epsilon}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+  & \mathbf{I} \\
+-\mathbf{K}_\mathrm{p} & -\mathbf{K}_\mathrm{d}
+\end{bmatrix}
+\begin{bmatrix}
+  \boldsymbol{\epsilon} \\
+  \dot{\boldsymbol{\epsilon}}
+\end{bmatrix}
+```
+
+```math
+\boldsymbol{\tau} =
+\mathbf{M}\left(\mathbf{\ddot{q}}_\mathrm{d} + \mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} + \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}\right) + \mathbf{n}
+```
+
+## Velocity Control of an End-Effector
