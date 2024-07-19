@@ -29,7 +29,14 @@ body {
     text-decoration: underline;  /* Underline link on hover */
 }
 
-h1, h2, p {
+h1 {
+    color: var(--OliveNight);    /* Set heading color */
+    border-bottom: 2px solid var(--Moth); /* Add a 2px solid line with the Moth color underneath h1 */
+    padding-bottom: 10px;       /* Add some padding below the heading */
+    margin-bottom: 10px;        /* Add margin below the line */
+}
+
+h2, p {
     color: var(--OliveNight);    /* Set heading colors to Olive Night */
 }
 
