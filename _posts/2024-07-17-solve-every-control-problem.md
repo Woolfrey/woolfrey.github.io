@@ -113,3 +113,41 @@ where:
 ```
 
 ## Velocity Control of an End-Effector
+
+```math
+\mathbf{x = f(q)}
+```
+
+```math
+\mathbf{\dot{x} = J(q)\dot{q}}
+```
+where:
+```math
+\mathbf{J(q)} = \frac{\partial\mathbf{f}}{\partial\mathbf{q}}
+```
+
+```math
+\begin{align}
+\boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
+\dot{\boldsymbol{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}} \\
+&= \mathbf{\dot{x}_\mathrm{d} - J\dot{q}}
+\end{align}
+```
+
+```math
+\begin{align}
+\mathbf{\dot{x}_\mathrm{d} - J\dot{q}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+\mathbf{J\dot{q}} &= \mathbf{\dot{x}_\mathrm{d} + K}\boldsymbol{\epsilon} \\
+\mathbf{\dot{q}} &= \mathbf{J}^\dagger\left(\mathbf{\dot{x}_\mathrm{d} + K}\boldsymbol{\epsilon}\right)
+\end{align}
+```
+
+```math
+\mathbf{J}^\dagger =
+\begin{cases}
+\left(\mathbf{J^\mathrm{T}J}\right)^{-1}\mathbf{J}^\mathrm{T} & \text{for } \mathrm{m > n} \\
+\mathbf{J}^{-1} & \text{for } \mathrm{m = n} \\
+\mathbf{J}^\mathrm{T}\left(\mathbf{JJ^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
+\end{cases}
+```
+
