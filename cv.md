@@ -54,10 +54,10 @@ Jump to:
 
 | Year(s)     | Qualifaction |
 |-------------|--------------|
-| 2015 - 2020 | **Doctor of Philosophy** <br> _University of Technology Sydney_ <br> -------------------------------------------------- |
-| 2010 - 2015 | **B.E. Mechanical & Mechatronic Engineering** <br> _University of Technology Sydney_ <br> -------------------------------------------------- <br> Electives: <br> ▫ Control of Mechatronic Systems <br> ▫ Advanced Robotics <br> ▫ Optimisation <br> ▫ Biomedical Instrumentation |
-| 2007 - 2009 | **Certificate IV in Mechanical Trades (MEM40105)** <br> _South Western Sydney Institute of TAFE_ <br> -------------------------------------------------- |
-| 2000 - 2005 | **High School Certificate** <br> _St Mary's Cathedral College, Sydney_ <br> -------------------------------------------------- <br> Electives: <br> ▫ Visual Arts <br> ▫ Extension 1 Math <br> ▫ Extension 1 English <br> ▫ Information Technology  |
+| 2015 - 2020 | **Doctor of Philosophy** <br> _University of Technology Sydney_ <br> -------------------------------------------------- <br> Mobile robots, such as underwater vehicles, drones, and rovers, are now being combined with manipulators to perform a variety of work in the field. But current state of the art in control assumes that disturbances from the environment are minimal. However, the effects of wind, waves, and rough terrain may make it difficult for the vehicle to maintain a steady base for the manipulator. Or, in some cases, the vehicle may lack the control authority to negate disturbances in all directions. In this thesis, predictions of the base motion are used to formulate control strategies that enable a manipulator to proactively counter, and even make use of, these disturbances. |
+| 2010 - 2015 | **B.E. Mechanical & Mechatronic Engineering (1st Class Honors)** <br> _University of Technology Sydney_ <br> -------------------------------------------------- <br> Electives: <br> • Control of Mechatronic Systems <br> • Advanced Robotics <br> • Optimisation <br> • Biomedical Instrumentation |
+| 2007 - 2009 | **Certificate IV in Mechanical Trades (MEM40105)** <br> _South Western Sydney Institute of TAFE_ <br> -------------------------------------------------- <br> Competencies included: <br> • Machine installation <br> • Advanced fitting techniques <br> • Complex milling <br> • Complex turning <br> • 2D CAD Modeling |
+| 2000 - 2005 | **High School Certificate** <br> _St Mary's Cathedral College, Sydney_ <br> -------------------------------------------------- <br> Electives: <br> • Visual Arts <br> • Extension 1 Math <br> • Extension 1 English <br> • Information Technology  |
 
 [⬆️ Back to top.](#top)
 
