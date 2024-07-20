@@ -41,8 +41,8 @@ Jump to:
 
 | Year(s) | Role |
 |---------|------|
-| February 2024 - <br> Present | **Research Fellow** <br> _STORM Lab UK, University of Leeds_ <br> --- |
-| July 2021 - <br> December 2023 | **Postdoc** <br> _Humanoid Sensing & Perception, Istituto Italiano di Tecnologia_ <br> --- |
+| February 2024 - <br> Present | **Research Fellow** <br> _STORM Lab UK, University of Leeds_ <br> --- <br> • Working the [Terabotics project](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/ultrafastphotonics/emmasthzgroup/terabotics/) to integrate high-frequency sensors with robotic systems for cancer detection. <br> • Won £10,000 in a group contest to develop realistic, artificial limbs for Terahertz sensor testing. <br> • Granted £2,000 to establish international collaboration in robotic hip-replacement surgery with the University of Technology Sydney. <br> • Initiated a collaboration of 4 people to model the physics of ferromagnetic, soft, continuum robots. |
+| July 2021 - <br> December 2023 | **Postdoc** <br> _Humanoid Sensing & Perception, Istituto Italiano di Tecnologia_ <br> --- <br> • Worked on the [ergoCub humanoid robot](https://ergocub.eu/) project. <br> • Team leader for the Humanoid Sensing & Perception group working on the ergoCub <br> • Ran project planning workshops for the development of autonomous, human-robot interaction on the ergoCub platform <br> • Developed the control algorithms for bimanual manipulation of a humanoid robot <br> • Represented our team at the [International Conference on Robotics & Automation 2023](https://www.icra2023.org/). |
 | May 2019 - <br> June 2021 | **Research Associate, Casual Academic** <br> _Center for Autonomous Systems, University of Technology Sydney_  <br> --- |
 | February 2015 - <br> May 2019 | **Doctoral Candidate** <br> _Center for Autonomous Systems - University of Technology Sydney_ <br> --- |
 | December 2011 - <br> December 2014 | **Engineering Scholar, Six Sigma Project Manager** <br> _Continuous Improvement Group, Maintenance Directorate, Sydney Trains_ <br> --- |
