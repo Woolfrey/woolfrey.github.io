@@ -52,6 +52,12 @@ Jump to:
 | April 2007 - <br> March 2011 | **Maintenance Fitter** <br> _Precision Valve Australia_ <br> ------------------------------------------------------------------------ <br> • Fixed breakdowns and conducted routine maintenance for the assembly of buttons and valves for aerosol cans. <br> • Worked with  supervisors to address customer complaints, write reports, and improve quality control of production. <br> • Took the initiative to improve performance of machinery and achieve a record of 140% productivity with 300,000 parts produced in 1 shift. |
 | 2006 | **Barista, Server** <br> _Jester's Pies, Panania, NSW_ <br> ------------------------------------------------------------------------ <br> • Prepared & served coffee, hot food <br> • Set up & closed shop during opening & closing shifts <br> • Stock-keeping, cleaning, etc. |
 
+### Volunteer Work:
+| Year | Role(s) |
+|------|---------|
+| July 2018 - <br> Present | ** Guest Lecturer, Teaching Assistant ** <br> _Technical University of Munich (TUM), via edX.org_ <br> --------------------------------------------------- <br> As part of the Lean Six Sigma [Yellow Belt certification course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?index=product&queryID=b797d28121edcec4694898c4268af6d2&position=4&linked_from=autocomplete&c=autocomplete). <br> It is ranked in the top 10 online courses of all time by [Class Central](https://www.classcentral.com/collection/top-free-online-courses?sort=rating-up\&page=2). |
+
+
 [⬆️ Back to top.](#top)
 
 # Education
