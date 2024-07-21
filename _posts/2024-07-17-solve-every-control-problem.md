@@ -7,6 +7,15 @@ tags:
 - control
 ---
 
+Contents:
+
+- [Inspiration in Nature](#inspiration-in-nature)
+- [The Linear Control Problem](#the-linear-control-problem)
+- [Examples](#examples)
+   - [A Generic Control System](#a-generic-control-system)
+   - [Torque Control of a Robot Arm](#torque-control-of-a-robot-arm)
+   - [Velocity Control of an End-Effector](#velocity-control-of-an-end-effector)
+
 # Inspiration in Nature
 
 We can observe many natural phenomena that exhibit exponential decay:
@@ -137,11 +146,11 @@ but this presumes that:
 
 There are many applications in real life where we want to follow a moving target or trajectory. By following the 3-step process above, the concept of a feedfoward/feedback control naturally appears.
 
-[^3] I've never actually encountered a system like this in reality.
+[^3] I've never actually encountered a system like this in reality 🤷‍♂️
 
 ## Torque Control of a Robot Arm
 
-A common task for robot control is joint trajectory tracking for pick-and-place tasks. In short, we have some trajectory that defines the desired joint positions $\mathbf{\dot{q}}_\mathrm{d}(\mathrm{t})$ that transition the robot from one configuration to another. We need to design the motor torque inputs $\boldsymbol{\tau}\in\mathbb{R}^\mathrm{n}$ to make the robot track this trajectory.
+A common task for robot control is joint trajectory tracking for pick-and-place tasks. In short, we have some trajectory that defines the desired joint positions $\mathbf{q}_\mathrm{d}(\mathrm{t})$ that transition the robot from one configuration to another. We need to design the motor torque inputs $\boldsymbol{\tau}\in\mathbb{R}^\mathrm{n}$ to make the robot track this trajectory.
 
 The inverse dynamics of a robot arm is given by:
 ```math
@@ -196,34 +205,36 @@ Substituting this back in to the inverse dynamics the control torque becomes:
 
 ## Velocity Control of an End-Effector
 
+In other applications of robotics, we want to control the tip of the arm directly, at all times. For example, we may want to track a straight line in a welding, or spray painting task, or provide a more intuitive control input for human users [^4]
+
+The position of the endpoint of a robot arm $\mathbf{x}\in\mathbb{R}^\mathrm{m}$ is a function of the joint angles $\mathbf{q}\in\mathbb{R}^\mathrm{n}$:
 ```math
 \mathbf{x = f(q)}
 ```
+This is known as the forward kinematics. Normally the kinematics involves many complicated, trigonometric functions. However, the _instantaneous_ velocity is linear which we can readily solve.
 
+As before, we can define the error from the desired position and evaluate the time derivative using the chain rule:
 ```math
-\mathbf{\dot{x} = J(q)\dot{q}}
+\begin{align}
+    \boldsymbol{\epsilon}       &= \mathbf{x_\mathrm{d} - f(q)} \\
+    \boldsymbol{\dot{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - J(q)\dot{q}}
+\end{align}
 ```
 where:
 ```math
-\mathbf{J(q)} = \frac{\partial\mathbf{f}}{\partial\mathbf{q}}
+\mathbf{J(q)} = \frac{\partial\mathbf{f}}{\partial\mathbf{q}} \in\mathbb{R}^\mathrm{m\times n}
 ```
+is the Jacobian matrix[^5].
 
+As before, we equate the error derivative $\dot{\boldsymbol{\epsilon}}$ so that it is proportional to itself, then rearrange::
 ```math
 \begin{align}
-\boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
-\dot{\boldsymbol{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}} \\
-&= \mathbf{\dot{x}_\mathrm{d} - J\dot{q}}
+    \mathbf{\dot{x}_\mathrm{d} - J\dot{q}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+                         \mathbf{J\dot{q}} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} \\
+                          \mathbf{\dot{q}} &= \mathbf{J}^\dagger\left(\mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon}\right)
 \end{align}
 ```
-
-```math
-\begin{align}
-\mathbf{\dot{x}_\mathrm{d} - J\dot{q}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
-\mathbf{J\dot{q}} &= \mathbf{\dot{x}_\mathrm{d} + K}\boldsymbol{\epsilon} \\
-\mathbf{\dot{q}} &= \mathbf{J}^\dagger\left(\mathbf{\dot{x}_\mathrm{d} + K}\boldsymbol{\epsilon}\right)
-\end{align}
-```
-
+where:
 ```math
 \mathbf{J}^\dagger =
 \begin{cases}
@@ -232,3 +243,17 @@ where:
 \mathbf{J}^\mathrm{T}\left(\mathbf{JJ^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
 \end{cases}
 ```
+
+As before, we have a feedforward + feedback term in the "task space" of the robot, which is converted to the joint space by the (pseudo)inverse Jacobian $\mathbf{J}^\dagger$.
+
+In practice, orientation feedback for the endpoint of a robot arm requires more complicated, non-linear feedback. But the high-level principle is the same.
+
+We could also extend the problem to the acceleration level:
+```math
+\mathbf{\ddot{x} = J(q)\ddot{q} + J(q,\dot{q})\dot{q}}
+```
+but this is better resolved as a _dynamic_ problem, rather than a kinematic one (another time).
+
+[^4] Whitney, D. E. (1969). Resolved motion rate control of manipulators and human prostheses. IEEE Transactions on man-machine systems, 10(2), 47-53.
+
+[^5] Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
