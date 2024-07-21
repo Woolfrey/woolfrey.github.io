@@ -9,107 +9,189 @@ tags:
 
 # Inspiration in Nature
 
-```math
-\mathrm{\dot{x} = \frac{dx}{dt} = a\cdot x(t)}
-```
+We can observe many natural phenomena that exhibit exponential decay:
+- The temperature of a hot cup of coffee,
+- The bouncing of your car suspension as it goes over a speed hump, and
+- The voltage across an RC^[1] circuit in your phone or computer.
+
+[example images here].
+
+The fundamental principle to these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
 
 ```math
-\mathrm{x(t) = e^{a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = a\cdot\underbrace{e^{a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}
+\mathrm{\dot{x} = \frac{dx}{dt} = -a\cdot x(t)}
 ```
+where $\mathrm{a}\in\mathbb{R}^+$ is a constant related to an intrinsic physical property.
+
+The solution for the position as a function of time is an exponential equation:
+```math
+\mathrm{x(t) = e^{a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = a\cdot\underbrace{e^{a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}.
+```
+
+The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating the natural laws of physics in control we obtain solutions that are elegant, clear, understandeable, and predictable.
+
+[^1] Resistor-Capacitor.
 
 # The Linear Control Problem
+
+Formulating and solving a linear control problem can be achieved in 3 steps:
+1. Define your position and/or state error,
+2. Evaluate its time derivative, and
+3. Denote the control input such that the error decays exponentially.
+
+Assume we have some m-dimensional system:
+```math
+    \mathbf{x} =
+    \begin{bmatrix}
+        \mathrm{x}_1 \\
+        \vdots \\
+        \mathrm{x_n}
+    \end{bmatrix}
+    \in\mathbb{R}^\mathrm{m}.
+```
+We can denote its error from some _desired_ value $\mathbf{x_d}$ as:
 ```math
 \boldsymbol{\epsilon} = \mathbf{x_\mathrm{d} - x}
 ```
-
+and its time derivative is simply:
 ```math
-\dot{\boldsymbol{\epsilon}} = \mathrm{\dot{x}_\mathrm{d} - \dot{x}}
+\dot{\boldsymbol{\epsilon}} = \mathbf{\dot{x}_\mathrm{d} - \dot{x}}.
 ```
 
-Assign:
+Now we want the error velocity to be (negatively) proportional to its current state:
 ```math
-\mathbf{\dot{x} = \dot{x}_\mathrm{d}} + \mathbf{K}\underbrace{\left(\mathbf{x_\mathrm{d} - x}\right)}_{\boldsymbol{\epsilon}}
+    \dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}}
 ```
+where $\mathbf{K}\in\mathbb{R}^\mathrm{m\times m}$ is a gain matrix. As long as $\mathbf{K}$ has _positive_ eigenvalues (such that $-\mathbf{K}$ has negative eigenvalues), the error will reduce to zero[^2].
 
+By equating $\dot{\boldsymbol{\epsilon}}$ and re-arranging we obtain:
 ```math
-\dot{\epsilon} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}}\cdot\boldsymbol{\epsilon}_0
+    \begin{align}
+        \mathbf{\dot{x}_\mathrm{d} - \dot{x}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+                             \mathbf{\dot{x}} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon}
+    \end{align}
 ```
+We can see that imposed velocity $\mathbf{\dot{x}}$ consists of 2 terms:
+1. A feedforward velocity $\mathbf{x}_\mathrm{d}$, and
+2. A feedbback term $\mathbf{K}\left(\mathbf{x_\mathrm{d} - x}\right)$.
+
+
+In most applications, the velocity $\mathbf{\dot{x}}$ is usually a more complicated function of some other coordinate system, and a control input. But the principle remains the same.
+
+
+[^2] The reason for this is too complicated for this post. But a simple solution is a diagonal matrix with positive elements.
 
 # Examples
 
 ## A Generic Control System
 
+A common starting point in control theory is with a simple, "control affine" system[^3] of the form:
 ```math
 \mathbf{\dot{x} = Ax + Bu}
 ```
+where:
+- $\mathbf{A}\in\mathbb{R}^\mathrm{m\times m}$ is the "state transition" matrix,
+- $\mathbf{B}\in\mathbb{R}^\mathrm{m\times n}$ is the "control matrix", and
+- $\mathbf{u}\in\mathbb{R}^\mathrm{n}$ is the control input.
 
+
+Following the process above, we 1st define the error, and 2nd evaluate its time derivative:
 ```math
 \begin{align}
-\boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
-\dot{\boldsymbol{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}} \\
-&= \mathbf{\dot{x}_\mathrm{d} - Ax - Bu}
+          \boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
+    \dot{\boldsymbol{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}} \\
+                                &= \mathbf{\dot{x}_\mathrm{d} - Ax - Bu}.
 \end{align}
 ```
 
+And 3rd, we need to assign the control input $\mathbf{u}$ to force the error $\boldsymbol{\epsilon}$ to decay exponentially. Equating $\dot{\boldsymbol{\epsilon}}$, re-arranging for $\mathbf{u}$, and solving we obtain:
 ```math
 \begin{align}
-\mathbf{\dot{x}_\mathrm{d} - Ax - Bu} &= -\mathbf{K}\boldsymbol{\epsilon} \\
-\mathbf{Bu} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax} \\
-\mathbf{u} &= \mathbf{B}^\dagger \left(\mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax}\right)
+    \mathbf{\dot{x}_\mathrm{d} - Ax - Bu} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+                              \mathbf{Bu} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax} \\
+                               \mathbf{u} &= \mathbf{B}^\dagger \left(\mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} - \mathbf{Ax}\right)
 \end{align}
 ```
-
 where:
 ```math
 \mathbf{B}^\dagger =
 \begin{cases}
-\left(\mathbf{B^\mathrm{T}B}\right)^{-1}\mathbf{B}^\mathrm{T} & \text{for } \mathrm{m > n} \\
-\mathbf{B}^{-1} & \text{for } \mathrm{m = n} \\
-\mathbf{B}^\mathrm{T}\left(\mathbf{BB^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
+    \left(\mathbf{B^\mathrm{T}B}\right)^{-1}\mathbf{B}^\mathrm{T} & \text{for } \mathrm{m > n} \\
+                                                  \mathbf{B}^{-1} & \text{for } \mathrm{m = n} \\
+    \mathbf{B}^\mathrm{T}\left(\mathbf{BB^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
 \end{cases}
 ```
 
+The solution has 3 components:
+1. A feedforward term $\mathbf{\dot{x}}_\mathrm{d}$ defined by the rate of change in the target point,
+2. A feedback gain the target error, and
+3. Subtracting the natural system dynamics contributing to our desired motion.
+
+Many control courses begin with the conclusion:
+```math
+\mathbf{u = -Kx} ~\Longrightarrow ~\mathbf{\dot{x}} = \left(\mathbf{A - BK}\right)\mathbf{x}
+```
+but this presumes that:
+1. $\mathbf{x}_\mathrm{d} = \mathbf{0}$, instead of $\boldsymbol{\epsilon}\to\mathbf{0}$ over time, and
+2. $\mathbf{\dot{x}}_\mathrm{d} = \mathbf{0}$, meaning the desired position never changes.
+
+There are many applications in real life where we want to follow a moving target or trajectory. By following the 3-step process above, the concept of a feedfoward/feedback control naturally appears.
+
+[^3] I've never actually encountered a system like this in reality.
+
 ## Torque Control of a Robot Arm
 
+A common task for robot control is joint trajectory tracking for pick-and-place tasks. In short, we have some trajectory that defines the desired joint positions $\mathbf{\dot{q}}_\mathrm{d}(\mathrm{t})$ that transition the robot from one configuration to another. We need to design the motor torque inputs $\boldsymbol{\tau}\in\mathbb{R}^\mathrm{n}$ to make the robot track this trajectory.
+
+The inverse dynamics of a robot arm is given by:
 ```math
 \boldsymbol{\tau} = \mathbf{M(q)\ddot{q} + n(q,\dot{q})}
 ```
+where:
+- $\mathbf{M(q)}\in\mathbb{R}^\mathrm{n\times n}$ is the joint inertia matrix, and
+- $\mathbf{n(q,\dot{q})}\in\mathbb{R}^\mathrm{n}$ is the nonlinear effects of gravity, Coriolis, and centripetal forces.
 
+As before, we 1. define the error from the desired position, and 2. take the time derivative:
 ```math
 \begin{align}
   \boldsymbol{\epsilon}        &= \mathbf{q_\mathrm{d} - q} \\
   \dot{\boldsymbol{\epsilon}}  &= \mathbf{\dot{q}_\mathrm{d} - \dot{q}} \\
-  \ddot{\boldsymbol{\epsilon}} &= \mathbf{\ddot{q}_\mathrm{d} - \ddot{q}}
+  \ddot{\boldsymbol{\epsilon}} &= \mathbf{\ddot{q}_\mathrm{d} - \ddot{q}}.
 \end{align}
 ```
+In this case, we must also evaluate the _second_ time derivative since the inverse dynamics gives is naturally a function of $\mathbf{\ddot{q}}$.
 
+If we choose:
 ```math
 \mathbf{\ddot{q}} = \mathbf{\ddot{q}}_\mathrm{d} + \underbrace{\mathbf{K}_\mathrm{d}\overbrace{\left(\mathbf{\dot{q}_\mathrm{d} - \dot{q}}\right)}^{\dot{\boldsymbol{\epsilon}}}}_{\text{velocity feedback}} + \underbrace{\mathbf{K}_\mathrm{p}\overbrace{\left(\mathbf{q_\mathrm{d} - q}\right)}^{\boldsymbol{\epsilon}}}_{\text{position feedback}}
 ```
-
+then the error acceleration becomes:
 ```math
-\ddot{\boldsymbol{\epsilon}} = -\mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} - \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}
+\ddot{\boldsymbol{\epsilon}} = -\mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} - \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}.
 ```
 
+Since this is a second-order system, we can compose an equivalent, first-order "companion system" of the first and second derivatives:
 ```math
 \begin{bmatrix}
   \dot{\boldsymbol{\epsilon}} \\
   \ddot{\boldsymbol{\epsilon}}
 \end{bmatrix}
-=
+    =
 \begin{bmatrix}
-  & \mathbf{I} \\
--\mathbf{K}_\mathrm{p} & -\mathbf{K}_\mathrm{d}
+                           & \mathbf{I} \\
+    -\mathbf{K}_\mathrm{p} & -\mathbf{K}_\mathrm{d}
 \end{bmatrix}
 \begin{bmatrix}
   \boldsymbol{\epsilon} \\
   \dot{\boldsymbol{\epsilon}}
-\end{bmatrix}
+\end{bmatrix}.
 ```
+If the composite matrix has negative eigenvalues, then the errors will exponentially decay.
 
+Substituting this back in to the inverse dynamics the control torque becomes:
 ```math
 \boldsymbol{\tau} =
-\mathbf{M}\left(\mathbf{\ddot{q}}_\mathrm{d} + \mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} + \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}\right) + \mathbf{n}
+\mathbf{M}\left(\mathbf{\ddot{q}}_\mathrm{d} + \mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} + \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}\right) + \mathbf{n}.
 ```
 
 ## Velocity Control of an End-Effector
@@ -150,4 +232,3 @@ where:
 \mathbf{J}^\mathrm{T}\left(\mathbf{JJ^\mathrm{T}}\right)^{-1} & \text{for } \mathrm{m < n}.
 \end{cases}
 ```
-
