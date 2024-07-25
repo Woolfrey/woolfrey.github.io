@@ -25,7 +25,7 @@ We can observe many natural phenomena that exhibit exponential decay:
 - The temperature of a hot cup of coffee,
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/9717747d-c3bd-4f82-b538-a7f1945071bb" width="600" height="auto" />
+<img src="https://github.com/user-attachments/assets/2992f0f6-143d-40c7-ad64-1bafbbf11163" width="700" height="auto" />
 </p>
 
 The fundamental property of these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
