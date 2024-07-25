@@ -28,7 +28,7 @@ We can observe many natural phenomena that exhibit exponential decay:
 <img src="https://github.com/user-attachments/assets/9717747d-c3bd-4f82-b538-a7f1945071bb" width="600" height="auto" />
 </p>
 
-The fundamental principle to these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
+The fundamental property of these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
 
 ```math
 \mathrm{\dot{x} = \frac{dx}{dt} = -a\cdot x(t)}
@@ -38,6 +38,12 @@ where $\mathrm{a}\in\mathbb{R}^+$ is a constant related to an intrinsic physical
 The solution for the position as a function of time is an exponential equation:
 ```math
 \mathrm{x(t) = e^{-a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = -a\cdot\underbrace{e^{-a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}.
+```
+
+And, most importantly, as time goes to infinity, its value decays asymptotically to zero:
+
+```math
+\lim_{\mathrm{t}\to\infty} ~ \mathrm{x(t)} = 0.
 ```
 
 The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating the natural laws of physics in control we obtain solutions that are elegant, clear, understandeable, and predictable.
@@ -70,9 +76,9 @@ and its time derivative is simply:
 \dot{\boldsymbol{\epsilon}} = \mathbf{\dot{x}_\mathrm{d} - \dot{x}}.
 ```
 
-Now we want the error velocity to be (negatively) proportional to its current state:
+Now we want the error velocity to be (negatively) proportional to its current state, such that it decays asymptotically to zero:
 ```math
-    \dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}}
+    \dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} \quad \Longrightarrow \quad \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}} \quad \Longrightarrow \quad \lim_{\mathrm{t}\to \infty} ~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathbf{0}.
 ```
 where $\mathbf{K}\in\mathbb{R}^\mathrm{m\times m}$ is a gain matrix. As long as $\mathbf{K}$ has _positive_ eigenvalues (such that $-\mathbf{K}$ has negative eigenvalues), the error will reduce to zero[^2].
 
