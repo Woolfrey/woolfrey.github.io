@@ -15,15 +15,18 @@ Contents:
    - [A Generic Control System](#a-generic-control-system)
    - [Torque Control of a Robot Arm](#torque-control-of-a-robot-arm)
    - [Velocity Control of an End-Effector](#velocity-control-of-an-end-effector)
+- [Conclusion](#conclusion)
 
 # Inspiration in Nature
 
 We can observe many natural phenomena that exhibit exponential decay:
-- The voltage across an RC^[1] circuit in your phone or computer.
-- The temperature of a hot cup of coffee,
+- The voltage across an RC^[1] circuit in your phone or computer,
 - The bouncing of your car suspension as it goes over a speed hump, and
+- The temperature of a hot cup of coffee,
 
-<img src="https://github.com/user-attachments/assets/70298f80-2d63-4cbd-96e7-44779e6e452a" width="600" height="auto"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/129cae60-7688-497d-8cfc-3ba95fd27669" width="600" height="auto" />
+</p>
 
 The fundamental principle to these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
 
@@ -34,7 +37,7 @@ where $\mathrm{a}\in\mathbb{R}^+$ is a constant related to an intrinsic physical
 
 The solution for the position as a function of time is an exponential equation:
 ```math
-\mathrm{x(t) = e^{a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = a\cdot\underbrace{e^{a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}.
+\mathrm{x(t) = e^{-a\cdot t}\cdot x_0 ~\Longrightarrow~ \dot{x}(t) = -a\cdot\underbrace{e^{-a\cdot t}\cdot x_0}_{\mathrm{x(t)}}}.
 ```
 
 The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating the natural laws of physics in control we obtain solutions that are elegant, clear, understandeable, and predictable.
@@ -132,9 +135,9 @@ where:
 ```
 
 The solution has 3 components:
-1. A feedforward term $\mathbf{\dot{x}}_\mathrm{d}$ defined by the rate of change in the target point,
-2. A feedback gain the target error, and
-3. Subtracting the natural system dynamics contributing to our desired motion.
+1. A feedforward term defined by the rate of change in the target point $\mathbf{\dot{x}}_\mathrm{d}$,
+2. A feedback gain on the target error $\mathbf{K}\boldsymbol{\epsilon}$, and
+3. Subtracting the natural system dynamics contributing to our desired motion $-\mathbf{Ax}$.
 
 Many control courses begin with the conclusion:
 ```math
@@ -151,6 +154,10 @@ There are many applications in real life where we want to follow a moving target
 ## Torque Control of a Robot Arm
 
 A common task for robot control is joint trajectory tracking for pick-and-place tasks. In short, we have some trajectory that defines the desired joint positions $\mathbf{q}_\mathrm{d}(\mathrm{t})$ that transition the robot from one configuration to another. We need to design the motor torque inputs $\boldsymbol{\tau}\in\mathbb{R}^\mathrm{n}$ to make the robot track this trajectory.
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/1c52f165-225b-4a4b-834b-d74060289e82" width="300" height="auto"/>
+</p>
 
 The inverse dynamics of a robot arm is given by:
 ```math
@@ -181,19 +188,27 @@ then the error acceleration becomes:
 
 Since this is a second-order system, we can compose an equivalent, first-order "companion system" of the first and second derivatives:
 ```math
+\underbrace{
 \begin{bmatrix}
   \dot{\boldsymbol{\epsilon}} \\
   \ddot{\boldsymbol{\epsilon}}
 \end{bmatrix}
+}_{\dot{\tilde{\boldsymbol{\epsilon}}}}
     =
+\underbrace{
 \begin{bmatrix}
                            & \mathbf{I} \\
     -\mathbf{K}_\mathrm{p} & -\mathbf{K}_\mathrm{d}
 \end{bmatrix}
+}_{\tilde{\mathbf{K}}}
+\underbrace{
 \begin{bmatrix}
   \boldsymbol{\epsilon} \\
   \dot{\boldsymbol{\epsilon}}
-\end{bmatrix}.
+\end{bmatrix}
+}_{\tilde{\boldsymbol{\epsilon}}}
+
+~ \Longrightarrow ~ \tilde{\boldsymbol{\epsilon}} = \mathrm{e}^{-\tilde{\mathbf{K}}\mathrm{t}}\cdot\tilde{\boldsymbol{\epsilon}}_0
 ```
 If the composite matrix has negative eigenvalues, then the errors will exponentially decay.
 
@@ -206,6 +221,10 @@ Substituting this back in to the inverse dynamics the control torque becomes:
 ## Velocity Control of an End-Effector
 
 In other applications of robotics, we want to control the tip of the arm directly, at all times. For example, we may want to track a straight line in a welding, or spray painting task, or provide a more intuitive control input for human users [^4]
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/3f6544dc-a726-45c0-bfa7-6c6cf46fc85a" width="300" height="auto" />
+</p>
 
 The position of the endpoint of a robot arm $\mathbf{x}\in\mathbb{R}^\mathrm{m}$ is a function of the joint angles $\mathbf{q}\in\mathbb{R}^\mathrm{n}$:
 ```math
@@ -226,7 +245,7 @@ where:
 ```
 is the Jacobian matrix[^5].
 
-As before, we equate the error derivative $\dot{\boldsymbol{\epsilon}}$ so that it is proportional to itself, then rearrange::
+Again, we equate the error derivative $\dot{\boldsymbol{\epsilon}}$ so that it is proportional to itself, then rearrange:
 ```math
 \begin{align}
     \mathbf{\dot{x}_\mathrm{d} - J\dot{q}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
@@ -257,3 +276,18 @@ but this is better resolved as a _dynamic_ problem, rather than a kinematic one 
 [^4] Whitney, D. E. (1969). Resolved motion rate control of manipulators and human prostheses. IEEE Transactions on man-machine systems, 10(2), 47-53.
 
 [^5] Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
+
+# Conclusion
+
+Many theoretical control courses, and research articles on control, begin with the conclusion. That is, by stating some sort of control law $\mathbf{u}(\mathbf{x,\dot{x}},\mathrm{t})$ and then inviting the student/reader to see how it leads to stability of a control problem.
+
+Instead, it is more intuitive, and straightforward to:
+1. Start by expressing the control problem in terms of _error_ from desired position,
+2. Seeing how this error evolves over time, and
+3. Choosing the control input so that the error decays.
+
+Importantly, step 3 follows that same equations of motion that we can observe in many natural, physical phenomena in our daily lives. This leads to control equations that are easy to interpret.
+
+Moreover, this simple process allows us to solve a variety of control problems - including trajectory tracking, or following moving targets.
+
+Next time we will see how to apply the same principle to nonlinear systems.
