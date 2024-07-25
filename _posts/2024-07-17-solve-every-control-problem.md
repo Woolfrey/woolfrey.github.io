@@ -248,7 +248,7 @@ is the Jacobian matrix[^5].
 Again, we equate the error derivative $\dot{\boldsymbol{\epsilon}}$ so that it is proportional to itself, then rearrange:
 ```math
 \begin{align}
-    \mathbf{\dot{x}_\mathrm{d} - J\dot{q}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
+    \overbrace{\mathbf{\dot{x}_\mathrm{d} - J\dot{q}}}^{\dot{\boldsymbol{\epsilon}}} &= -\mathbf{K}\boldsymbol{\epsilon} \\
                          \mathbf{J\dot{q}} &= \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon} \\
                           \mathbf{\dot{q}} &= \mathbf{J}^\dagger\left(\mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon}\right)
 \end{align}
