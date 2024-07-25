@@ -19,11 +19,11 @@ Contents:
 # Inspiration in Nature
 
 We can observe many natural phenomena that exhibit exponential decay:
+- The voltage across an RC^[1] circuit in your phone or computer.
 - The temperature of a hot cup of coffee,
 - The bouncing of your car suspension as it goes over a speed hump, and
-- The voltage across an RC^[1] circuit in your phone or computer.
 
-[example images here].
+<img src="https://github.com/user-attachments/assets/70298f80-2d63-4cbd-96e7-44779e6e452a" width="600" height="auto"/>
 
 The fundamental principle to these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
 
