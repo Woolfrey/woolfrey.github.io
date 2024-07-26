@@ -46,7 +46,7 @@ $$
 \lim_{\mathrm{t}\to\infty} ~ \mathrm{x(t)} = 0.
 $$
 
-The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating the natural laws of physics in control we obtain solutions that are elegant, clear, understandable, and predictable.
+The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating these laws in control we obtain solutions that are elegant, clear, understandable, and predictable.
 
 [^1]: Resistor-Capacitor.
 
