@@ -84,7 +84,7 @@ $$
 Now we want the error velocity to be (negatively) proportional to its current state, such that it decays asymptotically to zero:
 
 $$
-\dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} \quad \Longrightarrow \quad \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}} \quad \Longrightarrow \quad \lim_{\mathrm{t}\to \infty} ~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathbf{0}.
+\dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} \quad \Longrightarrow \quad \boldsymbol{\epsilon}(\mathrm{t}) = \mathrm{e}^{-\mathbf{K}\mathrm{t}}\cdot\boldsymbol{\epsilon}_0 \quad \Longrightarrow \quad \lim_{\mathrm{t}\to \infty} ~ \boldsymbol{\epsilon}(\mathrm{t}) = \mathbf{0}.
 $$
 
 where $\mathbf{K}\in\mathbb{R}^\mathrm{m\times m}$ is a gain matrix. As long as $\mathbf{K}$ has _positive_ eigenvalues (such that $-\mathbf{K}$ has negative eigenvalues), the error will reduce to zero[^2].
