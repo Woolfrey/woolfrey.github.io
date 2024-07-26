@@ -1,4 +1,4 @@
-Hello, I'm Jon :wave:
+Hello, I'm Jon 👋
 
 Robotics engineer, Six Sigma Black Belt, coffee connoisseur, problem solver, over-thinker.
 
