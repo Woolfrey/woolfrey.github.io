@@ -26,6 +26,11 @@ sidebar:
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    disable : true
 
 # Other configurations
 permalink: pretty
