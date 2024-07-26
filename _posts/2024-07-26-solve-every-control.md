@@ -22,7 +22,7 @@ We can observe many natural phenomena that exhibit exponential decay:
 - The bouncing of your car suspension as it goes over a speed hump, and
 - The temperature of a hot cup of coffee,
 
-<p align="center"
+<p align="center">
    <img src="https://github.com/user-attachments/assets/2992f0f6-143d-40c7-ad64-1bafbbf11163" width="700" height="auto" />
 </p>
 
