@@ -87,6 +87,12 @@ ul li a:hover {
     color: var(--OliveNight);
 }
 
+/* styles.css */
+.mathjax-color {
+    color: var(--OliveNgiht); /* Change this to your desired color */
+}
+
+
 /**********************************************************************************/
 
 .sidebar-info {
