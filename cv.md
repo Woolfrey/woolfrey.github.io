@@ -16,10 +16,7 @@ Jump to:
 
 **Technical:**
 - Mathematical optimisation
-- Statistics
-  - Regression
-  - Hypothesis testing
-  - Design of Experiments
+- Statistics (regression, hypothesis testing, design of experiments)
 - Classical mechanics
 - Robot control
 - Mechanical design
