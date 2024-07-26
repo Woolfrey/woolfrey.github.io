@@ -16,6 +16,7 @@ categories: blog control
    - [Torque Control of a Robot Arm](#torque-control-of-a-robot-arm)
    - [Velocity Control of an End-Effector](#velocity-control-of-an-end-effector)
 - [Conclusion](#conclusion)
+- [Comments](#comments)
 
 # Inspiration in Nature
 
