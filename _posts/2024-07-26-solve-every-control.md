@@ -48,7 +48,7 @@ $$
 
 The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating the natural laws of physics in control we obtain solutions that are elegant, clear, understandable, and predictable.
 
-[^1] Resistor-Capacitor.
+[^1]: Resistor-Capacitor.
 
 # The Linear Control Problem
 
@@ -104,7 +104,7 @@ We can see that imposed velocity $\mathbf{\dot{x}}$ consists of 2 terms:
 
 In most applications, the velocity $\mathbf{\dot{x}}$ is usually a more complicated function of some other coordinate system, and a control input. But the principle remains the same.
 
-[^2] The reason for this is too complicated for this post. But a simple solution is a diagonal matrix with positive elements.
+[^2]: The reason for this is too complicated for this post. But a simple solution is a diagonal matrix with positive elements.
 
 # Examples
 
@@ -169,7 +169,7 @@ but this presumes that:
 
 There are many applications in real life where we want to follow a moving target or trajectory. By following the 3-step process above, the concept of a feedforward/feedback control naturally appears.
 
-[^3] I've never actually encountered a system like this in reality 🤷‍♂️
+[^3]: I've never actually encountered a system like this in reality 🤷‍♂️
 
 ## Torque Control of a Robot Arm
 
@@ -314,9 +314,9 @@ $$
 
 but this is better resolved as a _dynamic_ problem, rather than a kinematic one (another time).
 
-[^4] Whitney, D. E. (1969). Resolved motion rate control of manipulators and human prostheses. IEEE Transactions on man-machine systems, 10(2), 47-53.
+[^4]: Whitney, D. E. (1969). Resolved motion rate control of manipulators and human prostheses. IEEE Transactions on man-machine systems, 10(2), 47-53.
 
-[^5] Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
+[^5]: Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
 
 # Conclusion
 
