@@ -160,3 +160,9 @@ ul li a:hover {
     color: var(--GoldenRod);    /* Change icon link color to Golden Rod on hover */
     text-decoration: underline; /* Underline icon link on hover */
 }
+
+#comments {
+  max-width: 100%; /* Adjust this value as needed */
+  width: 800px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the comments section */
+}
