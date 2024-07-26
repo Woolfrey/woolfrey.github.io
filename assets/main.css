@@ -35,7 +35,7 @@ h1 {
     margin-bottom: 10px;                /* Add margin below the line */
 }
 
-h2, p {
+h2, h3, h4, p {
     color: var(--OliveNight);           /* Set heading colors to Olive Night */
 }
 
