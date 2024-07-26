@@ -18,7 +18,7 @@ categories: blog control
 # Inspiration in Nature
 
 We can observe many natural phenomena that exhibit exponential decay:
-- The voltage across an RC^[1] circuit in your phone or computer,
+- The voltage across an RC[^1] circuit in your phone or computer,
 - The bouncing of your car suspension as it goes over a speed hump, and
 - The temperature of a hot cup of coffee,
 
