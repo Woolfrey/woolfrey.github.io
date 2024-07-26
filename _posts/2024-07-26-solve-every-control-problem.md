@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "How to Solve Every Control Problem: Linear Systems"
 date: 2024-07-26
 categories: blog control
