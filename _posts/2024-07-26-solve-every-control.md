@@ -332,3 +332,5 @@ Importantly, step 3 follows that same equations of motion that we can observe in
 Moreover, this simple process allows us to solve a variety of control problems - including trajectory tracking, or following moving targets.
 
 Next time we will see how to apply the same principle to nonlinear systems.
+
+#### Footnotes:
