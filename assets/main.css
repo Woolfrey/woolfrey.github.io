@@ -50,6 +50,10 @@ th, td {
     color: var(--OliveNight);           /* Set text color for table content to Olive Night */
 }
 
+ol, ol li {
+    color: var(--OliveNight);
+}
+
 ul, ul li {
     color: var(--OliveNight);           /* Set list and list item colors to Olive Night */
     list-style: disc;                   /* Remove default list styling */
@@ -78,7 +82,7 @@ ul li a:hover {
 }
 
 .MathJax_Display, .MathJax_SVG, .MathJax_HTML {
-    color: inherit !important;
+    color: var(--OliveNight);
 }
 
 /**********************************************************************************/
