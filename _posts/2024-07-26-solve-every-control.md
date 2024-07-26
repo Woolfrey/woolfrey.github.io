@@ -5,6 +5,8 @@ date: 2024-07-26
 categories: blog control
 ---
 
+<a name="top"></a>
+
 ### Contents:
 
 - [Inspiration in Nature](#inspiration-in-nature)
@@ -49,6 +51,8 @@ $$
 The fact that this phenomena is ubiquitous in nature hints at something deeper about how our physical world operates. Moreover, we can use this as inspiration for designing control equations. After all, the systems we are controlling are bounded by the laws of physics. By imitating these laws in control we obtain solutions that are elegant, clear, understandable, and predictable.
 
 [^1]: Resistor-Capacitor.
+
+[⬆️ Back to top.](#top)
 
 # The Linear Control Problem
 
@@ -105,6 +109,8 @@ We can see that imposed velocity $\mathbf{\dot{x}}$ consists of 2 terms:
 In most applications, the velocity $\mathbf{\dot{x}}$ is usually a more complicated function of some other coordinate system, and a control input. But the principle remains the same.
 
 [^2]: The reason for this is too complicated for this post. But a simple solution is a diagonal matrix with positive elements.
+
+[⬆️ Back to top.](#top)
 
 # Examples
 
@@ -170,6 +176,8 @@ but this presumes that:
 There are many applications in real life where we want to follow a moving target or trajectory. By following the 3-step process above, the concept of a feedforward/feedback control naturally appears.
 
 [^3]: I've never actually encountered a system like this in reality 🤷‍♂️
+
+[⬆️ Back to top.](#top)
 
 ## Torque Control of a Robot Arm
 
@@ -247,6 +255,8 @@ $$
 \boldsymbol{\tau} =
 \mathbf{M}\left(\mathbf{\ddot{q}}_\mathrm{d} + \mathbf{K}_\mathrm{d}\dot{\boldsymbol{\epsilon}} + \mathbf{K}_\mathrm{p}\boldsymbol{\epsilon}\right) + \mathbf{n}.
 $$
+
+[⬆️ Back to top.](#top)
 
 ## Velocity Control of an End-Effector
 
@@ -332,5 +342,7 @@ Importantly, step 3 follows that same equations of motion that we can observe in
 Moreover, this simple process allows us to solve a variety of control problems - including trajectory tracking, or following moving targets.
 
 Next time we will see how to apply the same principle to nonlinear systems.
+
+[⬆️ Back to top.](#top)
 
 #### Footnotes:
