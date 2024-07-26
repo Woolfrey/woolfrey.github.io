@@ -2,9 +2,7 @@
 layout: post
 title:  "How to Solve Every Control Problem: Linear Systems"
 date:   2024-07-26 08:00:00 +0000
-categories: jekyll update
-tags:
-- control
+categories: control
 ---
 
 Contents:
