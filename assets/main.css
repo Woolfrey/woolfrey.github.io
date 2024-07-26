@@ -77,6 +77,10 @@ ul li a:hover {
     text-align: left;                     /* Align site title text to the left */
 }
 
+.MathJax_Display, .MathJax_SVG, .MathJax_HTML {
+    color: inherit !important;
+}
+
 /**********************************************************************************/
 
 .sidebar-info {
