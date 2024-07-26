@@ -5,7 +5,7 @@ date: 2024-07-26
 categories: blog control
 ---
 
-Contents:
+### Contents:
 
 - [Inspiration in Nature](#inspiration-in-nature)
 - [The Linear Control Problem](#the-linear-control-problem)
@@ -22,9 +22,7 @@ We can observe many natural phenomena that exhibit exponential decay:
 - The bouncing of your car suspension as it goes over a speed hump, and
 - The temperature of a hot cup of coffee,
 
-<p align="center">
 <img src="https://github.com/user-attachments/assets/2992f0f6-143d-40c7-ad64-1bafbbf11163" width="700" height="auto" />
-</p>
 
 The fundamental property of these systems is that the rate of change is proportional to its position $\mathrm{x}$ at any given time $\mathrm{t}$:
 
@@ -159,9 +157,7 @@ There are many applications in real life where we want to follow a moving target
 
 A common task for robot control is joint trajectory tracking for pick-and-place tasks. In short, we have some trajectory that defines the desired joint positions $\mathbf{q}_\mathrm{d}(\mathrm{t})$ that transition the robot from one configuration to another. We need to design the motor torque inputs $\boldsymbol{\tau}\in\mathbb{R}^\mathrm{n}$ to make the robot track this trajectory.
 
-<p align="center">
-   <img src="https://github.com/user-attachments/assets/1c52f165-225b-4a4b-834b-d74060289e82" width="300" height="auto"/>
-</p>
+<img src="https://github.com/user-attachments/assets/1c52f165-225b-4a4b-834b-d74060289e82" width="300" height="auto"/>
 
 The inverse dynamics of a robot arm is given by:
 ```math
@@ -226,9 +222,7 @@ Substituting this back in to the inverse dynamics the control torque becomes:
 
 In other applications of robotics, we want to control the tip of the arm directly, at all times. For example, we may want to track a straight line in a welding, or spray painting task, or provide a more intuitive control input for human users [^4]
 
-<p align="center">
-   <img src="https://github.com/user-attachments/assets/3f6544dc-a726-45c0-bfa7-6c6cf46fc85a" width="300" height="auto" />
-</p>
+<img src="https://github.com/user-attachments/assets/3f6544dc-a726-45c0-bfa7-6c6cf46fc85a" width="300" height="auto" />
 
 The position of the endpoint of a robot arm $\mathbf{x}\in\mathbb{R}^\mathrm{m}$ is a function of the joint angles $\mathbf{q}\in\mathbb{R}^\mathrm{n}$:
 ```math
