@@ -22,10 +22,37 @@ $$
 $$
 
 $$
-\mathrm{V}(\boldsymbol{\epsilon},\dot{\boldsymbol{\epsilon}}) \le \mathbf{0} ~ \forall\boldsymbol{\epsilon,\dot{\epsilon}}.
+\mathrm{V}(\boldsymbol{\epsilon},\dot{\boldsymbol{\epsilon}}) \le \mathrm{0} ~ \forall\boldsymbol{\epsilon,\dot{\epsilon}}.
 $$
 
+$$
+\begin{align}
+        \boldsymbol{\epsilon} &= \mathbf{x_\mathrm{d} - x} \\
+  \boldsymbol{\dot{\epsilon}} &= \mathbf{\dot{x}_\mathrm{d} - \dot{x}}.
+\end{align}
+$$
 
+$$
+  \mathrm{V} = \frac{1}{2}\boldsymbol{\epsilon}^\mathrm{T}\boldsymbol{\epsilon} = \sum_\mathrm{i=1}^\mathrm{m} \epsilon_\mathrm{i}^2 \ge 0 ~ \forall \boldsymbol{\epsilon}
+$$
+
+$$
+  \dot{\mathrm{V}} = \boldsymbol{\epsilon}^\mathrm{T}\dot{\boldsymbol{\epsilon}} = \boldsymbol{\epsilon}\left(\mathbf{\dot{x}_\mathrm{d} - \dot{x}}\right).
+$$
+
+If we can force:
+
+$$
+  \dot{\mathrm{V}} = -\boldsymbol{\epsilon}^\mathrm{T}\mathbf{K}\boldsymbol{\epsilon} \le 0 ~ \forall \boldsymbol{\epsilon}
+$$
+
+then the error will decay to zero over time.
+
+A simple choice is:
+
+$$
+\mathbf{\dot{x}} = \mathbf{\dot{x}}_\mathrm{d} + \mathbf{K}\boldsymbol{\epsilon}.
+$$
 
 # Examples
 
