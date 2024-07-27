@@ -1,5 +1,7 @@
-Hello, I'm Jon 👋
+Ciao! 👋
 
-Robotics engineer, Six Sigma Black Belt, coffee connoisseur, problem solver, over-thinker.
+This site contains information about me, things I find interesting, and is also a place to share some of the knowledge I have accumulated over the years.
 
-This site contains information about me, things I have done, things I find interesting, and is also a platform for sharing some of the knowledge I have accumulated over the years.
+⬅️ You can find out more about me here.
+
+⬇️ You can check out my posts down below. Feel free to leave a comment, or ask a question 🙂.
