@@ -139,6 +139,21 @@ We arrived at the same conclusion as the [linear problem](https://woolfrey.githu
 
 ## Mobile Robot Control
 
+$$
+\mathbf{T} =
+\begin{bmatrix}
+ \cos(\psi) & -\sin(\psi) & \mathrm{x} \\
+ \sin(\psi) & ~\cos(\psi) & \mathrm{y} \\
+ 0 & 0 & 1
+ \end{bmatrix} \in\mathbb{SE}(2)
+ $$
+
+For a vector $\mathbf{x}\in\mathbb{R}^\mathrm{m}$ we define error by _subtracting_ it from the desired. For $\mathbf{T}\in\mathbb{SE}$ we multiply by the inverse:
+
+$$
+\mathbf{E} = \mathbf{T}_\mathrm{d}\mathbf{T}^{-1}
+$$
+
 ## Quaternion Feedback
 
 # Conclusion:
