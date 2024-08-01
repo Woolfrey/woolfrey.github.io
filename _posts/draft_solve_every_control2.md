@@ -13,6 +13,40 @@ categories: blog control
 
 I started the [previous post](https://woolfrey.github.io/blog/control/2024/07/26/solve-every-control/) on linear systems by looking at the dynamics of natural phenomena for inspiration in designing control equations. The same can be applied here.
 
+## Mass-Spring
+
+```math
+\begin{align}
+  \mathrm{m\ddot{x}} &= \mathrm{-kx} \\
+   \mathrm{\ddot{x}} &= \mathrm{-m^{-1}kx}
+\end{align}
+```
+
+```math
+\mathrm{E} = \mathrm{\frac{1}{2}kx^2 + \frac{1}{2}m\dot{x}^2}
+```
+
+```math
+\begin{align}
+  \mathrm{\dot{E}} &= \mathrm{kx\dot{x} + m\dot{x}\ddot{x}} \\
+                   &= \mathrm{kx\dot{x} - kx\dot{x}} \\
+                   &= 0
+\end{align}
+```
+
+Stable because the energy isn't _increasing_ with time. It will keep oscillating, predictably, forever.
+
+Energy remains _constant_ for all time:
+
+```math
+\mathrm{E} = const.
+```
+
+The magnitude of its position can never exceed its original value.
+
+
+## Mass-Spring-Damper
+
 A simple example might be to consider the dynamics of a mass-spring-damper system, which you will find in the suspension system of a car, aeroplane, or train. We can use Newtonian mechanics to model it as a second-order differential:
 
 $$
@@ -137,7 +171,23 @@ We arrived at the same conclusion as the [linear problem](https://woolfrey.githu
 
 # Examples
 
+## Quaternion Feedback
+
 ## Mobile Robot Control
+
+```math
+\begin{bmatrix}
+  \mathrm{\dot{x}} \\
+  \mathrm{\dot{y}} \\
+  \dot{\psi}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\mathrm{v}\cos(\psi) \\
+\mathrm{v}\sin(\psi) \\
+\omega
+\end{bmatrix}
+```
 
 $$
 \mathbf{T} =
@@ -150,11 +200,63 @@ $$
 
 For a vector $\mathbf{x}\in\mathbb{R}^\mathrm{m}$ we define error by _subtracting_ it from the desired. For $\mathbf{T}\in\mathbb{SE}$ we multiply by the inverse:
 
-$$
-\mathbf{E} = \mathbf{T}_\mathrm{d}\mathbf{T}^{-1}
-$$
+```math
+\mathbf{E} = \mathbf{T}_\mathrm{d}\mathbf{T}^{-1} =
+\begin{bmatrix}
+  \cos(\mathrm{e}_\psi) & -\sin(\mathrm{e}_\psi) & \epsilon_\mathrm{x} \\
+  \sin(\mathrm{e}_\psi) & ~\cos(\mathrm{e}_\psi) & \epsilon_\mathrm{y} \\
+   0 & 0 & 1
+\end{bmatrix}
+```
+where:
+- $\mathrm{e_x} = \mathrm{x_d - x}$,
+- $\mathrm{e_y} = \mathrm{y_d - y}$,
+- $\mathrm{e}_{\psi} = \psi_\mathrm{d} - \psi$,
+- $\epsilon_\mathrm{x} = \mathrm{e_x}\cos(\psi) + \mathrm{e_y}\sin(\psi)$, and
+- $\epsilon_\mathrm{y} = -\mathrm{e_x}\sin(\psi) + \mathrm{e_y}\cos(\psi)$.
 
-## Quaternion Feedback
+```math
+\mathrm{V} = \frac{1}{2}\left(\epsilon_\mathrm{x} + \epsilon_\mathrm{y}\right) + 1 - \cos(\mathrm{e}_\psi)
+```
+
+Miraculously:
+```math
+\begin{align}
+  \dot{\epsilon}_\mathrm{x} &= \mathrm{v}_\mathrm{d}\cos(\mathrm{e}_\psi) - \mathrm{v} \\
+  \dot{\epsilon}_\mathrm{y} &= \mathrm{v}_\mathrm{d}\sin(\mathrm{e}_\psi) + \mathrm{v}_\mathrm{d}\epsilon_\mathrm{x}
+\end{align}
+```
+
+So the time derivative reduces to:
+```math
+\begin{align}
+\mathrm{\dot{V}} &= \epsilon_\mathrm{x}\dot{\epsilon}_\mathrm{x} + \epsilon_\mathrm{y}\dot{\epsilon}_\mathrm{y} + \mathrm{\dot{e}}_\psi\sin(\mathrm{e}_\psi) \\
+&= \epsilon_\mathrm{x}\left(\mathrm{v}_\mathrm{d}\cos(\mathrm{e}_\psi) - \mathrm{v}\right) + \left(\omega_\mathrm{d} + \mathrm{v_d}\epsilon_\mathrm{y} - \omega\right)\sin(\mathrm{e}_\psi)
+\end{align}
+```
+
+If we choose our control input as:
+```math
+\begin{align}
+  \mathrm{v} &= \mathrm{v_d}\cos(\mathrm{e}_\psi) + \mathrm{k_x}\epsilon_\mathrm{x} \\
+      \omega &= \omega_\mathrm{d} + \left(\mathrm{v_d} + \mathrm{k_y}\right)\epsilon_\mathrm{y} + \mathrm{k}_\psi\sin(\mathrm{e}_\psi)
+\end{align}
+```
+then the time derivative of the Lyapunov candidate function reduces to:
+```math
+\mathrm{\dot{V}} = -\mathrm{k_x}\epsilon_\mathrm{x}^2 - \mathrm{k}_\psi\sin(\mathrm{e}_\psi)^2 - \mathrm{k_y}\epsilon_\mathrm{y}
+```
+Notice that $\mathrm{\dot{V}}$ is not strictly negative because $\epsilon_\mathrm{y}$ can be positive or negative.
+
+Let's consider the worst case scenario:
+- $\mathrm{e}_\psi = 0$ such that the robot is aligned with the target, but
+- $\epsilon_\mathrm{x} \ne 0$ because it is offset.
+
+Driving forward will not help reduce the error, but if we turn, we sacrifice orientation error to reduce the translation error. BUT, $1 - \cos(\mathrm{e}_\psi) < 1$. This means that:
+```math
+\mathrm{V(t)} \le \mathrm{V}(0) + 1 ~ \forall \mathrm{t} > 0.
+```
+The error is always bounded, so the controller is stable in the sense of Lyapunov. As the robot turns, it will drive toward the path, thus $\mathrm{V(t)}$ will decrease after some sufficiently advanced time.
 
 # Conclusion:
 
