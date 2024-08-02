@@ -173,6 +173,46 @@ We arrived at the same conclusion as the [linear problem](https://woolfrey.githu
 
 ## Quaternion Feedback
 
+```math
+\mathcal{Q} =
+\begin{bmatrix}
+\eta \\
+\boldsymbol{\varepsilon}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos(\frac{1}{2}\theta) \\
+\sin(\frac{1}{2}\theta)\mathbf{\hat{a}}
+\end{bmatrix} \in\mathbb{H}
+```
+where:
+- $\theta = [0, 2\pi]$ is the angle of rotation, and
+- $\mathbf{\hat{a}}\in\mathbb{R}^3$ is unit vector representing the axis of rotation such that $\| \mathbf{\hat{a}} \| = 1$.
+
+
+```math
+\|\mathcal{Q}\|^2 = \eta^2 + \boldsymbol{\varepsilon}^\mathrm{T}\boldsymbol{\varepsilon} = 1.
+```
+
+```math
+\mathcal{E} = \mathcal{Q}_\mathrm{d}\times\bar{\mathcal{Q}} =
+\begin{bmatrix}
+  \eta_\mathrm{d} \\
+  \boldsymbol{\varepsilon}_\mathrm{d}
+\end{bmatrix}
+\times
+\begin{bmatrix}
+  \eta \\
+  -\boldsymbol{\varepsilon}
+\end{bmatrix}
+=
+\begin{bmatrix}
+  \eta_\mathrm{d}\eta + \boldsymbol{\varepsilon}_\mathrm{d}^\mathrm{T}\boldsymbol{\varepsilon} \\
+  \eta_\mathrm{d}\boldsymbol{\epsilon} - \eta\boldsymbol{\varepsilon}_\mathrm{d} - \boldsymbol{\varepsilon}_\mathrm{d}\times\boldsymbol{\varepsilon}
+\end{bmatrix}
+```
+
+
 ## Mobile Robot Control
 
 ```math
