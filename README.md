@@ -3,10 +3,10 @@
 This is a portal to my online content.
 
 You can find your way around using the links on the left panel 👈
-- :mag: [Learn more about me](/about/),
-- :page_facing_up: [View my CV](/cv/),
-- :open_book: [Check out my publications](/publications/),
-- :books: [Browse my recommended reading](/reading/).
+- 🔍 [Learn more about me](/about/),
+- 📄 [View my CV](/cv/),
+- 📖 [Check out my publications](/publications/),
+- 📚 [Browse my recommended reading](/reading/).
 
 ### 🖥️ Find Me Online
 - [LinkedIn](https://www.linkedin.com/in/jonathanwoolfrey/): For professional connections.
