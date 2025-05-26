@@ -3,10 +3,10 @@
 This is a portal to my online content.
 
 You can find your way around using the links on the left panel 👈
-- 📚 [Browse my recommended reading](/reading/).
-- 📖 [Check out my publications](/publications/),
-- 🔍 [Learn more about me](/about/),
-- 📄 [View my CV](/cv/),
+- [Browse my recommended reading](/reading/).
+- [Check out my publications](/publications/),
+- [Learn more about me](/about/),
+- [View my CV](/cv/),
 
 ### 🖥️ Find Me Online
 - [edX](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean): My guest lectures for the Technical University of Munich.
