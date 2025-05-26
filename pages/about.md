@@ -16,7 +16,8 @@ I also like:
 
 I've also taken a liking to cooking in the past few years.
 
-> 🚨 You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar :arrow_left:
+> 💡 **Note:** You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar. ⬅️
+
 
 ### ⏳ A Bit of History
 
