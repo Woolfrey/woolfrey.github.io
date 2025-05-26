@@ -7,19 +7,18 @@ permalink: /about/
 My name is Jon. I have an affinity for solving complex problems. I'm a mechanic by trade , have a PhD in robotics , and am a [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) Black Belt. I'm also interested in topics such as design, philosophy, classical mechanics, (applied) mathematics, and science. My interests are diverse, but I think the common theme is my aptitude for raciocination (logical thinking), and spatial reasoning.
 
 I also like:
-- Good coffee :coffee:
-- Books :books: (check out my reading list [here](/reading/))
-- Solving problems :jigsaw:
-- Optimisation :cyclone:
-- Board games :game_die::chess_pawn:
-- Cats :cat2:
+- Good coffee ☕
+- Books 📚 (check out my reading list [here](/reading/))
+- Solving problems 🧩
+- Optimisation 🌀
+- Board games 🎲♟️
+- Cats 🐈
 
 I've also taken a liking to cooking in the past few years.
 
-> [!TIP]
-> You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar :arrow_left:
+> 🚨 You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar :arrow_left:
 
-### :hourglass_flowing_sand: A Bit of History
+### ⏳ A Bit of History
 
 I went to high school at St Mary's Cathedral College, Sydney (Australia) from 2000 to 2005. From 2001 onwards I chose Visual Arts as an elective. It was my favourite subject (and still is!). I also did Extension 1 English, and loved studying classic literature such Bram Stoker's _Dracula_, and Mary Shelley's _Frankenstein_ (hence my passion for reading). I also did Extension 1 Maths, though I didn't enjoy it so much.
 
@@ -31,7 +30,7 @@ Simultaneously, whilst doing my bachelor's degree, I received a scholarship to w
 
  I am currently with the [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds. I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
 
-### :world_map: Places I've Lived
+### 🗺️ Places I've Lived
 
 I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 
@@ -63,7 +62,7 @@ I am now currently living in Leeds, England. The weather isn't as nice :cold_fac
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
 
-### :shallow_pan_of_food: My Favourite Recipe: Pasta all'Amatriciana
+### 🥘 My Favourite Recipe: Pasta all'Amatriciana
 
 <p align="center">
     <img src="/assets/images/amatriciana.png" width="400" height="auto"/>
