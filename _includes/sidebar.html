@@ -1,0 +1,15 @@
+<ul class="sidebar-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/reading/">Recommended Reading</a></li>
+  <li><a href="/cv/">Curriculum Vitae</a></li>
+  <li><a href="/publications/">Publications</a></li>
+  <li>
+    <a href="#">Blog</a>
+    <ul class="sidebar-submenu">
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+</ul>

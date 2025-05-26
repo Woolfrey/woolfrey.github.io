@@ -1,0 +1,43 @@
+title: Jon Woolfrey
+description: I like solving problems.
+theme: minima
+
+# Specify location of additional pages
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+    
+# Additional sidebar info
+sidebar_info:
+  titles:
+  - "Robotics Engineer 🤖"
+  - "Lean Six Sigma Black Belt 🥋"
+  email:    "jonathan.woolfrey@gmail.com"
+  linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
+  github:   "https://github.com/woolfrey/"
+  
+# Sidebar navigation links with active state
+sidebar:
+  - title: "Home"
+    url: "/"
+    active: true
+  - title: "About Me"
+    url: "/about/"
+  - title: "Curriculum Vitae"
+    url: "/cv/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Recommended Reading"
+    url: "/reading/"
+
+# Specify kramdown as the Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    disable : true
+
+# Other configurations
+permalink: pretty

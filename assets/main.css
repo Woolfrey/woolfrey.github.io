@@ -1,0 +1,168 @@
+:root {
+    --DeepLake:   #00656B;  /* Deep Lake color variable */
+    --GoldenRod:  #E2A829;  /* Golden Rod color variable */
+    --Moth:       #D2CBAF;  /* Moth color variable */
+    --OliveNight: #535040;  /* Olive Night color variable */
+}
+
+body {
+    display: flex;               /* Use flexbox for layout */
+    flex-direction: row;         /* Arrange items in a row */
+    margin: 0;                   /* Remove default margin */
+    padding: 0;                  /* Remove default padding */
+}
+
+.content {
+    flex: 1;                     /* Allow content to grow and fill available space */
+    padding: 10px;               /* Add padding inside content */
+    margin-left: 10px;           /* Add left margin to create space between content and sidebar */
+}
+
+.content a,
+.content a:visited {
+    color: var(--DeepLake);             /* Set link color to Deep Lake */
+}
+
+.content a:hover {
+    color: var(--GoldenRod);            /* Change link color to Golden Rod on hover */
+    text-decoration: underline;         /* Underline link on hover */
+}
+
+h1 {
+    color: var(--OliveNight);           /* Set heading color */
+    border-bottom: 1px solid var(--OliveNight); /* Add a 2px solid line with the Moth color underneath h1 */
+    padding-bottom: 10px;               /* Add some padding below the heading */
+    margin-bottom: 10px;                /* Add margin below the line */
+}
+
+h2, h3, h4, p {
+    color: var(--OliveNight);           /* Set heading colors to Olive Night */
+}
+
+table {
+    border-collapse: collapse;          /* Collapse table borders into a single border */
+    width: 100%;                        /* Set table width to 100% of the container */
+}
+
+th, td {
+    border: 1px solid var(--Moth);      /* Use Moth color for table cell borders */
+    padding: 8px;                       /* Add padding inside table cells */
+    color: var(--OliveNight);           /* Set text color for table content to Olive Night */
+}
+
+ol {
+    color: var(--OliveNight);
+    list-style: decimal;
+    padding-left: 1em;
+}
+
+ul {
+    color: var(--OliveNight);
+    list-style: disc;
+    padding-left: 1em;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;                  /* Add margin below each list item */
+}
+
+ul li a {
+    color: var(--DeepLake);              /* Set link color to Deep Lake */
+    text-decoration: none;               /* Remove underline from links */
+}
+
+ul li a:hover {
+    color: var(--GoldenRod);              /* Change link color to Golden Rod on hover */
+    text-decoration: underline;           /* Underline link on hover */
+}
+
+.site-title {
+    color: var(--Moth);                   /* Set site title color to Moth */
+    padding-bottom: 5px;                 /* Add padding below site title */
+    margin-bottom: 5px;                   /* Add margin below site title */
+    text-align: left;                     /* Align site title text to the left */
+}
+
+.MathJax_Display, .MathJax_SVG, .MathJax_HTML {
+    color: var(--OliveNight);
+}
+
+/* styles.css */
+.mathjax-color {
+    color: var(--OliveNgiht); /* Change this to your desired color */
+}
+
+
+/**********************************************************************************/
+
+.sidebar-info {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid var(--Moth);    /* Add bottom border to sidebar info */
+    margin-bottom: 5px;                  /* Add margin below sidebar info */
+    border-bottom: 1px solid var(--Moth); /* Add bottom border to sidebar info */
+    padding-bottom: 5px;                 /* Add padding below sidebar info */
+}
+
+.sidebar-info p {
+    color: var(--Moth);         /* Set sidebar info text color to Moth */
+    margin: 5px 0;              /* Add vertical margin to sidebar info text */
+    font-size: 0.9em;           /* Set sidebar info text size to 0.9em */
+}
+
+.sidebar-info .icon-link {
+    color: var(--Moth);         /* Set icon link color to Moth */
+    text-decoration: none;      /* Remove underline from icon links */
+    display: inline-block;      /* Display icon links inline-block */
+    margin-right: 10px;         /* Add right margin to icon links */
+}
+
+.sidebar-info .icon-link:hover {
+    color: var(--GoldenRod);    /* Change link color to Golden Rod on hover */
+    text-decoration: underline; /* Underline link on hover */
+}
+
+.sidebar {
+    width: 290px;               /* Set sidebar width */
+    background-color: var(--DeepLake); /* Set sidebar background color to Deep Lake */
+    padding: 5px;               /* Add padding inside sidebar */
+}
+
+.sidebar h1, 
+.sidebar h2, 
+.sidebar h3, 
+.sidebar h4, 
+.sidebar h5, 
+.sidebar h6, 
+.sidebar p, 
+.sidebar li {
+    color: var(--Moth);         /* Set sidebar text color to Moth */
+}
+
+.sidebar ul {
+    padding: 0;                 /* Remove default padding */
+    list-style: none;           /* Remove default list styling */
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;         /* Add margin below each list item */
+}
+
+.sidebar ul li a {
+    color: var(--Moth);         /* Set link color to Moth */
+    text-decoration: none;      /* Remove underline from links */
+}
+
+.sidebar ul li a:hover {
+    color: var(--GoldenRod);    /* Change link color to Golden Rod on hover */
+    text-decoration: underline; /* Underline link on hover */
+}
+    color: var(--GoldenRod);    /* Change icon link color to Golden Rod on hover */
+    text-decoration: underline; /* Underline icon link on hover */
+}
+
+#comments {
+  max-width: 100%; /* Adjust this value as needed */
+  width: 800px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the comments section */
+}
