@@ -64,7 +64,7 @@ Due to the COVID lockdowns and border closures, the Australian universities lost
 
 <br>
 
-I am now currently living in Leeds, England. The weather isn't as nice :cold_face:, but the Yorkshire countryside is stunning in Spring and Summer.
+I am now currently living in Leeds, England. The weather isn't as nice 🥶, but the Yorkshire countryside is stunning in Spring and Summer.
 
 <p align="center">
     <img src="/assets/images/saltaire.png" height="400" width="auto"/>
