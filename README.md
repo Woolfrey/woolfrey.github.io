@@ -1,6 +1,6 @@
 ## Welcome :england: Benvenuti :it: G'Day :australia:
 
-Think of it as a portal to my online content.
+This is a portal to my online content.
 
 You can find your way around using the links on the left panel :point_left:
 - :mag: [Learn more about me](/about/),
