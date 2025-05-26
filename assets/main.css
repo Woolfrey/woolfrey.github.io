@@ -92,6 +92,12 @@ ul li a:hover {
     color: var(--OliveNgiht); /* Change this to your desired color */
 }
 
+/* Text alignment*/
+.content p,
+.content li,
+.content blockquote {
+  text-align: justify;
+}
 
 /**********************************************************************************/
 
