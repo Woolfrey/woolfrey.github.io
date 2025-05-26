@@ -1,5 +1,3 @@
-## Welcome 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Benvenuti 🇮🇹 G'Day 🇦🇺
-
 This is a portal to my online content.
 
 You can find your way around using the links on the left panel 👈
