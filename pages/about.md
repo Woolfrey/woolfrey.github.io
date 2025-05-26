@@ -17,7 +17,7 @@ I also like:
 I've also taken a liking to cooking in the past few years.
 
 > [!TIP]
-> You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar :left_arrow:
+> You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar :arrow_left:
 
 ### :hourglass_flowing_sand: A Bit of History
 
@@ -36,8 +36,11 @@ Simultaneously, whilst doing my bachelor's degree, I received a scholarship to w
 I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 
 <p align="center">
-    <img src="assets/images/sydney.png" width="400" height="auto"/>
-    <em> A view of Sydney I took from the Australian Museum in January 2024. On the left you can see Sydney Tower, and on the right, St Mary's Cathedral. </em>
+    <img src="/assets/images/sydney.jpg" width="400" height="auto"/>
+    <br>
+    <em> A view of Sydney I took from the Australian Museum in January 2024. </em>
+    <br>
+    <em> On the left you can see Sydney Tower, and on the right, St Mary's Cathedral. </em>
 </p>
 
 <br>
@@ -45,7 +48,8 @@ I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 Due to the COVID lockdowns and border closures, the Australian universities lost revenue. My contract as a research associate / post doc was not renewed. I had 2 choices: change careers, or find a job abroad. I was fortunate to receive an offer at the _Istituto Italiano di Tecnologia_, in Genova, Italy. I lived there for about 2.5 years, and is still my favourite place.
 
 <p align="center">
-    <img src="assets/images/genova.png" width="400" height="auto"/>
+    <img src="/assets/images/genova.jpg" width="400" height="auto"/>
+    <br>
     <em> A photo of Genova, Italy I took from the lookout at Castelletto in September 2021. </em>
 </p>
 
@@ -54,16 +58,16 @@ Due to the COVID lockdowns and border closures, the Australian universities lost
 I am now currently living in Leeds, England. The weather isn't as nice :cold_face:, but the Yorkshire countryside is stunning in Spring and Summer.
 
 <p align="center">
-    <img src="assets/images/saltaire.png" height="400" width="auto"/>
+    <img src="/assets/images/saltaire.png" height="400" width="auto"/>
+    <br>
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
 
-### :shallow_pan_of_food: Pasta all'Amatriciana
-
-This is one of my favourite dishes. It's very quick and easy to make. You can find a detailed recipe [here](https://www.giallozafferano.com/recipes/Spaghetti-Amatriciana-Bacon-and-tomato-spaghetti.html).
+### :shallow_pan_of_food: My Favourite Recipe: Pasta all'Amatriciana
 
 <p align="center">
-    <img src="assets/images/amatriciana.png" width="400" height="auto"/>
+    <img src="/assets/images/amatriciana.png" width="400" height="auto"/>
+    <br>
     <em> A bowl of penne all'amatriciana that I made. </em>
 </p>
 
@@ -87,3 +91,5 @@ This is one of my favourite dishes. It's very quick and easy to make. You can fi
 4. **Cook pasta:** Boil spaghetti in salted water until al dente.  
 5. **Combine:** Drain pasta, add to sauce, and toss with Pecorino Romano.  
 6. **Serve:** Sprinkle extra Pecorino on top and serve hot.
+
+You can find a detailed recipe [here](https://www.giallozafferano.com/recipes/Spaghetti-Amatriciana-Bacon-and-tomato-spaghetti.html).
