@@ -93,7 +93,6 @@ ul li a:hover {
 }
 
 /* Text alignment*/
-.content p,
 .content li,
 .content blockquote {
   text-align: justify;
