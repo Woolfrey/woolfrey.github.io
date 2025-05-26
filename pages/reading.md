@@ -6,7 +6,7 @@ permalink: /reading/
 
 People often ask me what kind of books they should read. The answer is: anything that interests you! But otherwise, here is a list of books I have read that I find compelling in some way.
 
-☝️ **NOTE:** If you work with data of any kind, I _highly_ reccomend the following (all by Edward Tufte):
+☝️ If you work with data of any kind, I _highly_ reccomend the following (all by Edward Tufte):
 1. The Visual Display of Quantitative Information
 2. Envisioning Information
 3. Visual Explanations
