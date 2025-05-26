@@ -5,18 +5,17 @@ permalink: /cv/
 ---
 <a id="top"></a>
 
-#### 👤 Summary
-I am a researcher and engineer with a proven track record in leading high-impact, multidisciplinary projects across academia and industry. My background spans hands-on engineering, academic research, and project leadership — combining practical trade experience with advanced expertise in control systems, mechanical design, and statistical optimisation. I hold Lean Six Sigma Black Belt certification and have delivered engineering solutions that saved over AUD $1.1 million in maintenance costs at Sydney Trains. In academia, I’ve secured over £20,000 in international research funding and have initiated multiple international collaborations. I’ve directed research teams and guided the development of real-time control platforms for complex robotic systems. I take pride in uniting deep technical know-how with strategic planning, stakeholder engagement, and team leadership.
+_I am a researcher and engineer with a proven track record in leading high-impact, multidisciplinary projects across academia and industry. My background spans hands-on engineering, academic research, and project leadership — combining practical trade experience with advanced expertise in control systems, mechanical design, and statistical optimisation. I hold Lean Six Sigma Black Belt certification and have delivered engineering solutions that saved over AUD $1.1 million in maintenance costs at Sydney Trains. In academia, I’ve secured over £20,000 in international research funding and have initiated multiple international collaborations. I’ve directed research teams and guided the development of real-time control platforms for complex robotic systems. I take pride in uniting deep technical know-how with strategic planning, stakeholder engagement, and team leadership._
 
 #### 🧭 Navigation
 - [Skills](#skills)
 - [Work](#work)
 - [Education](#education)
 - [Other Qualifications](#other)
-- [Publications](#publications)
+- [Publications](/publications/)
 
 <a id="skills"></a>
-## 🎯 Skills
+## Skills
 
 #### Technical:
 - Mathematical optimisation
@@ -42,10 +41,12 @@ I am a researcher and engineer with a proven track record in leading high-impact
 - 🇬🇧 English (native)
 - 🇮🇹 Italian (beginner)
 
+<br>
+
 [⬆️ Back to top.](#top)
 
 <a id="work"></a>
-## 🛠️ Work
+## Work
 
 | Year(s) | Role |
 |---------|------|
@@ -66,7 +67,7 @@ I am a researcher and engineer with a proven track record in leading high-impact
 [⬆️ Back to top.](#top)
 
 <a id="education"></a>
-## 🎓 Education
+## Education
 
 | Year(s)     | Qualification |
 |-------------|--------------|
@@ -78,7 +79,7 @@ I am a researcher and engineer with a proven track record in leading high-impact
 [⬆️ Back to top.](#top)
 
 <a id="other"></a>
-## 📜 Other Qualifications
+## Other Qualifications
 
 | Year | Qualification |
 |------|---------------|
@@ -92,6 +93,6 @@ I am a researcher and engineer with a proven track record in leading high-impact
 [⬆️ Back to top.](#top)
 
 <a id="publications"></a>
-## 📖 Publications
+## Publications
 
 ⬅️ Click the link on the sidebar, or click [here](/publications/).
