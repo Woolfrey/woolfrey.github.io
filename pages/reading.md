@@ -3,6 +3,7 @@ layout: page
 title: "Recommended Reading"
 permalink: /reading/
 ---
+<a id="top"></a>
 
 People often ask me what kind of books they should read. The answer is: anything that interests you! But otherwise, here is a list of books I have read that I find compelling in some way.
 
@@ -54,3 +55,5 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/visual_explanations.jpg" width="100" height="auto" loading="lazy"> | Visual Explanations | Edward Tufte | statistics, graphics, charts, diagrams |
 |<img src="../assets/images/book_covers/world_beyond_your_head.jpg" width="100" height="auto" loading="lazy"> | World Beyond Your Head, The | Matthew Crawford | philosophy, wellbeing, perception |
 |<img src="../assets/images/book_covers/zen_motorcycle.jpg" width="100" height="auto" loading="lazy"> | Zen and the Art of Motorcycle Maintenance | Robert Pirsig | philosophy |
+
+[⬆️ Back to top.](#top)
