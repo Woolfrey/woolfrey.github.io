@@ -3,6 +3,7 @@ layout: page
 title: "About Me"
 permalink: /about/
 ---
+<a name="top"></a>
 
 My name is Jon. I have an affinity for solving complex problems. I'm a mechanic by trade , have a PhD in robotics , and am a [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) Black Belt. I'm also interested in topics such as design, philosophy, classical mechanics, (applied) mathematics, and science. My interests are diverse, but I think the common theme is my aptitude for raciocination (logical thinking), and spatial reasoning.
 
@@ -16,10 +17,15 @@ I also like:
 
 I've also taken a liking to cooking in the past few years.
 
-> 💡 **Note:** You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar. ⬅️
+_💡 **Note:** You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar. ⬅️_
 
+#### 🧭 Navigation:
+- [A Bit of History](#history)
+- [Places I've Lived](#places)
+- [My Favourite Recipe](#recipe)
 
-### ⏳ A Bit of History
+<a name="history"></a>
+## A Bit of History
 
 I went to high school at St Mary's Cathedral College, Sydney (Australia) from 2000 to 2005. From 2001 onwards I chose Visual Arts as an elective. It was my favourite subject (and still is!). I also did Extension 1 English, and loved studying classic literature such Bram Stoker's _Dracula_, and Mary Shelley's _Frankenstein_ (hence my passion for reading). I also did Extension 1 Maths, though I didn't enjoy it so much.
 
@@ -31,7 +37,10 @@ Simultaneously, whilst doing my bachelor's degree, I received a scholarship to w
 
  I am currently with the [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds. I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
 
-### 🗺️ Places I've Lived
+[⬆️ Back to top.](#top)
+
+<a name="places"></a>
+## Places I've Lived
 
 I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 
@@ -63,7 +72,10 @@ I am now currently living in Leeds, England. The weather isn't as nice :cold_fac
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
 
-### 🥘 My Favourite Recipe: Pasta all'Amatriciana
+[⬆️ Back to top.](#top)
+
+<a name="recipe"></a>
+## My Favourite Recipe: Pasta all'Amatriciana
 
 <p align="center">
     <img src="/assets/images/amatriciana.png" width="400" height="auto"/>
@@ -74,7 +86,7 @@ I am now currently living in Leeds, England. The weather isn't as nice :cold_fac
 ⏲️ **Total time:** 30 minutes  
 🍽️ **Servings:** 4
 
-### 🛒 Ingredients:
+#### 🛒 Ingredients:
 - 400 g spaghetti  
 - 150 g guanciale (or pancetta)  
 - 400 g canned peeled tomatoes  
@@ -84,7 +96,7 @@ I am now currently living in Leeds, England. The weather isn't as nice :cold_fac
 - 50 ml dry white wine 🍷 (e.g., Pinot Grigio)  
 - Salt to taste  
 
-### 🍳 Instructions:
+#### 🍳 Instructions:
 1. **Prepare the sauce:** Dice the guanciale and brown it in a pan with olive oil. Optionally add chili pepper.  
 2. **Deglaze:** Add the white wine 🍷 and let it evaporate for 1–2 minutes.  
 3. **Add tomatoes:** Crush peeled tomatoes by hand and add to the pan. Simmer for 15–20 minutes.  
@@ -93,3 +105,5 @@ I am now currently living in Leeds, England. The weather isn't as nice :cold_fac
 6. **Serve:** Sprinkle extra Pecorino on top and serve hot.
 
 You can find a detailed recipe [here](https://www.giallozafferano.com/recipes/Spaghetti-Amatriciana-Bacon-and-tomato-spaghetti.html).
+
+[⬆️ Back to top.](#top)
