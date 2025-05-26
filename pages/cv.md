@@ -4,17 +4,17 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-#### :bust_in_silhouette: Summary
+#### 👤 Summary
 I am a researcher and engineer with a proven track record in leading high-impact, multidisciplinary projects across academia and industry. My background spans hands-on engineering, academic research, and project leadership — combining practical trade experience with advanced expertise in control systems, mechanical design, and statistical optimisation. I hold Lean Six Sigma Black Belt certification and have delivered engineering solutions that saved over AUD $1.1 million in maintenance costs at Sydney Trains. In academia, I’ve secured over £20,000 in international research funding and have initiated multiple international collaborations. I’ve directed research teams and guided the development of real-time control platforms for complex robotic systems. I take pride in uniting deep technical know-how with strategic planning, stakeholder engagement, and team leadership.
 
-#### :compass: Navigation
+#### 🧭 Navigation
 - [Skills](#dart-skills)
 - [Work](#hammer_and_wrench-work)
 - [Education](#mortar_board-education)
 - [Other Qualifications](#scroll-other-qualifications)
 - [Publications](#book-publications)
 
-## :dart: Skills
+## 🎯 Skills
 
 ### Technical:
 - Mathematical optimisation
@@ -42,7 +42,7 @@ I am a researcher and engineer with a proven track record in leading high-impact
 
 [⬆️ Back to top.](#top)
 
-## :hammer_and_wrench: Work
+## 🛠️ Work
 
 | Year(s) | Role |
 |---------|------|
@@ -63,7 +63,7 @@ I am a researcher and engineer with a proven track record in leading high-impact
 
 [⬆️ Back to top.](#top)
 
-## :mortar_board: Education
+## 🎓 Education
 
 | Year(s)     | Qualification |
 |-------------|--------------|
@@ -74,7 +74,7 @@ I am a researcher and engineer with a proven track record in leading high-impact
 
 [⬆️ Back to top.](#top)
 
-## :scroll: Other Qualifications
+## 📜 Other Qualifications
 
 | Year | Qualification |
 |------|---------------|
@@ -87,6 +87,6 @@ I am a researcher and engineer with a proven track record in leading high-impact
 
 [⬆️ Back to top.](#top)
 
-## :book: Publications
+## 📖 Publications
 
 ⬅️ Click the link on the sidebar, or click [here](/publications/).
