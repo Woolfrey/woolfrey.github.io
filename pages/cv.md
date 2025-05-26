@@ -20,9 +20,9 @@ I am a researcher and engineer with a proven track record in leading high-impact
 #### Technical:
 - Mathematical optimisation
 - Statistics
-    – Regression
-    – Hypothesis testing
-    – Design of experiments
+   - Regression
+   - Hypothesis testing
+   - Design of experiments
 - Classical mechanics
 - Robot control
 - Mechanical design
@@ -40,8 +40,6 @@ I am a researcher and engineer with a proven track record in leading high-impact
 #### Spoken Languages:
 - 🇬🇧 English (native)
 - 🇮🇹 Italian (beginner)
-
-<br>
 
 [⬆️ Back to top.](#top)
 
