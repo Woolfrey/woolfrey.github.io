@@ -18,7 +18,7 @@ People often ask me what kind of books they should read. The answer is: anything
 |-|-------|--------|------------|
 |<img src="../assets/images/book_covers/action_in_perception.jpg" width="100" height="auto" loading="lazy"/> | Action in Perception | Alva Noe | perception, philosophy |
 |<img src="../assets/images/book_covers/bad_science.jpg" width="100" height="auto" loading="lazy"> | Bad Science | Ben Goldacre | science, statistics, medicine |
-|<img src="../assets/images/book_covers/beautiful_evidence.jpg" width="100" height="auto" loading="lazy"> | Beautiful Evidence | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="../assets/images/book_covers/beautiful_evidence.jpeg" width="100" height="auto" loading="lazy"> | Beautiful Evidence | Edward Tufte | statistics, graphics, charts, diagrams |
 |<img src="../assets/images/book_covers/biomimicry.jpg" width="100" height="auto" loading="lazy"> | Biomimicry : Innovation Inspired by Nature | Janine Benyus | design, problem solving, systems thinking |
 |<img src="../assets/images/book_covers/book_of_why.jpg" width="100" height="auto" loading="lazy">| Book of Why, The | Judea Pearl | statistics, computer science, A.I. |
 |<img src="../assets/images/book_covers/brutal_simplicty_of_thought.jpg" width="100" height="auto" loading="lazy"> | Brutal Simplicity of Thought | Lord Saatchi | philosophy? |
