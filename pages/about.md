@@ -17,9 +17,11 @@ I also like:
 
 I've also taken a liking to cooking in the past few years.
 
-_💡 **Note:** You can get more details on my work experience & education [here](/cv/), or by clicking the link on the sidebar. ⬅️_
+👈 _You can find more details on my work experience & education in the side bar, or by clicking [here](/cv/)_.
 
-#### 🧭 Navigation:
+👈 _You can find some examples of the projects of worked on, management & planning skills, and some cool robot demonstrations on the side too, or [here](/projects/)_.
+
+### 🧭 Navigation:
 - [A Bit of History](#history)
 - [Places I've Lived](#places)
 - [My Favourite Recipe](#recipe)
@@ -45,7 +47,7 @@ Simultaneously, whilst doing my bachelor's degree, I received a scholarship to w
 I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 
 <p align="center">
-    <img src="/assets/images/sydney.jpg" width="400" height="auto"/>
+    <img src="../assets/images/misc/sydney.jpg" width="400" height="auto"/>
     <br>
     <em> A view of Sydney I took from the Australian Museum in January 2024. </em>
     <br>
@@ -57,7 +59,7 @@ I'm originally from Sydney, Australia. I lived there until I was 34 years old.
 Due to the COVID lockdowns and border closures, the Australian universities lost revenue. My contract as a research associate / post doc was not renewed. I had 2 choices: change careers, or find a job abroad. I was fortunate to receive an offer at the _Istituto Italiano di Tecnologia_, in Genova, Italy. I lived there for about 2.5 years, and is still my favourite place.
 
 <p align="center">
-    <img src="/assets/images/genova.jpg" width="400" height="auto"/>
+    <img src="../assets/images/misc/genova.jpg" width="400" height="auto"/>
     <br>
     <em> A photo of Genova, Italy I took from the lookout at Castelletto in September 2021. </em>
 </p>
@@ -67,7 +69,7 @@ Due to the COVID lockdowns and border closures, the Australian universities lost
 I am now currently living in Leeds, England. The weather isn't as nice 🥶, but the Yorkshire countryside is stunning in Spring and Summer.
 
 <p align="center">
-    <img src="/assets/images/saltaire.png" height="400" width="auto"/>
+    <img src="../assets/images/misc/saltaire.png" height="400" width="auto"/>
     <br>
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
@@ -78,7 +80,7 @@ I am now currently living in Leeds, England. The weather isn't as nice 🥶, but
 ## My Favourite Recipe: Pasta all'Amatriciana
 
 <p align="center">
-    <img src="/assets/images/amatriciana.png" width="400" height="auto"/>
+    <img src="../assets/images/misc/amatriciana.png" width="400" height="auto"/>
     <br>
     <em> A bowl of penne all'amatriciana that I made. </em>
 </p>

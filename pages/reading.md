@@ -7,10 +7,10 @@ permalink: /reading/
 
 People often ask me what kind of books they should read. The answer is: anything that interests you! But otherwise, here is a list of books I have read that I find compelling in some way.
 
-☝️ If you work with data of any kind, I _highly_ reccomend the following (all by Edward Tufte):
-1. The Visual Display of Quantitative Information
-2. Envisioning Information
-3. Visual Explanations
+>❗ _If you work with data of any kind, I highly recommend the following (all by Edward Tufte)_:
+> 1. _The Visual Display of Quantitative Information_
+> 2. _Envisioning Information_
+> 3. _Visual Explanations_
 
 <br>
 
@@ -29,6 +29,7 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/design_of_everyday_things.jpg" width="100" height="auto" loading="lazy"> | Design of Everyday Things, The | Don Norman | design, psychology, human error |
 |<img src="../assets/images/book_covers/end_of_science.jpg" width="100" height="auto" loading="lazy">| End of Science, The | John Horgan | science |
 |<img src="../assets/images/book_covers/envisioning_information.jpg" width="100" height="auto" loading="lazy">| Envisioning Information | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="../assets/images/book_covers/farewell_to_reason.jpeg" width="100" height="auto" loading="lazy"> | Farewell to Reason | Paul Feyerabend | philosophy, science |
 |<img src="../assets/images/book_covers/human_error.jpg" width="100" height="auto" loading="lazy"> | Human Error | James Reason | human error, psychology, management |
 |<img src="../assets/images/book_covers/i_think_youll_find.jpg" width="100" height="auto" loading="lazy"> | I Think You'll Find It's a Bit More Complicated Than That | Ben Goldacre | science, statistics, medicine |
 |<img src="../assets/images/book_covers/lateral_thinking.jpg" width="100" height="auto" loading="lazy"> | Lateral Thinking | Edward de Bono | creativity, problem solving |
