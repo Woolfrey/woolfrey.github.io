@@ -69,23 +69,50 @@ ol, ul {
 }
 
 /*****************************************
- * Lists
+ * Lists - tiered styling
  *****************************************/
+
+/* Base padding for all lists */
 ol, ul {
   padding-left: 1em;
+  margin-bottom: 1em; /* add spacing below lists */
 }
 
+/* Unordered lists - tiered bullets */
 ul {
-  list-style: disc;
+  list-style-type: disc;  /* 1st level */
 }
 
+ul ul {
+  list-style-type: circle;  /* 2nd level */
+  padding-left: 1.5em;
+}
+
+ul ul ul {
+  list-style-type: square;  /* 3rd level */
+  padding-left: 2em;
+}
+
+/* Ordered lists - tiered numbering */
 ol {
-  list-style: decimal;
+  list-style-type: decimal;  /* 1st level */
 }
 
-ul li, ol li {
-  margin-bottom: 5px;
+ol ol {
+  list-style-type: lower-alpha;  /* 2nd level */
+  padding-left: 1.5em;
 }
+
+ol ol ol {
+  list-style-type: lower-roman;  /* 3rd level */
+  padding-left: 2em;
+}
+
+/* Margin below list items for readability */
+ul li, ol li {
+  margin-bottom: 0.5em;
+}
+
 
 /*****************************************
  * Blockquotes
