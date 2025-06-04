@@ -17,9 +17,9 @@ I also like:
 
 I've also taken a liking to cooking in the past few years.
 
-👈 _You can find more details on my work experience & education in the side bar, or by clicking [here](/cv/)_.
+> You can find more details on my work experience & education on the left. 👈
 
-👈 _You can find some examples of the projects of worked on, management & planning skills, and some cool robot demonstrations on the side too, or [here](/projects/)_.
+> You can find examples of the projects I've worked on, and evidence of my skills in project management, planning, and robot control on the left, too. 👈
 
 ### 🧭 Navigation:
 - [A Bit of History](#history)
