@@ -7,7 +7,7 @@ permalink: /cv/
 
 I am an engineer & researcher with a proven track record in leading high-impact, multidisciplinary projects across academia and industry. My background spans hands-on engineering, academic research, and project leadership — combining practical trade experience with advanced expertise in control systems, mechanical design, and statistical optimisation. I hold Lean Six Sigma Black Belt certification and have delivered engineering solutions that saved over AUD $1.1 million in maintenance costs at Sydney Trains. In academia, I’ve secured over £20,000 in international research funding and have initiated multiple international collaborations. I’ve led research teams and guided the development of real-time control platforms for complex robotic systems. I take pride in uniting deep technical know-how with strategic planning, stakeholder engagement, and team leadership.
 
-👈 You can see some examples of the work I've done in the projects link on the side, or just click [here](/projects/)
+> 👈 You can see some examples of the work I've done in the projects link on the side, or just click [here](/projects/)
 
 ### 🧭 Navigation
 - [Skills](#skills)
