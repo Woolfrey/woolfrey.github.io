@@ -203,6 +203,10 @@ th, td {
   text-decoration: underline;
 }
 
+.sidebar-submenu a {
+  font-size: 0.9rem;
+}
+
 /*****************************************
  * Sidebar Info Box
  *****************************************/
