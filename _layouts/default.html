@@ -38,11 +38,8 @@
           <a href="{{ site.sidebar_info.github }}" target="_blank" class="icon-link"><i class="fab fa-github"></i> GitHub</a>
         </p>
       </div>
-      <ul>
-        {% for link in site.sidebar %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
+
+      {% include sidebar.html %}
     </div>
     <div class="content">
       {{ content }}
