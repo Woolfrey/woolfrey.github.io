@@ -206,8 +206,7 @@ When I started my PhD in 2015, I worked on the [Submerged Pile Inspection Robot 
   <img src="../assets/images/projects/spir.png" width="400" height="auto" loading="lazy"/>
   <br>
   <em> The third prototype of the Submerged Pile Inspection Robot (SPIR). </em>
-<p>
-
+</p>
 
 <a name="spir-workshop"></a>
 ### Engineering Design Workshop
@@ -422,9 +421,9 @@ One of the primary tasks was to determine the engineering specifications. For th
 4. A unit of measurement (optional).
 
 <p align="center">
-  <img src="../assets/images/projects/terabotics_ctq_photo.jpg" width="auto" height="200" loading="lazy"/>
+  <img src="../assets/images/projects/terabotics_ctq_photo.jpg" width="400" height="auto" loading="lazy"/>
   <br>
-  <img src="../assets/images/projects/teratobtics_ctq_diagram.png" width="auto" height="200" loading="lazy">
+  <img src="../assets/images/projects/teratobtics_ctq_diagram.png" width="400" height="auto" loading="lazy">
   <br>
   <em> The initial critical-to-quality tree which elucidated all the engineering specifications for a successful, functional prototype. </em>
 </p>
