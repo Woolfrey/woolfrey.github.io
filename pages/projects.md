@@ -319,10 +319,10 @@ Given that we were short for time, we used this matrix to evaluate their relativ
 <p align="center">
   <img src="../assets/images/projects/ergocub_prioritization_matrix_photo.png" width="400" height="auto" loading="lazy"/>
   <br>
-  <em> Text </em>
+  <em>  The prioritization matrix rates the relative importance between individual tasks to reveal the overall priorities.</em>
 </p>
 
-Below is a table showing the score for each of the major tasks. The team (implicitly) determined that having code that works across multiple robot models was most important. This is because there is limited version of each robot, and we frequently had to do demonstrations and testing on different hardware.
+Below is a table showing the score for each of the major tasks. The team (implicitly) determined that having code that works across multiple robot models & simulation was most important. This is because there is limited version of each robot, and we frequently had to do demonstrations and testing on different platforms.
 
 | Task                                             | Score (Rounded) |
 |--------------------------------------------------|-----------------|
@@ -359,9 +359,9 @@ We layed out the tasks in sequence, and determined the dependencies.
 A core part of my research at IIT on the ergoCub project was [developing a controller to manipulate an object with 2 hands](https://github.com/hsp-iit/ergocub-bimanual). To resolve this, I applied a Pfaffian constraint, that essentially tricked the robot in to thinking the 2 individual arms were part of a single closed chain. Then it was simply a matter of specifying the motion control for the grasped object, and the arm motion was automatically resolved. I used [my own convex optimisation algorithm](https://github.com/Woolfrey/software_simple_qp) to solve this in real time.
 
 <p align="center">
-  <img src="../assets/images/projects/ergocub_bimanual_real_translating.gif" width="150" height="auto" loading="lazy"/>
-  <img src="../assets/images/projects/ergocub_bimanual_sim_translating.gif" width="150" height="auto" loading="lazy"/>
-  <img src="../assets/images/projects/ergocub_bimanual_sim_rotating.gif" width="150" height="auto" loading="lazy"/>
+  <img src="../assets/images/projects/ergocub_bimanual_real_translating.gif" width="200" height="auto" loading="lazy"/>
+  <img src="../assets/images/projects/ergocub_bimanual_sim_translating.gif" width="200" height="auto" loading="lazy"/>
+  <img src="../assets/images/projects/ergocub_bimanual_sim_rotating.gif" width="200" height="auto" loading="lazy"/>
   <br>
   <em> A mathematical constraint is used to keep the hands of the robot together. </em>
 </p> 
@@ -374,6 +374,22 @@ Part of the project was collaborating with the Humanoid Sensing & Perception tea
 2. Responding to gestures such as waving, or a handshake,
 3. Recognising & following a box, and
 4. Recognising when a box is being offered, and grasping it with 2 hands.
+
+I programmed the upper-body control to enable quick implementation of different prescribed actions.
+
+<p align="center">
+  <img src="../assets/images/projects/ergocub_hri_wave.gif" width="400" height="auto" loading="lazy">
+  <br>
+  <em> The ergoCub follows the human face, and responds to a greeting. </em>
+  <br> <br>
+  <img src="../assets/images/projects/ergocub_hri_handover.gif" width="400" height="auto" loading="lazy">
+  <br>
+  <em> The ergoCub recognises a box and grasps it. </em>
+  <br> <br>
+    <img src="../assets/images/projects/ergocub_hri_shake.gif" width="400" height="auto" loading="lazy">
+  <br>
+  <em> The ergoCub recognises a handshake and offers its hand. </em>
+</p>
 
 
 [⬆️ Back to top](#top)
