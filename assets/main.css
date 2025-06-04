@@ -16,7 +16,6 @@
   OliveNight:   #535040;
 */
 
-
 /*****************************************
  * Base Layout
  *****************************************/
@@ -182,32 +181,6 @@ th, td {
 }
 
 /*****************************************
- * Sidebar Navigation Links
- *****************************************/
-.sidebar ul {
-  padding: 0;
-  list-style: none;
-}
-
-.sidebar ul li {
-  margin-bottom: 5px;
-}
-
-.sidebar ul li a {
-  color: var(--AntiqueWhite);
-  text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-  color: var(--SuperLemon);
-  text-decoration: underline;
-}
-
-.sidebar-submenu a {
-  font-size: 0.9rem;
-}
-
-/*****************************************
  * Sidebar Info Box
  *****************************************/
 .sidebar-info {
@@ -233,6 +206,45 @@ th, td {
 .sidebar-info .icon-link:hover {
   color: var(--SuperLemon);
   text-decoration: underline;
+}
+
+/*****************************************
+ * Sidebar Navigation Links
+ *****************************************/
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+  color: var(--AntiqueWhite);
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: var(--SuperLemon);
+  text-decoration: underline;
+}
+
+.sidebar-posts {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-top: 1px solid var(--AntiqueWhite);
+}
+
+.sidebar-posts > span {
+  color: var(--AntiqueWhite);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sidebar-submenu a {
+  font-size: 0.75rem;
 }
 
 /*****************************************
