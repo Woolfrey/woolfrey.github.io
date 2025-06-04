@@ -2,11 +2,20 @@
  * Root Theme Colors
  *****************************************/
 :root {
-  --DeepLake:   #00656B;
-  --GoldenRod:  #E2A829;
-  --Moth:       #D2CBAF;
-  --OliveNight: #535040;
+  --AntiqueWhite: #ede3d2;
+  --BlackOnyx:    #2c282c;
+  --CendreBlue:   #3E7FA5;
+  --DressBlues:   #2a3244;
+  --SuperLemon:   #e4bf45;
 }
+
+/* Old colour shceme:
+  DeepLake:     #00656B;
+  GoldenRod:    #E2A829;
+  Moth:         #D2CBAF;
+  OliveNight:   #535040;
+*/
+
 
 /*****************************************
  * Base Layout
@@ -34,13 +43,13 @@ body {
 .content a,
 .content a:visited,
 ul li a {
-  color: var(--DeepLake);
+  color: var(--DressBlues);
   text-decoration: none;
 }
 
 .content a:hover,
 ul li a:hover {
-  color: var(--GoldenRod);
+  color: var(--SuperLemon);
   text-decoration: underline;
 }
 
@@ -48,15 +57,15 @@ ul li a:hover {
  * Headings & Text
  *****************************************/
 h1 {
-  color: var(--OliveNight);
-  border-bottom: 1px solid var(--OliveNight);
+  color: var(--BlackOnyx);
+  border-bottom: 1px solid var(--BlackOnyx);
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
 h2, h3, h4, p,
 ol, ul {
-  color: var(--OliveNight);
+  color: var(--BlackOnyx);
 }
 
 /*****************************************
@@ -79,6 +88,16 @@ ul li, ol li {
 }
 
 /*****************************************
+ * Blockquotes
+ *****************************************/
+blockquote {
+  border-left: 4px solid var(--CendreBlue);
+  padding-left: 1em;
+  color: var(--DressBlues);
+  font-style: italic;
+}
+
+/*****************************************
  * Tables
  *****************************************/
 table {
@@ -87,16 +106,16 @@ table {
 }
 
 th, td {
-  border: 1px solid var(--Moth);
+  border: 1px solid var(--AntiqueWhite);
   padding: 8px;
-  color: var(--OliveNight);
+  color: var(--BlackOnyx);
 }
 
 /*****************************************
  * Site Title
  *****************************************/
 .site-title {
-  color: var(--Moth);
+  color: var(--AntiqueWhite);
   padding-bottom: 5px;
   margin-bottom: 5px;
   text-align: left;
@@ -109,7 +128,7 @@ th, td {
 .MathJax_SVG,
 .MathJax_HTML,
 .mathjax-color {
-  color: var(--OliveNight);
+  color: var(--BlackOnyx);
 }
 
 /*****************************************
@@ -117,7 +136,7 @@ th, td {
  *****************************************/
 .sidebar {
   width: 290px;
-  background-color: var(--DeepLake);
+  background-color: var(--DressBlues);
   padding: 5px;
 }
 
@@ -132,7 +151,7 @@ th, td {
 .sidebar h6, 
 .sidebar p, 
 .sidebar li {
-  color: var(--Moth);
+  color: var(--AntiqueWhite);
 }
 
 /*****************************************
@@ -148,12 +167,12 @@ th, td {
 }
 
 .sidebar ul li a {
-  color: var(--Moth);
+  color: var(--AntiqueWhite);
   text-decoration: none;
 }
 
 .sidebar ul li a:hover {
-  color: var(--GoldenRod);
+  color: var(--SuperLemon);
   text-decoration: underline;
 }
 
@@ -163,25 +182,25 @@ th, td {
 .sidebar-info {
   margin: 5px 0;
   padding: 5px 0;
-  border-top: 1px solid var(--Moth);
-  border-bottom: 1px solid var(--Moth);
+  border-top: 1px solid var(--AntiqueWhite);
+  border-bottom: 1px solid var(--AntiqueWhite);
 }
 
 .sidebar-info p {
-  color: var(--Moth);
+  color: var(--AntiqueWhite);
   margin: 5px 0;
   font-size: 0.9em;
 }
 
 .sidebar-info .icon-link {
-  color: var(--Moth);
+  color: var(--AntiqueWhite);
   text-decoration: none;
   display: inline-block;
   margin-right: 10px;
 }
 
 .sidebar-info .icon-link:hover {
-  color: var(--GoldenRod);
+  color: var(--SuperLemon);
   text-decoration: underline;
 }
 
