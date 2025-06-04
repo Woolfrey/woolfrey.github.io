@@ -96,7 +96,7 @@ The histograms below show the difference in performance between September & Octo
   <br>
   <img src="../assets/images/projects/inspections_t_test.png" width="400" height="auto" loading="lazy">
   <br>
-  <em> Histograms for the before-and-after process performance (left), and paired t-test showing statistically significant improvement (right). </em>
+  <em> Histograms for the before-and-after process performance (top), <br> and paired t-test showing statistically significant improvement (bottom). </em>
 </p>
 
 <a name="sydney-trains-pantographs"></a>
@@ -133,7 +133,8 @@ In hindsight, this highlighted the need to:
 #### Root Cause Analysis (Interrelationship Digraph)
 
 There are many interrelated factors contributing to carbon strip wear, so I applied this sophisticated tool to understand it. It maps out the causal relationship between all the potential factors. For example, a high contact force increases mechanical wear. This is illustrated as $\text{Contact force} \rightarrow \text{Mechanical wear}$. But conversely, a low contact force causes the pantograph to bounce which causes arcing $\text{Contact force} \rightarrow \text{Pan bounce} \rightarrow \text{Arcing}$.
-<p align="center"/>
+
+<p align="center">
   <img src="../assets/images/projects/pantographs_interrelationship_digraph.png" width="400" height="auto" loading="lazy"/>
   <br>
   <em> This interrelationship digraph (directed graph) shows the complex cause-and-effect of factors contributing to collector strip wear.</em>
@@ -174,18 +175,20 @@ The large variance in contact force had a silver lining; I was able to fit a reg
 </p>
 
 The neat thing about this equation was it was quadratic (i.e. a second-order polynomial):
+
 $$
-\begin{equation}
     w = 381.5 - 6.74f + 0.03032f^2
-\end{equation}
 $$
+
 This means I could use calculus to find the optimal contact force:
+
 $$
 \begin{align}
     \frac{d w}{d f} = 0.06064f - 6.74 &= 0 \\
                                           f^{\star} &= 111.14
 \end{align}
 $$
+
 The specification for the force given by rollingstock engineers was 90N. Based on empirical evidence, I calculated 111N. This was much closer to the 120N specified by the manufacturer, Brecknell Willis.
 
 This conforms with the interrelationship digraph; the low contact force was causing the pantograph to bounce, which caused arcing, and electrical wear. This is exactly what we observed from examining the collector strips.
@@ -297,6 +300,7 @@ I got our team together for a planning workshop to review the last demo's perfor
 #### Brainstorming & Affinity Diagrams
 
 The first part of the workshop was to do silent brainstorming around 3 questions:
+
 1. What did we do well?
 2. How might we improve?
 3. What can we do to impress people?
