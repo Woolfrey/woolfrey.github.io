@@ -1,10 +1,18 @@
-
 ---
 layout: post
 title: "Linear Feedback Control in 3 Easy Steps"
-date: 2025-06-03
+date: 2025-06-04
 categories: [feedback, control, robot]
 ---
+
+In this post I reveal my approach to solving (almost) all control problems. The first is to start from a physical principle. We are all bound by the laws of physics, so using physics principles to formulate control laws leads to elegant solutions. The second is a simple 3-step process to ensure stability of linear systems. I apply this to first order, and second order systems. At the end I show how it can be applied to robot arm control.
+
+### 🧭 Navigation
+- [Thinking Like a Physicist](#thinking-like-a-physicist)
+- [A 3-Step Process](#a-3-step-process)
+- [First Order Systems](#first-order-systems)
+- [Second Order Systems](#second-order-systems)
+- [A Real Control Problem?](#a-real-control-problem)
 
 ## Thinking Like a Physicist
 
@@ -14,7 +22,7 @@ There are many natural phenomena that exhibit stable behaviour. Or at the very l
 	<img src="../assets/images/posts/2025/cappucino.jpg" height="200" width="auto" loading="lazy"/>
 	<img src="../assets/images/posts/2025/exponential_cooling.png" height="200" width="auto" loading="lazy"/>
 	<br>
-	<em> The temperature of a cup of coffee will decay exponentially. <br> (That is actually a photo of a coffee I made when working as a barista in 2020!) </em>
+	<em> The temperature of a cup of coffee will decay exponentially toward the ambient temperature. <br> (That is actually a photo of a coffee I made when working as a barista in 2007!) </em>
 </p>
 
 The _rate of change_ in the temperature of the coffee $\frac{d\tau}{dt}= \dot{\tau}(t)$  (K/s) is proportional to the difference between its current temperature $\tau(t)$ (K) and  the ambient temperature $\tau_{amb.}$ (K):
@@ -23,7 +31,7 @@ $$
 $$
 where $k\in\mathbb{R}^+$ (1/s) is some (positive) constant.
 
-We know from studying [[Ordinary Differential Equations|differential equations]] that the solution for $\tau(t)$ is an exponential:
+This is an ordinary differential equation, so the solution for $\tau(t)$ is an exponential:
 $$
 \tau(t) = e^{-kt}\tau(0) + (1 - e^{-kt})\tau_{amb.} \tag{2}
 $$
@@ -47,7 +55,10 @@ The difference between the environment and the cup of coffee decays to zero over
 	<em> The difference in temperature asymptotically approaches zero. </em>
 </p>
 
+All autonomous systems are bound by the laws of physics. By framing control problems with respect to natural laws and observed phenomena, we not only obtain elegant solutions, but equations that are easy to interpret.
+
 ## A 3-Step Process
+
 
 As with the heat decay of coffee, the objective of control is to force the _difference_ between a desired system state and and the actual system state, i.e. the error, to exponentially decay. This can be solved using a straightforward 3-step process:
 
