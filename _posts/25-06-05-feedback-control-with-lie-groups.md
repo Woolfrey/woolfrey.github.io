@@ -14,7 +14,7 @@ categories: [feedback, control, robot, lie group]
 
 ## Linear Feedback Control
 
-In a [previous post](25-06-04-feedback-with-lie-groups.md) I discussed the problem of solving feedback control for a linear system using a 3-step process. Given the current position $\mathbf{x}\in\mathbb{R}^m$ and the desired position $\mathbf{x}_d\in\mathbb{R}^{m}$, we:
+In a [previous post](25-06-04-linear-feedback-control.md) I discussed the problem of solving feedback control for a linear system using a 3-step process. Given the current position $\mathbf{x}\in\mathbb{R}^m$ and the desired position $\mathbf{x}_d\in\mathbb{R}^{m}$, we:
 
 1. Denote the error from the desired position:
 
