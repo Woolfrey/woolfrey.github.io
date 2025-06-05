@@ -234,10 +234,11 @@ th, td {
   margin: 10px 0;
   padding: 5px 0;
   border-top: 1px solid var(--AntiqueWhite);
+  border-bottom: 1px solid var(--AntiqueWhite);
 }
 
-.sidebar-posts > span {
-  color: var(--AntiqueWhite);
+.sidebar .sidebar-posts > span {
+  color: var(--AntiqueWhite) !important;
   font-weight: bold;
   display: block;
   margin-bottom: 5px;
