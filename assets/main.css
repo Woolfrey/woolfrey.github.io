@@ -241,6 +241,7 @@ th, td {
   color: var(--AntiqueWhite) !important;
   font-weight: bold;
   display: block;
+  margin-bottom: 1px;
   margin-bottom: 5px;
 }
 
