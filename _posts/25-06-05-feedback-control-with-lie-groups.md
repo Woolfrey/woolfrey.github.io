@@ -16,19 +16,19 @@ categories: [feedback, control, robot, lie group]
 
 In a [previous post](/feedback/control/robot/2025/06/04/linear-feedback-control/) I discussed the problem of solving feedback control for a linear system using a 3-step process. Given the current position $\mathbf{x}\in\mathbb{R}^m$ and the desired position $\mathbf{x}_d\in\mathbb{R}^{m}$, we:
 
-1. Denote the error from the desired position:
+1 Denote the error from the desired position:
 
 $$
     \boldsymbol{\epsilon} = \mathbf{x}_d - \mathbf{x}. \tag{1}
 $$
 
-2. Evaluate the time derivative:
+2 Evaluate the time derivative:
 
 $$
     \dot{\boldsymbol{\epsilon}} = \dot{\mathbf{x}}_d - \dot{\mathbf{x}} \tag{2}
 $$
 
-3. Solve the input to force an exponential decay for the error:
+3 Solve the input to force an exponential decay for the error:
 
 $$
     \dot{\mathbf{x}} = \dot{\mathbf{x}}_d + \mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow~ \boldsymbol{\epsilon}(t) = e^{-\mathbf{K}t}\boldsymbol{\epsilon}_0. \tag{3}
