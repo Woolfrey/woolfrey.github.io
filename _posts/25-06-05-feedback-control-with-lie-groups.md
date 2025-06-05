@@ -155,8 +155,9 @@ $$
 $$
 
 Likewise, the rotation error will decay to the identity:
+
 $$
-\lim_{t\to\infty} \mathbf{E} = e^{-S\left(\mathbf{K}\boldsymbol{\epsilon}\right)t} = \mathbf{I}.
+\lim_{t\to\infty} \mathbf{E} = e^{-S\left(\mathbf{K}\boldsymbol{\epsilon}\right)t} = \mathbf{I}. \tag{15}
 $$
 
 Below is a simulation of the [ergoCub](https://ergocub.eu) where I used this principle to enable it to rotate an object when grasping with 2 hands.
