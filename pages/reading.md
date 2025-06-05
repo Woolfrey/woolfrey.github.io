@@ -24,9 +24,13 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/brutal_simplicty_of_thought.jpg" width="100" height="auto" loading="lazy"> | Brutal Simplicity of Thought | Lord Saatchi | philosophy? |
 |<img src="../assets/images/book_covers/case_for_working_with_your_hands.jpg" width="100" height="auto" loading="lazy"> | Case for Working With Your Hands, The | Matthew Crawford | philosophy, work, management, epsitemology |
 |<img src="../assets/images/book_covers/change_by_design.jpg" width="100" height="auto" loading="lazy"> | Change by Design | Tim Brown | design, problem solving, business |
+|<img src="../assets/images/book_covers/complete_cthulhu.jpg" width="100" height="auto" loading="lazy"> | Complete Cthulhu Mythos Tales, The | H.P. Lovecraft | horror, fiction |
+|<img src="../assets/images/book_covers/complete_tales_and_poems.jpg" width="100" height="auto" loading="lazy"> | Complete Tales and Poems of Edgar Allan Poe, The | Edgar Allan Poe | horror, fiction |
+|<img src="../assets/images/book_covers/count_of_monte_cristo.jpeg" width="100" height="auto" loading="lazy"> | Count of Monte Cristo, The | Alexandre Dumas | drama, fiction, revenge |
 |<img src="../assets/images/book_covers/data_analysis_for_politics_and_policy.jpg" width="100" height="auto" loading="lazy"> | Data Analysis for Politics & Policy | Edward Tufte | statistics, management |
 |<img src="../assets/images/book_covers/delft_design_guide.jpg" width="100" height="auto" loading="lazy"> | Delft Design Guide, The | TU Delft | design, problem solving, engineering |
 |<img src="../assets/images/book_covers/design_of_everyday_things.jpg" width="100" height="auto" loading="lazy"> | Design of Everyday Things, The | Don Norman | design, psychology, human error |
+|<img src="../assets/images/book_covers/dracula.jpeg" width="100" height="auto" loading="lazy"> | Dracula | Bram Stoker | horror, science, fiction |
 |<img src="../assets/images/book_covers/end_of_science.jpg" width="100" height="auto" loading="lazy">| End of Science, The | John Horgan | science |
 |<img src="../assets/images/book_covers/envisioning_information.jpg" width="100" height="auto" loading="lazy">| Envisioning Information | Edward Tufte | statistics, graphics, charts, diagrams |
 |<img src="../assets/images/book_covers/farewell_to_reason.jpeg" width="100" height="auto" loading="lazy"> | Farewell to Reason | Paul Feyerabend | philosophy, science |
@@ -54,6 +58,7 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/toyota_way.jpg" width="100" height="auto" loading="lazy"> | Toyota Way : 14 Management Principles from the World's Greatest Manufacturer, The | Jeffrey Liker | management, production, lean, business|
 |<img src="../assets/images/book_covers/visual_display.jpg" width="100" height="auto" loading="lazy"> | Visual Display of Quantitative Information, The | Edward Tufte | statistics, graphics, charts, diagrams |
 |<img src="../assets/images/book_covers/visual_explanations.jpg" width="100" height="auto" loading="lazy"> | Visual Explanations | Edward Tufte | statistics, graphics, charts, diagrams |
+|<img src="../assets/images/book_covers/wizard_of_oz.jpg" width="100" height="auto" loading="lazy"/> | Wizard of Oz, The | L. Frank Baum | fiction, fantasy |
 |<img src="../assets/images/book_covers/world_beyond_your_head.jpg" width="100" height="auto" loading="lazy"> | World Beyond Your Head, The | Matthew Crawford | philosophy, wellbeing, perception |
 |<img src="../assets/images/book_covers/zen_motorcycle.jpg" width="100" height="auto" loading="lazy"> | Zen and the Art of Motorcycle Maintenance | Robert Pirsig | philosophy |
 
