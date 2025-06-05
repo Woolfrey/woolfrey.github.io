@@ -92,13 +92,14 @@ where:
 - $\mathbf{u}\in\mathbb{R}^n$ is the control input.
 
 Suppose now we have a _desired_ state $\mathbf{x}_d,\dot{\mathbf{x}}_d\in\mathbb{R}^m$ (typically given by a trajectory), and we want to solve for the control input $\mathbf{u}$ such that $\mathbf{x}\to\mathbf{x}_d$ . Following the 3-step process we:
-1. Denote the error from the desired configuration:
+
+1 Denote the error from the desired configuration:
 
 $$
 \boldsymbol{\epsilon} = \mathbf{x}_d - \mathbf{x}. \tag{6}
 $$
 
-2. Evaluate the time derivative:
+2 Evaluate the time derivative:
 
 $$
 \begin{align}
@@ -115,7 +116,7 @@ $$
 
 where $\mathbf{K}\in\mathbb{R}^{m\times m}$ is a gain matrix. This will cause the error to decay to zero over time.
 
-3. Equate the relationship we desire, and solve for the control input $\mathbf{u}$:
+3 Equate the relationship we desire, and solve for the control input $\mathbf{u}$:
 
 $$
 \begin{align}
@@ -144,13 +145,13 @@ Equation (3d) is a scalar, so it's simple enough to determine that if the expone
 
 The dynamics of many systems is naturally expressed & controlled at the acceleration or force level. The process for solving feedback control for second order system is the same.
 
-1. Define the position error and take the time derivative to the acceleration level:
+1 Define the position error and take the time derivative to the acceleration level:
 
 $$
 \boldsymbol{\epsilon} = \mathbf{x}_d - \mathbf{x} \tag{11}
 $$
 
-2. Evaluate the time derivatives:
+2 Evaluate the time derivatives:
 
 $$
 \begin{align}
@@ -179,7 +180,7 @@ $$
 
 That is, we need to make the derivatives proportional to the anti-derivatives.
 
-3. If we choose:
+3 If we choose:
 
 $$
 \ddot{\boldsymbol{\epsilon}} = -\mathbf{D}\dot{\boldsymbol{\epsilon}} - \mathbf{K}\boldsymbol{\epsilon} \tag{14}
@@ -237,20 +238,21 @@ This is known as forward kinematics. That is, given some joint configuration $\m
 	<em> Forward kinematics is the method of computing the endpoint pose of a chain given the joint positions. </em>
 </p>
 
-We want the endpoint pose to converge on some desired value $\mathbf{x}_d$. To do this we follow the same 3 step process:
-1. Define the error:
+We want the endpoint pose to converge on some desired value $\mathbf{x}_d$. To do this we follow the same 3 step process.
+
+1 Define the error:
 
 $$
 	\boldsymbol{\epsilon} = \mathbf{x}_d - \mathbf{f}(\mathbf{q}). \tag{18}
 $$
 
-2. Differentiate with respect to time:
+2 Differentiate with respect to time:
 
 $$
 	\dot{\boldsymbol{\epsilon}} = \dot{\mathbf{x}}_d - \underbrace{\left(\partial\mathbf{f}/\partial\mathbf{q}\right)}_{\mathbf{J}(\mathbf{q})}\dot{\mathbf{q}}. \tag{19}
 $$
 
-3. Equate the error and solve for the joint velocity $\mathbf{\dot{q}}$:
+3 Equate the error and solve for the joint velocity $\mathbf{\dot{q}}$:
 
 $$
 \begin{align}
