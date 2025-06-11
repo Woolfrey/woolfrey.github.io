@@ -46,7 +46,7 @@ Given an arbitrary rotation matrix $\mathbf{R}\in\mathbb{SO}(3)$ we may be inter
 
 [⬆️ Back to top.](#top)
 
-## Time Derivative \& Exponential
+## Time Derivative & Exponential
 
 If we take the time derivative of  Eqn. (1), and assuming $\dot{\mathbf{v}} = \mathbf{0}$, then we arrive at:
 
@@ -215,7 +215,7 @@ $$
 
 where  $\mathbf{K}\in\mathbb{R}^{3\times 3}$ is a positive-definite gain matrix.\footnote{An easy choice here is a diagonal matrix with positive values.} The desired angular velocity $\boldsymbol{\omega}_d$ becomes a feed-forward term, whereas $\mathbf{K}\boldsymbol{\epsilon}$ is a proportional feedback on the orientation error. In such cases where $\boldsymbol{\omega}_d$ is unavailable, then $\boldsymbol{\omega} = \mathbf{K}\boldsymbol{\epsilon}$ is sufficient.
 
-If we substitute Eqn. (\ref{eq:angular_velocity_control}) in to Eqn. (\ref{eq:rotation_error_derivative}) we obtain:
+If we substitute Eqn. (21) in to Eqn. (20) we obtain:
 
 $$
     \dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} ~\Longrightarrow \boldsymbol{\epsilon}(t) = e^{-\mathbf{K}t}\boldsymbol{\epsilon}(0). \tag{22}
@@ -226,7 +226,7 @@ This form implies exponential decay. As the error angle approaches zero $\boldsy
 Below is a video of the [ergoCub robot](https://ergocub.eu) rotating an object using the [bimanual manipulation library](https://github.com/hsp-iit/ergocub-bimanual) that I wrote whilst working as a Postdoc at the Italian Institute of Technology. It uses this exact method for orientation feedback control.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/ergocub_rotating.gif" width="500" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ergocub_rotating.gif" width="300" height="auto" loading="lazy"/>
     <br>
     <em> The ergoCub is able to rotate an object with 2 hands using the angle-axis representation for orientation control. </em>
 </p>
