@@ -22,7 +22,7 @@ Euler's rotation theorem states that any change in orientation of a rigid body c
 - About an axis $\hat{\mathbf{a}}\in\mathbb{R}^3$
 where $\hat{\mathbf{a}}$ is a unit vector such that $\|\hat{\mathbf{a}}\|^2 = \hat{\mathbf{a}}^T\hat{\mathbf{a}} = 1$.
 
-So the 3 combined rotations can be to a single rotation about a single axis.
+The 3 combined rotations in the illustration below can be reduced to a single rotation about a single axis:
 
 <p align="center">
     <img src="/assets/images/posts/2025/angle_axis_rotation.png" width="700" height="auto" loading="lazy"/>
