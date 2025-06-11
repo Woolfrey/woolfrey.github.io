@@ -7,6 +7,8 @@ categories: [feedback, control, robot]
 
 > In this post I reveal my approach to solving (almost) all control problems. The first is to start from a physical principle. We are all bound by the laws of physics, so using physics principles to formulate control laws leads to elegant solutions. The second is a simple 3-step process to ensure stability of linear systems. I apply this to first order, and second order systems. At the end I show how it can be applied to robot arm control.
 
+[📄 Download a PDF version.](/assets/docs/posts/2025/Linear_Feedback_Control_in_3_Easy_Steps.pdf)
+
 ### 🧭 Navigation
 - [Thinking Like a Physicist](#thinking-like-a-physicist)
 - [A 3-Step Process](#a-3-step-process)
@@ -17,13 +19,13 @@ categories: [feedback, control, robot]
 
 ## Thinking Like a Physicist
 
-There are many natural phenomena that exhibit stable behaviour. Or at the very least, their system dynamics remain consistent over time. For example, the temperature of a hot cup of coffee will eventually cool until it equalises around room temperature:
+There are many natural phenomena that exhibit stable behaviour. Or at the very least, their dynamic behaviour remains consistent over time. For example, the temperature of a hot cup of coffee will eventually cool until it equalises around room temperature:
 
 <p align="center">
 	<img src="/assets/images/posts/2025/cappucino.jpg" height="200" width="auto" loading="lazy"/>
 	<img src="/assets/images/posts/2025/exponential_cooling.png" height="200" width="auto" loading="lazy"/>
 	<br>
-	<em> The temperature of a cup of coffee will decay exponentially toward the ambient temperature. <br> (That is actually a photo of a coffee I made when working as a barista in 2007!) </em>
+	<em> The temperature of a cup of coffee will decay exponentially toward the ambient temperature. (That is actually a photo of a coffee I made when working as a barista in 2007!) </em>
 </p>
 
 The _rate of change_ in the temperature of the coffee $\frac{d\tau}{dt}= \dot{\tau}(t)$  (K/s) is proportional to the difference between its current temperature $\tau(t)$ (K) and  the ambient temperature $\tau_{amb.}$ (K):
@@ -41,6 +43,7 @@ $$
 $$
 
 Equation (2) s a little cumbersome. Let's instead consider the _difference_ between the ambient temperature and that of the coffee:
+
 $$
 \begin{align}
 	\epsilon(t) &= \tau_{amb.} - \tau(t)  \tag{3a}\\
@@ -65,6 +68,8 @@ The difference between the environment and the cup of coffee decays to zero over
 
 All autonomous systems are bound by the laws of physics. By framing control problems with respect to natural laws and observed phenomena, we not only obtain elegant solutions, but equations that are easy to interpret.
 
+[⬆️ Back to top.](#top)
+
 ## A 3-Step Process
 
 
@@ -75,6 +80,8 @@ As with the heat decay of coffee, the objective of control is to force the _diff
 3. Design the control input to force the errors to decay: $\dot{\boldsymbol{\epsilon}} = -\mathbf{K}\boldsymbol{\epsilon} \Longrightarrow \boldsymbol{\epsilon} = e^{-\mathbf{K}t}\boldsymbol{\epsilon}_0$
 
 The most complicated step is the 3rd, as the form of the control equation depends on the structure of the system.
+
+[⬆️ Back to top.](#top)
 
 ## First Order Systems
 
@@ -139,13 +146,15 @@ $$
 
 is the (pseudo)inverse of $\mathbf{B}$.
 
-Equation (3d) is a scalar, so it's simple enough to determine that if the exponent is negative, the system will decay (i.e. stable). If it is positive, then it will grow (unstable). However, Eqn. (8) is a _matrix_ exponential. The system is stable if the matrix $\mathbf{K}$ has _positive_ eigenvalues (such that $-\mathbf{K}$ has _negative_ eigenvalues). Why? That's beyond the scope of this article...!
+Equation (3d) is a scalar, so if the exponent is negative, the system will decay (i.e. stable). If it is positive, then it will grow (unstable). However, Eqn. (8) is a _matrix_ exponential. The system is stable if the matrix $\mathbf{K}$ has _positive_ eigenvalues (such that $-\mathbf{K}$ has _negative_ eigenvalues). Why? That's beyond the scope of this article...!
+
+[⬆️ Back to top.](#top)
 
 ##  Second-Order Systems
 
 The dynamics of many systems is naturally expressed & controlled at the acceleration or force level. The process for solving feedback control for second order system is the same.
 
-1 Define the position error and take the time derivative to the acceleration level:
+1 Define the position error:
 
 $$
 \boldsymbol{\epsilon} = \mathbf{x}_d - \mathbf{x} \tag{11}
@@ -221,6 +230,7 @@ Note the contribution of the 3 terms to the overall control equation:
 2. Velocity error feedback $\mathbf{D}\dot{\boldsymbol{\epsilon}}$, and
 3. Position error feedback $\mathbf{K}\boldsymbol{\epsilon}$.
 
+[⬆️ Back to top.](#top)
 
 ## A Real Control Problem?
 
@@ -251,6 +261,7 @@ $$
 $$
 	\dot{\boldsymbol{\epsilon}} = \dot{\mathbf{x}}_d - \underbrace{\left(\partial\mathbf{f}/\partial\mathbf{q}\right)}_{\mathbf{J}(\mathbf{q})}\dot{\mathbf{q}}. \tag{19}
 $$
+The Jacobian $\mathbf{J}(\mathbf{q})$ can be evaluated numerically from the forward kinematics[^2]
 
 3 Equate the error and solve for the joint velocity $\mathbf{\dot{q}}$:
 
@@ -274,6 +285,11 @@ We can use this method to make the robot follow a trajectory in Cartesian space.
 
 The code for the animation is implemented using my ROS2 velocity control action server, which you can find [here](https://github.com/woolfrey/control_kuka_velocity).
 
+[⬆️ Back to top.](#top)
+
 ### References
 
 [^1]: Whitney, D. E. (1969). _Resolved motion rate control of manipulators and human prostheses_. IEEE Transactions on man-machine systems, 10(2), 47-53.
+
+[^2]: Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
+s

@@ -7,6 +7,8 @@ categories: [feedback, control, robot, lie group]
 
 > In this post I extend the concept of linear feedback control for scalars and vectors in to the realm of Lie groups. Lie groups are mathematical objects with generalised properties for combining, inverting, and computing "differences". They are used to represent orientation in 3D space in robotics and animation. By understanding their properties we can apply the same logic as linear systems and solve more sophisticated, nonlinear control problems.
 
+[📄 Download a PDF version.](/assets/docs/posts/2025/Feedback_Control_With_Lie_Groups.pdf)
+
 ### 🧭 Navigation
 - [Linear Feedback Control](#linear-feedback-control)
 - [Lie Groups](#lie-groups)
@@ -64,6 +66,8 @@ $$
 
 So we **cannot** add or subtract these matrices $\mathbf{R}_d - \mathbf{R}$ without violating these properties.
 
+[⬆️ Back to top.](#top)
+
 ## Lie Groups
 
 Lie groups are mathematical structures that satisfy 4 properties:
@@ -86,6 +90,8 @@ The closure and inverse property were applied to define the position error, Eq. 
 $$
 	\mathbf{x}_d = \mathbf{x} ~\Longrightarrow~ \mathbf{x}_d - \mathbf{x} = \mathbf{0}. \tag{7}
 $$
+
+[⬆️ Back to top.](#top)
 
 ## Orientation Control with Rotation Matrices
 
@@ -137,7 +143,7 @@ is the Lie algebra of $\mathbb{SO}(3)$ (a skew-symmetric matrix).
 Second, we evaluate the time derivative which, from Eq. (10), becomes:
 
 $$
-    S(\dot{\boldsymbol{\epsilon}})\mathbf{E}, \quad \dot{\boldsymbol{\epsilon}} = \boldsymbol{\omega}_d - \boldsymbol{\omega}. \tag{12}
+    \dot{\mathbf{E}} = S(\dot{\boldsymbol{\epsilon}})\mathbf{E} ~,~\dot{\boldsymbol{\epsilon}} = \boldsymbol{\omega}_d - \boldsymbol{\omega}. \tag{12}
 $$
 
 The time derivative of the Lie algebra is actually the difference between the desired velocity $\boldsymbol{\omega}_d\in\mathbb{R}^3$ (rad/s), and the actual velocity $\boldsymbol{\omega}\in\mathbb{R}^3$ (rad/s).
@@ -167,3 +173,5 @@ Below is a simulation of the [ergoCub](https://ergocub.eu) where I used this pri
     <br>
     <em> We can use the underlying Lie algebra of the rotation matrix to control the orientation of a robot's hands. </em>
 </p>
+
+[⬆️ Back to top.](#top)
