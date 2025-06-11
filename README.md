@@ -2,12 +2,7 @@
 
 This is a portal to my online content.
 
-You can find your way around using the links on the left panel 👈
-- [Browse my recommended reading](/reading/),
-- [Check out my publications](/publications/),
-- [Learn more about me](/about/),
-- [See examples of my work](/projects/), or
-- [View my CV](/cv/).
+You can find your way around this website with the links on the left panel 👈
 
 ### 🖥️ Find Me Online
 - [edX](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean): My guest lectures for the Technical University of Munich.
@@ -29,7 +24,3 @@ Here are some of my main projects:
 ### 🤝 Current Research Collaborations
 - [Soft, magnetic tentacle robots for heart intervention](https://wun.ac.uk/wun/research/view/magnetically-controlled-tentacle-robots-for-transcatheter-structural-heart-intervention/).
 - [Terabotics](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/ultrafastphotonics/emmasthzgroup/terabotics/): Using robots equipped with high-frequency light sensors for cancer detection.
-
-### 📝 Latest Blog Posts
-
-Below you can find my latest blog posts 👇
