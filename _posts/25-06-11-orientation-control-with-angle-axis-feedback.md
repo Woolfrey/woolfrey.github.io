@@ -105,7 +105,7 @@ $$
 
 [⬆️ Back to top.](#top)
 
-## Angle \& Axis from Rotation Matrix
+## Angle & Axis from Rotation Matrix
 
 Rodrigues' formula, Eqn. (10), contains 3 matrices with a particular structure to their respective diagonal elements. If we take the trace (sum of diagonal elements) we can see that:
 - $trace(\mathbf{I}) = 3$,
@@ -164,7 +164,7 @@ $$
     \end{bmatrix}. \tag{16}
 $$
 
-Using what we know about the structure of skew-symmetric matrices, Eqn.  (\ref{eq:skew-symmetric matrix}), we can deduce that the eigenvector is:
+Using what we know about the structure of skew-symmetric matrices, Eqn.  (5), we can deduce that the eigenvector is:
 
 $$
     \mathbf{v} =
@@ -213,7 +213,7 @@ $$
     \boldsymbol{\omega} \triangleq \boldsymbol{\omega}_d + \mathbf{K}\boldsymbol{\epsilon} \tag{21}
 $$
 
-where  $\mathbf{K}\in\mathbb{R}^{3\times 3}$ is a positive-definite gain matrix.\footnote{An easy choice here is a diagonal matrix with positive values.} The desired angular velocity $\boldsymbol{\omega}_d$ becomes a feed-forward term, whereas $\mathbf{K}\boldsymbol{\epsilon}$ is a proportional feedback on the orientation error. In such cases where $\boldsymbol{\omega}_d$ is unavailable, then $\boldsymbol{\omega} = \mathbf{K}\boldsymbol{\epsilon}$ is sufficient.
+where  $\mathbf{K}\in\mathbb{R}^{3\times 3}$ is a positive-definite gain matrix (an easy choice here is a diagonal matrix with positive values). The desired angular velocity $\boldsymbol{\omega}_d$ becomes a feed-forward term, whereas $\mathbf{K}\boldsymbol{\epsilon}$ is a proportional feedback on the orientation error. In such cases where $\boldsymbol{\omega}_d$ is unavailable, then $\boldsymbol{\omega} = \mathbf{K}\boldsymbol{\epsilon}$ is sufficient.
 
 If we substitute Eqn. (21) in to Eqn. (20) we obtain:
 
