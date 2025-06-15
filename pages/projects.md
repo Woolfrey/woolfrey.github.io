@@ -200,7 +200,7 @@ This conforms with the interrelationship digraph; the low contact force was caus
 <a name="submerged-pile-inspection-robot"></a>
 ## Submerged Pile Inspection Robot
 
-When I started my PhD in 2015, I worked on the [Submerged Pile Inspection Robot (SPIR)](https://web-tools.uts.edu.au/projects/detail.cfm?ProjectId=2013001523). It was funded by the New South Wales Roads & Maritime Services (RMS), and developed by the Universty of Technology Sydney UTS). Its purpose was to assist divers to clean marine growth of bridge piles to enable condition assessment of the underlying surface.
+When I started my PhD in 2015, I worked on the [Submerged Pile Inspection Robot (SPIR)](https://web-tools.uts.edu.au/projects/detail.cfm?ProjectId=2013001523). It was funded by the New South Wales Roads & Maritime Services (RMS), and developed by the Universty of Technology Sydney (UTS). Its purpose was to assist divers to clean marine growth of bridge piles to enable condition assessment of the underlying surface.
 
 <p align="center">
   <img src="../assets/images/projects/spir.png" width="400" height="auto" loading="lazy"/>
@@ -239,7 +239,7 @@ we brainstormed as many problems as we could think of. We then grouped these in 
 <a name="spir-kano-model"></a>
 #### Kano Model
 
-We used the Kano model to prioritise our efforts for developing the new prototype. It divides a the features of a product or service in to 3 categories:
+We used the Kano model to prioritise our efforts for developing the new prototype. It divides the features of a product or service in to 3 categories:
 1. Minimum requirements,
 2. Competitive features,
 3. Excitement, or innovative features.
@@ -250,7 +250,7 @@ We used the Kano model to prioritise our efforts for developing the new prototyp
   <em>Using the Kano model to prioritise features in the design of the next prototype.</em>
 </p>
 
-Everyone on the team was given 5 votes to decide what features they were most important. Team thought that autonomy, and the ability to satisfy cleaning requirements were the 2 most important key performance indicators for the robot.
+Everyone on the team was given 5 votes to decide what features they were most important. The team thought that autonomy, and the ability to satisfy cleaning requirements were the 2 most important key performance indicators for the robot.
 
 <a name="spir-robot-control"></a>
 ### Robot Control
@@ -343,7 +343,7 @@ Below is a table showing the score for each of the major tasks. The team (implic
 <a name="ergocub-activity-network"></a>
 #### Activity Network Diagram
 
-We layed out the tasks in sequence, and determined the dependencies.
+We layed out all the tasks we needed to complete to have our robot demo operational before it was flown from Italy to England for the conference. We used the activity network diagram, pictured below. We were then able to translate this in to a Gantt chart using [Github projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects). This allowed us to track, manage, and collaborate effectively. In the Activity Newtwork Diagram, points where multiple tasks converged were listed as milestones in Github projects. These were critical points that could make or break the project.
 
 <p align="center">
   <img src="../assets/images/projects/ergocub_activity_network_photo.png" width="400" height="auto" loading="lazy">
@@ -352,6 +352,7 @@ We layed out the tasks in sequence, and determined the dependencies.
   <br>
   <em> Task sequence planning with an activity network (above), <br> and subsequent Gantt chart in Github projects (below). </em>
 </p>
+
 
 <a name="ergocub-control"></a>
 ### Robot Control

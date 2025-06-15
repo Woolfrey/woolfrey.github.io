@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <a name="top"></a>
 
-My name is Jon. I have an affinity for solving complex problems. I'm a mechanic by trade , have a PhD in robotics , and am a [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) Black Belt. I'm also interested in topics such as design, philosophy, classical mechanics, (applied) mathematics, and science. My interests are diverse, but I think the common theme is my aptitude for raciocination (logical thinking), and spatial reasoning.
+My name is Jon. I have an affinity for solving complex problems. I'm a mechanic by trade , have a PhD in robotics , and am a [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) Black Belt. I'm also interested in topics such as design, philosophy, classical mechanics, (applied) mathematics, and science. My interests are diverse, but I think the common theme is my aptitude for logical thinking, and spatial reasoning.
 
 I also like:
 - Good coffee ☕
