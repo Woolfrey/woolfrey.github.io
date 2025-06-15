@@ -415,6 +415,6 @@ They are also numerically stable. Successive rotations will lead to an accumulat
 |                       | Additions            | 6                | 24 (16)                       |
 |                       | **Total FLOPs**      | **15**           | **56 (39)**                   |
 
-:[^1] For two vectors $\mathbf{a},\mathbf{b}\in\mathbb{R}^n$ the dot product $\mathbf{a}\bullet\mathbf{b} = \mathbf{a}^T\mathbf{b}$.
+[^1]: For two vectors $\mathbf{a},\mathbf{b}\in\mathbb{R}^n$ the dot product $\mathbf{a}\bullet\mathbf{b} = \mathbf{a}^T\mathbf{b}$.
 
 [⬆️ Back to top.](#top)
