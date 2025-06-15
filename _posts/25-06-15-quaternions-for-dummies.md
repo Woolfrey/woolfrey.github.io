@@ -244,7 +244,7 @@ $$
 \end{align}
 $$
 
-By substituting Eqn. (19a) \& (19b) in to (18) we arrive at:
+By substituting Eqn. (19a) & (19b) in to (18) we arrive at:
 
 $$
     e^{\boldsymbol{p}}
@@ -256,7 +256,7 @@ which is itself a quaternion. In this context,
 - $\|\boldsymbol{p}\|$ is equivalent to the magnitude of rotation, and
 - $\hat{\boldsymbol{p}}$ is the axis of rotation.
 
-This is exactly what Euler's rotation theorem states: any 3D rotation may be parameterised by an angle of rotation about a fixed axis. Thus, we can use quaternions to represent rotation. But not just \emph{any} quaternion; it must be the exponential of a purely imaginary quaternion.
+This is exactly what Euler's rotation theorem states: any 3D rotation may be parameterised by an angle of rotation about a fixed axis. Thus, we can use quaternions to represent rotation. But not just any quaternion; it must be the exponential of a purely imaginary quaternion.
 
 [⬆️ Back to top.](#top)
 
