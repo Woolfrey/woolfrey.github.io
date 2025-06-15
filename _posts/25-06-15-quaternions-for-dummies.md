@@ -32,8 +32,7 @@ $$
 $$
 
 <p align="center">
-    <img src="/assets/images/posts/2025/complex_number_as_rotation.png" width="300" height="auto" loading="lazy"/>
-    <img src="/assets/images/posts/2025/complex_number_as_rotation.png" width="300" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/complex_number_as_rotation.png" width="500" height="auto" loading="lazy"/>
     <br>
     <em> Figure 1: A complex number represents a rotation in to the complex plane. Multiplying complex numbers is equivalent to adding rotations. </em>
 </p>
@@ -161,6 +160,7 @@ Complex numbers form a Lie group (Table 1). This why we could rotate another com
 
 
 <em> TABLE 1: Lie group properties of $\mathbb{C}$ over multiplication. </em>
+
 |  | |
 |-:|:-----------------------------------------------------------:|
 | Closure: |  $\mathrm{z}_1,\mathrm{z}_2\in\mathbb{C}~:~ \mathrm{z}_1 \mathrm{z}_2 \in\mathbb{C}$ |
@@ -194,12 +194,13 @@ On October 16th, 1843, he had an epiphany about how to resolve the closure prope
 <p align="center">
     <img src="/assets/images/posts/2025/brougham_bridge.jpg" width="400" height="auto" loading="lazy">
     <br>
-    <em> A plaque on Brougham (Broom) Bridge commemorating Hamilton's invention. </em>
+    <em> Figure 2: A plaque on Brougham (Broom) Bridge commemorating Hamilton's invention. </em>
     <br>
     <em> (JP, William Rowan Hamilton Plaque, CC BY-SA 2.0) </em>
 </p>
 
 <em> TABLE 2: Rules for quaternion multiplication. </em>
+
 |          |                 |                |                |
 |---------:|:---------------:|:--------------:|:--------------:|
 | $\times$ | $\phantom{-}i$  | $\phantom{-}j$ | $\phantom{-}k$ |
@@ -326,6 +327,7 @@ $$
 We have completed the Lie algebra; but not for quaternions $\mathbb{H}$ per se, but for versors $\mathbb{S}^3\subset\mathbb{H}$ (Table 3).
 
 <em> TABLE 3: Group properties for versors $\mathbb{S}^3\subset\mathbb{H}$ </em>
+
 |  |   |
 |-:|:-:|
 | Closure: | $\boldsymbol{v}_1,\boldsymbol{v}_2\in\mathbb{S}^3~:~\boldsymbol{v}_1\cdot\boldsymbol{v}_2\in\mathbb{S}^3$ |
@@ -402,6 +404,7 @@ Quaternions are also much more efficient for storing and transmitting data. They
 They are also numerically stable. Successive rotations will lead to an accumulation of floating point error. We can easily re-normalise a versor to preserve Eqn. (27).
 
 <em> TABLE 4: Comparison between rotation matrices and quaternions. </em>
+
 |                       |                      | $\mathbb{SO}(3)$ | $\mathbb{S}^3\subset\mathbb{H}$ |
 |-----------------------|----------------------|------------------|-------------------------------|
 |                       | Parameters           | 9                | 4                             |
