@@ -157,16 +157,15 @@ Lie groups are mathematical objects that satisfy 4 properties:
 3. Identity: The element that results in no change.
 4. Inverse: The element that leads to the identity.
 
-Complex numbers form a Lie group (Table 1). This why we could rotate another complex number using Eqn. (4). We multiply 2 complex numbers, and get a 3rd. Equation (13) violates the closure property. To represent rotations in 3D, we need a Lie group so that we can use the closure property to combine them.
+Complex numbers form a Lie group. This why we could rotate another complex number using Eqn. (4). We multiply 2 complex numbers, and get a 3rd. Equation (13) violates the closure property. To represent rotations in 3D, we need a Lie group so that we can use the closure property to combine them.
 
 
-<em> TABLE 1: Lie group properties of $\mathbb{C}$ over multiplication. </em>
-|  | |
-|-:|:-----------------------------------------------------------:|
-| Closure: |  $\mathrm{z}_1,\mathrm{z}_2\in\mathbb{C}~:~ \mathrm{z}_1 \mathrm{z}_2 \in\mathbb{C}$ |
-| Associativity: |  $\left(\mathrm{z}_1  \mathrm{z}_2\right) \mathrm{z}_3 = \mathrm{z}_1 \left(\mathrm{z}_2 \mathrm{z}_3\right)$ |
-| Identity: | $1 \equiv1+i\cdot0\subset\mathbb{C}: 1\mathrm{z} = \mathrm{z}$ |
-| Inverse: | $\mathrm{z}^{-1} = \frac{\bar{\mathrm{z}}}{\mathrm{z}\bar{\mathrm{z}}} ~:~ \mathrm{z}^{-1}\mathrm{z} = 1 + i\cdot 0$ |
+|                    |    Group Properties of $\mathbb{C}$ (Over Multiplication)   |
+|-------------------:|:-----------------------------------------------------------:|
+| **Closure:**       |  $\mathrm{z}_1,\mathrm{z}_2\in\mathbb{C}~:~ \mathrm{z}_1 \mathrm{z}_2 \in\mathbb{C}$ |
+| **Associativity:** |  $\left(\mathrm{z}_1  \mathrm{z}_2\right) \mathrm{z}_3 = \mathrm{z}_1 \left(\mathrm{z}_2 \mathrm{z}_3\right)$ |
+| **Identity:**      | $1 \equiv1+i\cdot0\subset\mathbb{C}: 1\mathrm{z} = \mathrm{z}$ |
+| **Inverse:**       | $\mathrm{z}^{-1} = \frac{\bar{\mathrm{z}}}{\mathrm{z}\bar{\mathrm{z}}} ~:~ \mathrm{z}^{-1}\mathrm{z} = 1 + i\cdot 0$ |
 
 [⬆️ Back to top.](#top)
 
@@ -199,15 +198,14 @@ On October 16th, 1843, he had an epiphany about how to resolve the closure prope
     <em> (JP, William Rowan Hamilton Plaque, CC BY-SA 2.0) </em>
 </p>
 
-<em> TABLE 2: Rules for quaternion multiplication. </em>
-|          |                 |                |                |
-|---------:|:---------------:|:--------------:|:--------------:|
-| $\times$ | $\phantom{-}i$  | $\phantom{-}j$ | $\phantom{-}k$ |
-| $i$      | $-1$            | $\phantom{-}k$ | $-j$           |
-| $j$      | $-k$            | $-1$           | $\phantom{-}i$ |
-| $k$      | $\phantom{-}j$  | $-i$           | $-1$           |
+|          |   Quaternion   | Multiplication |      Rules     |
+|---------:|:--------------:|:--------------:|:--------------:|
+| $\times$ | $\phantom{-}i$ | $\phantom{-}j$ | $\phantom{-}k$ |
+| $i$      | $-1$           | $\phantom{-}k$ | $-j$           |
+| $j$      | $-k$           | $-1$           | $\phantom{-}i$ |
+| $k$      | $\phantom{-}j$ | $-i$           | $-1$           |
 
-The key is that quaternions obey their own rules for multiplication (Table 2). Specifically, we resolve $ij = k$, $ji = -k$, etc. That way $ijk = k^2 = -1$. We may now complete Eqn. (15):
+The key is that quaternions obey their own rules for multiplication. Specifically, we resolve $ij = k$, $ji = -k$, etc. That way $ijk = k^2 = -1$. We may now complete Eqn. (15):
 
 $$
 \begin{align}
@@ -323,15 +321,15 @@ $$
     \boldsymbol{v}\cdot\bar{\boldsymbol{v}} = \boldsymbol{\iota}. \tag{29}
 $$
 
-We have completed the Lie algebra; but not for quaternions $\mathbb{H}$ per se, but for versors $\mathbb{S}^3\subset\mathbb{H}$ (Table 3).
+We have completed the Lie algebra; but not for quaternions $\mathbb{H}$ per se, but for versors $\mathbb{S}^3\subset\mathbb{H}$.
 
-<em> TABLE 3: Group properties for versors $\mathbb{S}^3\subset\mathbb{H}$ </em>
-|  |   |
-|-:|:-:|
-| Closure: | $\boldsymbol{v}_1,\boldsymbol{v}_2\in\mathbb{S}^3~:~\boldsymbol{v}_1\cdot\boldsymbol{v}_2\in\mathbb{S}^3$ |
-| Associativity: | $\left(\boldsymbol{v}_1\cdot\boldsymbol{v}_2\right)\cdot\boldsymbol{v}_3 = \boldsymbol{v}_1\cdot\left(\boldsymbol{v}_2\cdot\boldsymbol{v}_3\right)$ |
-| Identity: | $\boldsymbol{\iota} = \begin{bmatrix} 1 & \mathbf{0} \end{bmatrix}^T\in\mathbb{S}^3 ~:~ \boldsymbol{v}\cdot\boldsymbol{\iota} = \boldsymbol{v}$ |
-| Inverse: | $\bar{\boldsymbol{v}} = \begin{bmatrix} \eta & -\boldsymbol{\varepsilon}^T\end{bmatrix}^T~:~ \boldsymbol{v}\cdot\bar{\boldsymbol{v}} = \boldsymbol{\iota}$ |
+
+|                    | Group Properties for $\mathbb{S}^3\subset\mathbb{H}$ |
+|-------------------:|:----------------------------------------------------:|
+| **Closure:**       | $\boldsymbol{v}_1,\boldsymbol{v}_2\in\mathbb{S}^3~:~\boldsymbol{v}_1\cdot\boldsymbol{v}_2\in\mathbb{S}^3$ |
+| **Associativity:** | $\left(\boldsymbol{v}_1\cdot\boldsymbol{v}_2\right)\cdot\boldsymbol{v}_3 = \boldsymbol{v}_1\cdot\left(\boldsymbol{v}_2\cdot\boldsymbol{v}_3\right)$ |
+| **Identity:**      | $\boldsymbol{\iota} = \begin{bmatrix} 1 & \mathbf{0} \end{bmatrix}^T\in\mathbb{S}^3 ~:~ \boldsymbol{v}\cdot\boldsymbol{\iota} = \boldsymbol{v}$ |
+| **Inverse:**       | $\bar{\boldsymbol{v}} = \begin{bmatrix} \eta & -\boldsymbol{\varepsilon}^T\end{bmatrix}^T~:~ \boldsymbol{v}\cdot\bar{\boldsymbol{v}} = \boldsymbol{\iota}$ |
 
 [⬆️ Back to top.](#top)
 
@@ -395,22 +393,21 @@ Now we have a short-hand for constructing a rotation matrix from a versor. This 
 
 ## Advantages of Quaternions
 
-Quaternions are used in animation, robotics, and aerospace. They require fewer floating point operations (FLOPs) when propagating rotations versus rotation matrices (Table 4). However, they are more costly when rotating vectors. This can be reduced from 56 flops to 39 flops by forming a rotation matrix first, Eqn. (31), then performing the rotation.
+Quaternions are used in animation, robotics, and aerospace. They require fewer floating point operations (FLOPs) when propagating rotations versus rotation matrices. However, they are more costly when rotating vectors. This can be reduced from 56 flops to 39 flops by forming a rotation matrix first, Eqn. (31), then performing the rotation.
 
 Quaternions are also much more efficient for storing and transmitting data. They only require 4 parameters, versus 9 for rotation matrices. This is important when we have limited bandwidth, and limited storage space.
 
 They are also numerically stable. Successive rotations will lead to an accumulation of floating point error. We can easily re-normalise a versor to preserve Eqn. (27).
 
-<em> TABLE 4: Comparison between rotation matrices and quaternions. </em>
 |                       |                      | $\mathbb{SO}(3)$ | $\mathbb{S}^3\subset\mathbb{H}$ |
-|-----------------------|----------------------|------------------|-------------------------------|
-|                       | Parameters           | 9                | 4                             |
-| **Closure**           | Multiplications      | 27               | 16                            |
-|                       | Additions            | 18               | 12                            |
-|                       | **Total FLOPs**      | **45**           | **28**                        |
-| **Vector Rotation**   | Multiplications      | 9                | 32 (23)                       |
-|                       | Additions            | 6                | 24 (16)                       |
-|                       | **Total FLOPs**      | **15**           | **56 (39)**                   |
+|:---------------------:|---------------------:|:----------------:|:-------------------------------:|
+|                       | Parameters           | 9                | 4                               |
+| **Closure**           | Multiplications      | 27               | 16                              |
+|                       | Additions            | 18               | 12                              |
+|                       | **Total FLOPs**      | **45**           | **28**                          |
+| **Vector Rotation**   | Multiplications      | 9                | 32 (23)                         |
+|                       | Additions            | 6                | 24 (16)                         |
+|                       | **Total FLOPs**      | **15**           | **56 (39)**                     |
 
 :[^1] For two vectors $\mathbf{a},\mathbf{b}\in\mathbb{R}^n$ the dot product $\mathbf{a}\bullet\mathbf{b} = \mathbf{a}^T\mathbf{b}$.
 
