@@ -324,7 +324,7 @@ $$
     \boldsymbol{v}\cdot\bar{\boldsymbol{v}} = \boldsymbol{\iota}. \tag{29}
 $$
 
-We have completed the Lie algebra; but not for quaternions $\mathbb{H}$ per se, but for versors $\mathbb{S}^3\subset\mathbb{H}$ (Table 3).
+We have completed the Lie group; but not for quaternions $\mathbb{H}$ per se, but for versors $\mathbb{S}^3\subset\mathbb{H}$ (Table 3).
 
 <em> TABLE 3: Group properties for versors $\mathbb{S}^3\subset\mathbb{H}$ </em>
 
