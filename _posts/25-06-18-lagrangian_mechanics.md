@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lagrangian Mechanics Is Just A Generalisation of Newtonian Mechanics"
-date: 2025-06-15
+date: 2025-06-18
 categories: [lagrange, lagrangian, mechanics, hamilton]
 ---
 
@@ -16,7 +16,6 @@ categories: [lagrange, lagrangian, mechanics, hamilton]
    - [What Does It All Mean?](#what-does-it-all-mean)
 - [The Principle of Least Action](#the-principle-of-least-action)
 
-
 ## Force or Energy?
 
 Between 1589 and 1592, Galileo Galilei supposedly dropped two objects of different masses from the Leaning Tower of Pisa to show that acceleration is independent of mass.
@@ -24,7 +23,7 @@ Between 1589 and 1592, Galileo Galilei supposedly dropped two objects of differe
 <p align="center">
     <img src="/assets/images/posts/2025/galileo_small.png" width="500" height="auto" loading="lazy"/>
     <br>
-    <em> Galileo demonstrated that acceleration is independent of mass by dropping two different objects from the Tower of Pisa </em>
+    <em> Galileo demonstrated that acceleration is independent of mass by dropping two different objects from the Tower of Pisa. </em>
 <p>
 
 
@@ -35,7 +34,6 @@ $$
 $$
 
 where:
-
 - $m$ is the mass (kg), and
 - $g$ is gravitational acceleration (m/s/s).
 
@@ -131,7 +129,7 @@ Equation (11a) is d'Alemberts principle. It is the projection of a virtual displ
 What is Eqn. (11b) telling us?
 
 <p align="center">
-    <img src="/assets/images/posts/2025/what-does-it-all-mean.gif" width="300" height="auto" loading="lazy">
+    <img src="/assets/images/posts/2025/what-does-it-all-mean.gif" width="300" height="auto" loading="lazy"/>
 </p>
 
 
