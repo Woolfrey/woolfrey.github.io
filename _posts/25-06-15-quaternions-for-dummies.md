@@ -2,7 +2,7 @@
 layout: post
 title: "Quaternions for Dummies"
 date: 2025-06-15
-categories: [orientation, robot, quaternion]
+categories: [orientation, robot, quaternion, hamilton]
 ---
 
 > Quaternions are sophisticated mathematical objects that are used to represent orientation in 3D for robotics, animation, and aerospace. In this article I trace a logical sequence from using complex numbers as rotations toward the derivation of the quaternion itself. I then derive the Lie group properties for combining and inverting quaternions. Lastly, I show how they can be used to rotate vectors, and some of their advantages over rotation matrices.
