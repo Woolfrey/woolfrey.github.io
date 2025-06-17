@@ -72,6 +72,8 @@ $$
 
 So there are 2 ways to frame this problem that result in the same solution: force, or energy.
 
+[⬆️ Back to top.](#top)
+
 ## Lagrangian Mechanics 
 
 ### Lagrange's Generalisation
@@ -124,6 +126,8 @@ $$
 
 Equation (11a) is d'Alemberts principle. It is the projection of a virtual displacement $\delta\mathbf{q}$ on to the forces acting on the system, which should sum to zero.[^3] More importantly, Eqn. (11b) is Lagrange's equations for the dynamics of a rigid body system. Note its structural similarity to (a generalisation of) Eqn. (7).
 
+[⬆️ Back to top.](#top)
+
 ### What Does It All Mean?
 
 What is Eqn. (11b) telling us?
@@ -157,6 +161,8 @@ So:
 - $\frac{d}{dt}\left(\frac{\partial\mathcal{K}}{\partial\dot{\mathbf{q}}}\right) = \frac{d\mathbf{p}}{dt}$ is the change in momentum,
 - $\frac{\partial\mathcal{K}}{\partial\mathbf{q}}$ is the are internal forces from a configuration change, and
 - These are induced by the effect of the potential field $-\frac{\partial\mathcal{P}}{\partial\mathbf{q}}$.
+
+[⬆️ Back to top.](#top)
 
 ## The Principle of Least Action
 
@@ -207,15 +213,12 @@ Newton's law is about the instantaneous balance of forces. Equation (17) is metr
 
 [^1]: Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica. Royal Society, London. First edition.
 
-[^2]: Lagrange, J.-L. (1788). Mécanique analytique. Imprimerie de la République, Paris. Available online
-at various archives.
+[^2]: Lagrange, J.-L. (1788). Mécanique analytique. Imprimerie de la République, Paris. Available online at various archives.
 
 [^3]: Virtual displacements do no net work, since they're not real. Obviously.
 
-[^4]: Maupertuis, P. L. M. (1744). Accord de différentes loix de la nature qui avoient jusqu’ici paru
-incompatibles. Mémoir de l’Académie Royale des Sciences de Paris, pages 417–426.
+[^4]: Maupertuis, P. L. M. (1744). Accord de différentes loix de la nature qui avoient jusqu’ici paru incompatibles. Mémoir de l’Académie Royale des Sciences de Paris, pages 417–426.
 
-[^5]: Hamilton, W. R. (1835). Second essay on a general method in dynamics. Philosophical Transactions
-of the Royal Society of London, 125:95–144.
+[^5]: Hamilton, W. R. (1835). Second essay on a general method in dynamics. Philosophical Transactions off the Royal Society of London, 125:95–144.
 
 [^6]: A matrix $\mathbf{A} = \mathbf{A}^T \in\mathbb{R}^n$ is positive definite if for $\mathbf{x}\in\mathbb{R}^n \ne \mathbf{0}$ then $\mathbf{x}^T\mathbf{A}\mathbf{x} > 0$.
