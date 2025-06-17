@@ -24,8 +24,7 @@ Between 1589 and 1592, Galileo Galilei supposedly dropped two objects of differe
     <img src="/assets/images/posts/2025/galileo_small.png" width="500" height="auto" loading="lazy"/>
     <br>
     <em> Galileo demonstrated that acceleration is independent of mass by dropping two different objects from the Tower of Pisa. </em>
-<p>
-
+</p>
 
 About 100 years later, in 1687, Sir Isaac Newton published his laws of motion in the Principia Matematica[^1]. His second law of motion codified what Galileo had observed; that the acceleration due to gravity $\frac{d^2 x}{dt^2} = \ddot{x}$ is independent of mass. In light of Galileo's experiment we would write the equation of motion for a falling object as:
 
@@ -53,7 +52,7 @@ $$
     <img src="/assets/images/posts/2025/tower_of_pisa_small.png" width="250" height="auto" loading="lazy"/>
     <br>
     <em> The gravitational potential energy in an object is a function of its height. This is converted to kinetic energy as it falls. </em>
-<p>
+</p>
 
 And when it hits the ground all of this potential energy is converted to kinetic energy:
 
