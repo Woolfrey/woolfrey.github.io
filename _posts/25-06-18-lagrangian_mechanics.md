@@ -24,7 +24,7 @@ Between 1589 and 1592, Galileo Galilei supposedly dropped two objects of differe
 <p align="center">
     <img src="/assets/images/posts/2025/galileo_small.png" width="500" height="auto" loading="lazy"/>
     <br>
-    </em> Galileo demonstrated that acceleration is independent of mass by dropping two different objects from the Tower of Pisa </em>
+    <em> Galileo demonstrated that acceleration is independent of mass by dropping two different objects from the Tower of Pisa </em>
 <p>
 
 
@@ -35,6 +35,7 @@ $$
 $$
 
 where:
+
 - $m$ is the mass (kg), and
 - $g$ is gravitational acceleration (m/s/s).
 
@@ -53,7 +54,7 @@ $$
 <p align="center">
     <img src="/assets/images/posts/2025/tower_of_pisa_small.png" width="250" height="auto" loading="lazy"/>
     <br>
-    </em> The gravitational potential energy in an object is a function of its height. This is converted to kinetic energy as it falls. </em>
+    <em> The gravitational potential energy in an object is a function of its height. This is converted to kinetic energy as it falls. </em>
 <p>
 
 And when it hits the ground all of this potential energy is converted to kinetic energy:
@@ -89,7 +90,7 @@ $$
 \underbrace{\frac{d}{dt}\left(\frac{d\mathcal{K}}{d\dot{x}}\right)}_{m\ddot{x}} = \underbrace{-\frac{d\mathcal{P}}{dx}\vphantom{\begin{bmatrix} a\\ b\end{bmatrix}}}_{-mg}. \tag{7}
 $$
 
-Newton's laws concern particles; individual, rigid bodies. But Lagrange's genius was to generalise these principles to \emph{systems} of rigid bodies[^2]. Now we consider the configuration for a rigid body system denoted by $\mathbf{q}\in\mathbb{R}^n$ (e.g., a vector of joint angles for a robot), and the associated velocities $\dot{\mathbf{q}}\in\mathbb{R}^n$.
+Newton's laws concern particles; individual, rigid bodies. But Lagrange's genius was to generalise these principles to systems of rigid bodies[^2]. Now we consider the configuration for a rigid body system denoted by $\mathbf{q}\in\mathbb{R}^n$ (e.g., a vector of joint angles for a robot), and the associated velocities $\dot{\mathbf{q}}\in\mathbb{R}^n$.
 
 If the energy in a closed system is conserved, then it follows that an infinitesimal change in the kinetic energy must equal an infinitesimal change in potential energy:
 
