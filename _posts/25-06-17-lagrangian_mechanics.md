@@ -188,7 +188,7 @@ $$
     \frac{d}{dt}\left(\frac{\partial\mathcal{L}}{\partial\mathbf{\dot{q}}}\right) - \frac{\partial\mathcal{L}}{\partial\mathbf{q}} = \mathbf{0}. \tag{16}
 $$
 
-This is equivalent to (11a). Reverse-engineering this, the action is defined as:
+This is equivalent to (11b). Reverse-engineering this, the action is defined as:
 
 $$
     A = \int \underbrace{\mathcal{K}(\mathbf{q},\dot{\mathbf{q}}) - \mathcal{P}(\mathbf{q})\vphantom{\begin{matrix} a \\ b \end{matrix}}}_{\mathcal{L}(\mathbf{q},\dot{\mathbf{q}})}~dt \tag{17}
