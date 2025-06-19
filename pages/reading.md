@@ -35,6 +35,7 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/envisioning_information.jpg" width="100" height="auto" loading="lazy">| Envisioning Information | Edward Tufte | statistics, graphics, charts, diagrams |
 |<img src="../assets/images/book_covers/farewell_to_reason.jpeg" width="100" height="auto" loading="lazy"> | Farewell to Reason | Paul Feyerabend | philosophy, science |
 |<img src="../assets/images/book_covers/gulag_archipelago.jpeg" width="100" height="auto" loading="lazy"/> | Gulag Archipelago, The | Aleksandr Solzhenitsyn | history, politics |
+| <img src="../assets/images/book_covers/house_of_leaves.jpg" width="100" height="auto"/> | House of Leaves | Mark Z. Danielewski | horror |
 |<img src="../assets/images/book_covers/human_error.jpg" width="100" height="auto" loading="lazy"> | Human Error | James Reason | human error, psychology, management |
 |<img src="../assets/images/book_covers/i_think_youll_find.jpg" width="100" height="auto" loading="lazy"> | I Think You'll Find It's a Bit More Complicated Than That | Ben Goldacre | science, statistics, medicine |
 |<img src="../assets/images/book_covers/lateral_thinking.jpg" width="100" height="auto" loading="lazy"> | Lateral Thinking | Edward de Bono | creativity, problem solving |
@@ -63,4 +64,4 @@ People often ask me what kind of books they should read. The answer is: anything
 |<img src="../assets/images/book_covers/world_beyond_your_head.jpg" width="100" height="auto" loading="lazy"> | World Beyond Your Head, The | Matthew Crawford | philosophy, wellbeing, perception |
 |<img src="../assets/images/book_covers/zen_motorcycle.jpg" width="100" height="auto" loading="lazy"> | Zen and the Art of Motorcycle Maintenance | Robert Pirsig | philosophy |
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
