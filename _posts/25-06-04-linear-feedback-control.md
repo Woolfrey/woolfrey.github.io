@@ -292,4 +292,3 @@ The code for the animation is implemented using my ROS2 velocity control action 
 [^1]: Whitney, D. E. (1969). _Resolved motion rate control of manipulators and human prostheses_. IEEE Transactions on man-machine systems, 10(2), 47-53.
 
 [^2]: Whitney, D. E. (1972). The mathematics of coordinated control of prosthetic arms and manipulators.
-s
