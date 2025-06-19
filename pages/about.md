@@ -39,7 +39,7 @@ Simultaneously, whilst doing my bachelor's degree, I received a scholarship to w
 
  I am currently with the [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds. I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a name="places"></a>
 ## Places I've Lived
@@ -74,7 +74,7 @@ I am now currently living in Leeds, England. The weather isn't as nice 🥶, but
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a name="recipe"></a>
 ## My Favourite Recipe: Pasta all'Amatriciana
@@ -108,4 +108,4 @@ I am now currently living in Leeds, England. The weather isn't as nice 🥶, but
 
 You can find a detailed recipe [here](https://www.giallozafferano.com/recipes/Spaghetti-Amatriciana-Bacon-and-tomato-spaghetti.html).
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)

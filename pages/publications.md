@@ -22,6 +22,6 @@ permalink: /publications/
   
 - **Woolfrey, J.**, Liu, D., & Carmichael, M. (2016). _Kinematic Control of An Autonomous Underwater Vehicle-Manipulator System (AUVMS) Using Autoregressive Prediction of Vehicle Motion and Model Predictive Control_. In 2016 IEEE International Conference on Robotics and Automation (ICRA) (pp. 4591-4596). IEEE. [[Link]](https://ieeexplore.ieee.org/abstract/document/7487660)
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 [⬅️ Back to CV.](/cv/)

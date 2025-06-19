@@ -43,7 +43,7 @@ I am an engineer & researcher with a proven track record in leading high-impact,
 - 🇬🇧 English (native)
 - 🇮🇹 Italian (beginner)
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a id="work"></a>
 ## Work
@@ -64,7 +64,7 @@ I am an engineer & researcher with a proven track record in leading high-impact,
 |------|---------|
 | July 2018 – <br> Present | **Guest Lecturer, Teaching Assistant** <br> _Technical University of Munich (TUM), via edX.org_ <br> <br> As part of the Lean Six Sigma [Yellow Belt certification course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?index=product&queryID=b797d28121edcec4694898c4268af6d2&position=4&linked_from=autocomplete&c=autocomplete). <br> It is ranked in the top 10 online courses of all time by [Class Central](https://www.classcentral.com/collection/top-free-online-courses?sort=rating-up\&page=2). |
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a id="education"></a>
 ## Education
@@ -76,7 +76,7 @@ I am an engineer & researcher with a proven track record in leading high-impact,
 | 2007 – 2009 | **Certificate IV in Mechanical Trades (MEM40105)** <br> _South Western Sydney Institute of TAFE_ <br> <br> Competencies included: <br> • Machine installation <br> • Advanced fitting techniques <br> • Complex milling <br> • Complex turning <br> • 2D CAD Modeling |
 | 2000 – 2005 | **High School Certificate** <br> _St Mary's Cathedral College, Sydney_ <br> <br> Electives: <br> • Visual Arts <br> • Extension 1 Math <br> • Extension 1 English <br> • Information Technology  |
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a id="other"></a>
 ## Other Qualifications
@@ -90,7 +90,7 @@ I am an engineer & researcher with a proven track record in leading high-impact,
 | 2011 | Work Safely in the Construction Industry <br> _Advance OHS_ |
 | 2009 | Certificate III in Competitive Manufacturing (MCM 30104) <br> _Skillup Australia_ |
 
-[⬆️ Back to top.](#top)
+[🔝 Back to top.](#top)
 
 <a id="publications"></a>
 ## Publications
