@@ -57,7 +57,7 @@ And what comes out?
 
 Now we have a clearly defined Input-Process-Output.
 
-<p align="center"/>
+<p align="center">
     <img src="/assets/images/posts/2025/ipo.png" height="125" width="auto" loading="lazy"/>
 </p>
 
@@ -71,7 +71,7 @@ The next important step is to identify where all these inputs come from:
 
 These are the suppliers. It is important to connect them directly to inputs so we can trace problems back to the origin.
 
-<p align="center"/>
+<p align="center">
     <img src="/assets/images/posts/2025/sipo.png" height="125" width="auto" loading="lazy"/>
 </p>
 
@@ -82,7 +82,7 @@ Finally, where do all these graduates go?
 - Public sector, and
 - Grad schools.
 
-<p align="center"/>
+<p align="center">
     <img src="/assets/images/posts/2025/sipoc.png" height="125" width="auto" loading="lazy"/>
 </p>
 
