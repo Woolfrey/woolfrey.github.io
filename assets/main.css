@@ -248,6 +248,11 @@ th, td {
   font-size: 0.75rem;
 }
 
+.sidebar-submenu {
+  list-style: disc;
+  padding-left: 1.25em; /* Adds space for the bullets */
+}
+
 /*****************************************
  * Comments Section
  *****************************************/
