@@ -58,7 +58,7 @@ And what comes out?
 Now we have a clearly defined Input-Process-Output.
 
 <p align="center"/>
-    <img src="../assets/images/posts/2025/ipo.png" height="125" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ipo.png" height="125" width="auto" loading="lazy"/>
 </p>
 
 #### The Supplier
@@ -72,7 +72,7 @@ The next important step is to identify where all these inputs come from:
 These are the suppliers. It is important to connect them directly to inputs so we can trace problems back to the origin.
 
 <p align="center"/>
-    <img src="../assets/images/posts/2025/sipo.png" height="125" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/sipo.png" height="125" width="auto" loading="lazy"/>
 </p>
 
 #### The Customer
@@ -83,7 +83,7 @@ Finally, where do all these graduates go?
 - Grad schools.
 
 <p align="center"/>
-    <img src="../assets/images/posts/2025/sipoc.png" height="125" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/sipoc.png" height="125" width="auto" loading="lazy"/>
 </p>
 
 
@@ -148,7 +148,7 @@ When I went back to corporate in the Autumn, I was sitting in on the Six Sigma G
 I told him the output is the defective membrane dryer, and we should define who receives it. It turns out they get put in a box in the storeroom. The supplier was never informed of the problem.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/sipoc_membrane_dryer.png" height="150" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/sipoc_membrane_dryer.png" height="150" width="auto" loading="lazy"/>
 </p>
 
 Immediately, just from working on the SIPOC, we identified a crucial broken point in the overall system. How can our suppliers fix the problem if they haven't received a defective one to inspect? This might have fixed the problem immediately if our suppliers had been informed.
@@ -164,13 +164,13 @@ To me this highighted 2 important things:
 Lamingtons are an Australian delicacy. They are a sponge cake, coated in chocolate sauce, and dipped in coconut shavings. They are best enjoyed with tea or coffee.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/lamingtons.jpg" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/lamingtons.jpg" width="400" height="auto" loading="lazy"/>
 </p>
 
 When I was living in Italy, I baked lamingtons for my friends & colleagues. The very first batch I ever made turned out perfectly. All the batches after were poor quality; too firm, too dry. I made this as part of the [Six Sigma online course](https://www.edx.org/learn/six-sigma/technische-universitat-munchen-six-sigma-define-and-measure) that I'm a guest lecturer for.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/sipoc_lamingtons.png" height="200" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/sipoc_lamingtons.png" height="200" width="auto" loading="lazy"/>
 </p>
 
 Some key insights from this example are:
@@ -187,7 +187,7 @@ I never actually figured out what was wrong, but I suspect it was the flour with
 I asked ChatGPT to generate a SIPOC based on the university Bachelor's degree program example above. Since the AI learns from examples on the internet, I think its amalgamated many poor habits when developing a SIPOC.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/sipoc_bad.png" width="300" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/sipoc_bad.png" width="300" height="auto" loading="lazy"/>
 </p>
 
 Here are what I think it's done wrong, or poorly:
