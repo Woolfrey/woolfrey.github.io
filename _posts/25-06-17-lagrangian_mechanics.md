@@ -98,7 +98,7 @@ $$
 $$
 
 Three things to keep in mind here:
-1. We don't consider the signs here (as you might expect from Eqn. (7)); it will be resolved implicitly.
+1. We don't consider the signs here, as you might expect from Eqn. (7); it will be resolved implicitly.
 2. Lagrange actually appealed to d'Alembert's principle, but I think this approach is a little more straightforward.
 3. Kinetic energy is now configuration dependent: $\mathcal{K}(\mathbf{q},\dot{\mathbf{q}})$.
 
@@ -158,8 +158,8 @@ $$
 
 So:
 - $\frac{d}{dt}\left(\frac{\partial\mathcal{K}}{\partial\dot{\mathbf{q}}}\right) = \frac{d\mathbf{p}}{dt}$ is the change in momentum,
-- $\frac{\partial\mathcal{K}}{\partial\mathbf{q}}$ is the are internal forces from a configuration change, and
-- These are induced by the effect of the potential field $-\frac{\partial\mathcal{P}}{\partial\mathbf{q}}$.
+- $\frac{\partial\mathcal{K}}{\partial\mathbf{q}}$ are internal forces from a configuration change, and
+- These are  both induced by the potential field through $-\frac{\partial\mathcal{P}}{\partial\mathbf{q}}$.
 
 [⬆️ Back to top.](#top)
 
