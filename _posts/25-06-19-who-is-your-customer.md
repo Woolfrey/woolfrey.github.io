@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Who Is Your Customer?"
-date: 2025-06-20
+date: 2025-06-19
 categories: [customer, six sigma, define, sipoc, lss]
 ---
 
