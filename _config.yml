@@ -32,6 +32,8 @@ sidebar:
     url: "/publications/"
   - title: "Recommended Reading"
     url: "/reading/"
+  - title: "Recommended Viewing"
+    url: "/viewing/"
 
 # Specify kramdown as the Markdown processor
 markdown: kramdown
