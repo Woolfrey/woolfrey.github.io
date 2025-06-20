@@ -87,7 +87,7 @@ Finally, where do all these graduates go?
 </p>
 
 
-These are the customers of a graduate degree program. In light of this, _students are the *product*, not the customer_. This means we should frame the key performance indicators of a Bachelor's degree program with respect to the customer's requirements.
+These are the customers of a graduate degree program. In light of this, _students are the **product**, not the customer_. This means we should frame the key performance indicators of a Bachelor's degree program with respect to the customer's requirements.
 
 If we were to begin by naively asking "What makes a good University?" at the beginning of the project, then we might answer with things like:
 - Campus facilities,
@@ -97,7 +97,7 @@ If we were to begin by naively asking "What makes a good University?" at the beg
 - Social groups,
 - etc.
 
-But this will lead us to the wrong conclusions since this tells us nothing about the quality of the students coming out of the program.
+But this will lead us to the wrong conclusions. It tells us nothing about the quality of the students coming out of the program.
 
 Instead, by asking the customer, we might get responses like:
 - Subject matter expertise,
@@ -115,22 +115,22 @@ In light of this, we might measure the quality of graduates through things like:
 - Graduate outputs like publications or patents,
 - etc.
 
-Admittedly, there is a danger in treating scholasticism as business. A University degree may devolve in to merely producing technical competencies, rather than the development of the intellect. This should be the purview of technical colleges, in my opinion, but I digress.
+Admittedly, there is a danger in treating scholasticism as business. A University degree may devolve in to merely producing technical competencies, rather than the development of the intellect. The former should be the purview of technical colleges, in my opinion, but I digress.
 
 [⬆️ Back to top.](#top)
 
 ## SIPOC
 
 The Supplier-Input-Process-Output (SIPOC) tool is a staple of the Define phase in a Six Sigma project. Its purpose is to:
-- Provide a high-level process for project stakeholders,
 - Identify suppliers (as potential sources of error), and
+- Provide a high-level process for project stakeholders,
 - Identify customers.
 
 Firstly, knowing who is supplying the inputs to a process can be an important first step in resolving quality issues in a product or process. In LSS there is the adage "rubbish in = rubbish out". If we are receiving poor quality materials & products from our suppliers, this can cause issues within our processes.
 
 Second, having a high-level process map can help with early identification of potential problem areas in the system.
 
-Third, identifying the customer is integral to the success of the project. The next step in the Define phase is usually to develop the Voice of the Customer (VoC). This often involves interviews and focus groups to obtain primary evidence about what the customer actually wants, versus internal opinions within the business itself.
+Third, identifying the customer is integral to the success of the project. The next step in the Define phase is usually to develop the Voice of the Customer (VoC). This often involves interviews and focus groups to obtain primary evidence about what the customer actually wants, versus opinions of what we _think_ they want.
 
 It is also important for establish the product or service specifications (critical to quality factors). By knowing who the customer is, we define quality with respect to their needs. This metrics are what we use in the later phases of the project:
 - Measure: Determining how close the current performance is to the customer requirements.
@@ -205,8 +205,7 @@ What I do think was good was:
 
 To summarise, a diligent application of the SIPOC is crucial to correctly identifying the customer of business process. This will frame how quality and key performance indicators are developed. It can also provide early insight in to potential problem areas for further investigation (or identify them immediately!).
 
-Some tips I think
-
+Here are some tips for making a good SIPOC:
 - Link every input to a customer. Rubbish in = rubbish out, so its important to trace defects back to their source.
 - Match every output to a customer. It's important to identify who is receiving them (if at all!).
 - Waste should be recorded as an output.
