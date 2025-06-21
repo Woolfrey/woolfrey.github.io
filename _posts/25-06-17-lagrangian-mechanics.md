@@ -173,7 +173,7 @@ There was a different thread running through history at the same time. In 1744 P
 He would later denote this as the integral of momentum over distance, which is twice the kinetic energy across time:
 
 $$
-    A = \int m\dot{x} ~dx = \int 2m\dot{x}^2~dt. \tag{14}
+    A = \int m\dot{x} ~dx = \int m\dot{x}^2~dt. \tag{14}
 $$
 
 This didn't pan out, as evinced by history. Sir William Rowan Hamilton would propose its canonical form still used in classical mechanics today[^5]. He observed that Lagrange's equations of motion, Eqn. (11b), may be first be written as the functional:
