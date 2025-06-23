@@ -19,7 +19,8 @@ permalink: /viewing/
 | <img src="../assets/images/films/crouching_tiger.jpg" width="100" height="auto" loading="lazy"/> | Crouching Tiger, Hidden Dragon | Ang Lee | action, drama |
 | <img src="../assets/images/films/golden_flower.jpg" width="100" height="auto" loading="lazy"/> | Curse of the Golden Flower | 2007 | Zhang Yimou | action, drama |
 | <img src="../assets/images/films/descent.jpeg" width="100" height="auto" loading="lazy"/> | Descent, The | 2005 | Neil Marshall | horror |
-| <img src="../assets/images/films/dark_knight.jpg" width="100" height="auto"/> | Dark Knight, The | 2008 | Christopher Nolan | action |
+| <img src="../assets/images/films/dark_knight.jpg" width="100" height="auto" loading="lazy"/> | Dark Knight, The | 2008 | Christopher Nolan | action |
+| <img src="../assets/images/films/edge_of_tomorrow.jpg" width="100" height="auto" loading="lazy"/> | Edge of Tomorrow, The | 2014 | Doug Liman | action, science fiction |
 | <img src="../assets/images/films/empire_strikes_back.jpg" width="100" height="auto" loading="lazy"/>| Empire Strikes Back, The | 1980 | Irvin Kershner  | fantasy, science fiction |
 | <img src="../assets/images/films/endless.png" width="100" height="auto" loading="lazy"/>| Endless, The | 2017 | Justin Benson, Aaron Moorhead | horror, science fiction |
 | <img src="../assets/images/films/end_of_evangelion.jpg" width="100" height="auto" loading="lazy" /> | End of Evangelion, The | 1997 | Hideaki Anno, Kazuya Tsurumaki | action, science fiction |
@@ -42,6 +43,7 @@ permalink: /viewing/
 | <img src="../assets/images/films/oldboy.jpeg" width="100" height="auto" loading="lazy"/> | Oldboy | 2003 | Park Chan-wook | action, revenge |
 | <img src="../assets/images/films/princess_mononoke.png" width="100" height="auto" loading="lazy"/> | Princess Mononoke | 2001 | Hayao Miyazaki | fantasy |
 | <img src="../assets/images/films/redbelt.jpeg" width="100" height="auto" loading="lazy"/> | Redbelt | 2008 | David Mamet | action, drama |
+| <img src="../assets/images/films/revenant.jpg" width="100" height="auto" loading="lazy"/> | Revenant, The | 2015 | Alejandro G. Iñárritu | action, western |
 | <img src="../assets/images/films/ring.jpg" width="100" height="auto" loading="lazy"/> | Ring, The | 2002 | Gore Verbinski | horror |s
 | <img src="../assets/images/films/samurai_jack.jpeg" width="100" height="auto"/> | Samurai Jack |2001 | Genndy Tartakovsky | action, science fiction |
 | <img src="../assets/images/films/saw.jpg" width="100" height="auto"/> | Saw | 2004 | James Wan | horror, thriller |
@@ -52,6 +54,7 @@ permalink: /viewing/
 | <img src="../assets/images/films/terminator_2.jpg" width="100" height="auto" loading="lazy"/> | Terminator 2: Judgement Day | 1991 | James Cameron | action, science fiction |
 | <img src="../assets/images/films/thing.jpg" width="100" height="auto" loading="lazy"/>| Thing, The | 1982 | John Carpenter | horror, science fiction |
 | <img src="../assets/images/films/trigun.jpg" width="100" height="auto" loading="lazy"/> | Trigun | 2010 | Satoshi Nishimura | action, comedy |
+| <img src="../assets/images/films/tokyo_gore_police.jpg" width="100" height="auto" loading="lazy"/> | Tokyo Gore Police | 2008 | Yoshihiro Nishimura | action, horror, science fiction |
 | <img src="../assets/images/films/white_chicks.jpg" width="100" height="auto"/> | White Chicks | 2004 | Keenen Ivory Wayans | comedy |
 | <img src="../assets/images/films/witch.jpg" width="100" height="auto" loading="lazy"/> | Witch, The | 2015 | Robert Eggers | horror |
 

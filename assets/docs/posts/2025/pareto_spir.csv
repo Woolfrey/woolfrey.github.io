@@ -1,12 +1,14 @@
 Feature, Vote
-Robot arm specifications, 4
-External sensor sepcs, 4
-Carry weight, 3
-Cleaning requirements, 5
 Autonomous control, 5
-Recovery, 2
+Cleaning requirements, 5
 UVMS State, 3
-Folding manipulator, 2
-Small tank for tests, 1
-Assessment, 4
+Bridge condition, 4
+External effects on sensor, 4
+Robot arm specs., 4
+Folding arm, 2
+Sensor specs., 3
+Carry weight, 3
+Easy recovery, 2
+Small test tank, 1
 Haptics, 1
+Assessment, 4
