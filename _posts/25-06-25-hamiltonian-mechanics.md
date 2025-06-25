@@ -224,8 +224,7 @@ A conservative system $\dot{H} = 0$ will follow a single contour line along this
 
 [^1]: [Hamilton, 1835] Hamilton, W. R. (1835). Second essay on a general method in dynamics. Philosophical Transactions of the Royal Society of London, 125:95–144.
 
-[^2]: [Lagrange, 1788] Lagrange, J.-L. (1788). Mécanique analytique. Imprimerie de la République, Paris. Available online
-at various archives.
+[^2]: [Lagrange, 1788] Lagrange, J.-L. (1788). Mécanique analytique. Imprimerie de la République, Paris. Available online at various archives.
 
 [^3]: [Newton, 1687] Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica. Royal Society, London. First edition.
 
