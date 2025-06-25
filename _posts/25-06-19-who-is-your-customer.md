@@ -5,7 +5,7 @@ date: 2025-06-19
 categories: [customer, six sigma, define, sipoc, lss]
 ---
 
-> Who is the customer of your business? Who receives the output of your work? Surprisingly, it's not always who you think, and in this article I'd like to demonstrate why. The SIPOC is a fundamental tool in the Lean Six Sigma project management method. When done correctly, it can reveal important insights in to a business process. It's an important step before establishing quality metric and key performance indicators of your work.
+> Who is the customer of your business? Who receives the output of your work? Surprisingly, it's not always who you think, and in this article I'd like to demonstrate why. The SIPOC is a fundamental tool in the Lean Six Sigma project management method. When done correctly, it can reveal important insights in to a business process. It's an important step before establishing quality metrics and key performance indicators of your work.
 
 ### 🧭 Navigation
 - [Whom Do You Serve?](#whom-do-you-serve)
@@ -18,7 +18,7 @@ categories: [customer, six sigma, define, sipoc, lss]
 
 ## Whom Do You Serve?
 
-Lean Six Sigma (LSS) is a project management methodology used to optimise the performance of business and engineering processes. It combines the heuristics for process optimisation from Toyota's Lean production with statistical process control from Motorola's Six Sigma.
+Lean Six Sigma (LSS) is a project management methodology used to optimise the performance of business and engineering systems. It combines the heuristics for process optimisation from Toyota's Lean production with statistical process control from Motorola's Six Sigma.
 
 An LSS project is divided in to 5 phases:
 1. Define the problem,
@@ -122,8 +122,8 @@ Admittedly, there is a danger in treating scholasticism as business. A Universit
 ## SIPOC
 
 The Supplier-Input-Process-Output (SIPOC) tool is a staple of the Define phase in a Six Sigma project. Its purpose is to:
-- Identify suppliers (as potential sources of error), and
-- Provide a high-level process for project stakeholders,
+- Identify suppliers (as potential sources of error),
+- Provide a high-level process for project stakeholders, and
 - Identify customers.
 
 Firstly, knowing who is supplying the inputs to a process can be an important first step in resolving quality issues in a product or process. In LSS there is the adage "rubbish in = rubbish out". If we are receiving poor quality materials & products from our suppliers, this can cause issues within our processes.
@@ -132,7 +132,7 @@ Second, having a high-level process map can help with early identification of po
 
 Third, identifying the customer is integral to the success of the project. The next step in the Define phase is usually to develop the Voice of the Customer (VoC). This often involves interviews and focus groups to obtain primary evidence about what the customer actually wants, versus opinions of what we _think_ they want.
 
-It is also important for establish the product or service specifications (critical to quality factors). By knowing who the customer is, we define quality with respect to their needs. This metrics are what we use in the later phases of the project:
+It is also important for establishing the product or service specifications (critical to quality factors). By knowing who the customer is, we define quality with respect to their needs. These metrics are what we use in the later phases of the project:
 - Measure: Determining how close the current performance is to the customer requirements.
 - Improve: Demonstrating the new process meets or exceeds customer requirements.
 - Control: Monitoring the process with respect to customer requirements.
@@ -141,11 +141,13 @@ It is also important for establish the product or service specifications (critic
 
 ### Example \#1: Train Membrane Dryers
 
-When I was working for Sydney Trains, circa 2013, I did a sabbatical over the summer as a train technician. One thing we had to do was replace faulty membrane dryers from the trains. These were devices that removed moisture from the air before it entered all the pneumatic systems on the train. They were failing quite frequently, and were being replaced often.
+When I was working for Sydney Trains, circa 2013, I did a sabbatical over the summer as a train technician. One thing we had to do was replace faulty membrane dryers from the trains. These were devices that removed moisture from the air before it entered all the pneumatic systems. They were failing quite frequently, and were being replaced often.
 
-When I went back to corporate in the Autumn, I was sitting in on the Six Sigma Green Belt training course. Since I was already employed in the Six Sigma group, I ended up helping other students with their projects. One of the engineering managers was investigating why they were not working. We developed the SIPOC, and, having worked on the trains myself, I added some subject matter expertise.
 
-I told him the output is the defective membrane dryer, and we should define who receives it. It turns out they get put in a box in the storeroom. The supplier was never informed of the problem.
+
+When I went back to corporate in the Autumn, I was sitting in on the Six Sigma Green Belt training course. Since I was already employed in the Six Sigma group, I ended up helping other students with their projects. One of the engineering managers was investigating why membrane dryers were failing. We developed the SIPOC, and I, having worked on the trains myself, added some subject matter expertise.
+
+I told him the output is the defective membrane dryer, and we should define who receives it (a customer). It turns out they get put in a box in the storeroom. The supplier was never informed of the problem.
 
 <p align="center">
     <img src="/assets/images/posts/2025/sipoc_membrane_dryer.png" height="150" width="auto" loading="lazy"/>
@@ -184,14 +186,14 @@ I never actually figured out what was wrong, but I suspect it was the flour with
 
 ### Example \#3: How NOT to do a SIPOC
 
-I asked ChatGPT to generate a SIPOC based on the university Bachelor's degree program example above. Since the AI learns from examples on the internet, I think its amalgamated many poor habits when developing a SIPOC.
+I asked ChatGPT to generate a SIPOC for the Bachelor's degree program scenario above. Since the AI learns from examples on the internet, I think its amalgamated many poor habits when developing a SIPOC.
 
 <p align="center">
     <img src="/assets/images/posts/2025/sipoc_bad.png" width="300" height="auto" loading="lazy"/>
 </p>
 
 Here are what I think it's done wrong, or poorly:
-- ❌ Listing facult & staff as an input. These are not transformed by the process, so they should not be considered in the SIPOC. The effect that staff have on student quality should be considered in the Analyse phase of the project.
+- ❌ Listing faculty & staff as an input. These are not transformed by the process, so they should not be considered in the SIPOC. The effect that staff have on student quality should be considered in the Analyse phase of the project.
 - ❌ Not connecting suppliers to inputs,or outputs to customers. Who supplies the academic records? How can we trace it back if there are errors? Who receives "completed courses"?
 - ❌ Listing completed courses as an output. The course itself is not a product or service, only a process. Who is its customer?
 - ❌ Silos. Components are visually separated in to S, I, P, O, and C boxes. It doesn't illustrate _process flow_.
