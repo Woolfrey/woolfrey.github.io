@@ -47,7 +47,7 @@ def simulate_trajectory(p0, q0, dt, steps):
 q0 = np.pi / 3
 p0 = 2.5
 dt = 0.01
-steps = 1000
+steps = 228
 q_traj, p_traj = simulate_trajectory(p0, q0, dt, steps)
 
 # Grid for phase portrait
@@ -66,7 +66,26 @@ ax1.set_xlim(-2 * np.pi, 2 * np.pi)
 ax1.set_ylim(-10, 10)
 ax1.set_xticks([])
 ax1.set_yticks([])
-ax1.set_title("Phase Portrait (q, p)")
+ax1.set_xlabel(r'Configuration $q$', fontsize=20)
+ax1.set_ylabel(r'Momentum $p$', fontsize=20)
+ax1.xaxis.set_label_coords( 0.50, -0.01)
+ax1.yaxis.set_label_coords(-0.01,  0.5)
+
+# Move axes to intersect at (0,0)
+ax1.spines['left'].set_position('zero')
+ax1.spines['bottom'].set_position('zero')
+
+# Hide the top and right spines
+ax1.spines['right'].set_color('none')
+ax1.spines['top'].set_color('none')
+
+# Enable ticks on bottom and left only
+ax1.xaxis.set_ticks_position('top')
+ax1.yaxis.set_ticks_position('right')
+
+# (Optional) Add ticks manually if you want control over them
+ax1.set_xticks([0])
+ax1.set_yticks([0])
 
 # --- Pendulum animation (right) ---
 pendulum_line, = ax2.plot([], [], 'o-', lw=5, color='black')
@@ -74,7 +93,6 @@ ax2.set_xlim(-1.2, 1.2)
 ax2.set_ylim(-1.2, 0.2)
 ax2.set_aspect('equal')
 ax2.axis('off')
-ax2.set_title("Pendulum Motion")
 
 # Mutable container for the arrow
 arrow_artist = [None]
