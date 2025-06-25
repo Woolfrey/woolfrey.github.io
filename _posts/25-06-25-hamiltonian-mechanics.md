@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Customer Satisfaction: Not Everything Is Equal"
+title: "Hamiltonian Mechanics"
 date: 2025-06-21
 categories: [lagrange, hamiltonian, mechanics, hamilton]
 ---
