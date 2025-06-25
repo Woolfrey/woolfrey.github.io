@@ -24,7 +24,7 @@ categories: [lagrange, hamiltonian, mechanics, hamilton]
 One of the most important principles in physics is the conservation of energy. When an apple falls from a tree, it loses potential energy but gains kinetic energy. The total energy remains constant for all time (until it hits someone on the head).
 
 <p align="center">
-    <img src="../assets/images/posts/2025/Newton_small.png" width="500" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/Newton_small.png" width="500" height="auto" loading="lazy"/>
     <br>
     <em> A falling apple loses potential energy and gains kinetic energy as it falls.</em>
 </p>
@@ -38,7 +38,7 @@ $$
 in which $m\in\mathbb{R}^+$ is the mass (kg), and $g\in\mathbb{R}$ is gravitational acceleration. So, for example, given $x_1,~\dot{x}_1$ and $x_2$ we could determine the speed just before it hits the ground $\dot{x}_2$.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/falling_apple.png" width="150" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/falling_apple.png" width="150" height="auto" loading="lazy"/>
     <br>
     <em> We can use conservation of energy to solve for state variables at different points in time.</em>
 </p>
@@ -58,7 +58,7 @@ $$
 
 ### The Lagrangian
 
-Lagrangian mechanics extends Newton's second law and enables us to solve the dynamic equations of motion for systems of rigid bodies. Suppose $\mathbf{q}\in\mathbb{R}^n$ is the configuration vector, and $\dot{\mathbf{q}}\in\mathbb{R}^n$ is the velocity vector. Hamilton noted that we could first define a functional as the difference between kinetic energy\footnote{Kinetic energy is now configuration dependent.} and potential energy.[^1]
+Lagrangian mechanics extends Newton's second law and enables us to solve the dynamic equations of motion for systems of rigid bodies. Suppose $\mathbf{q}\in\mathbb{R}^n$ is the configuration vector, and $\dot{\mathbf{q}}\in\mathbb{R}^n$ is the velocity vector. Hamilton noted that we could first define a functional as the difference between kinetic energy (kinetic energy is now configuration dependent) and potential energy.[^1]
 
 
 $$
@@ -215,7 +215,7 @@ $$
 A conservative system $\dot{H} = 0$ will follow a single contour line along this surface, i.e. a fixed level set.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/pendulum.gif" width="500" height="auto" loading="lazy">
+    <img src="/assets/images/posts/2025/pendulum.gif" width="500" height="auto" loading="lazy">
     <br>
     <em> A conservative system will remain on a single contour line in the phase portrait. </em>
 </p>
