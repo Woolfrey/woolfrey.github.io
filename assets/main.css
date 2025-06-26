@@ -74,42 +74,46 @@ ol, ul {
 /* Base padding for all lists */
 ol, ul {
   padding-left: 1em;
-  margin-bottom: 1em; /* add spacing below lists */
+  margin-bottom: 1em;                             /* add spacing below lists */
 }
 
 /* Unordered lists - tiered bullets */
 ul {
-  list-style-type: disc;  /* 1st level */
+  list-style-type: disc;                          /* 1st level */
 }
 
 ul ul {
-  list-style-type: circle;  /* 2nd level */
+  list-style-type: circle;                        /* 2nd level */
   padding-left: 1.5em;
 }
 
 ul ul ul {
-  list-style-type: square;  /* 3rd level */
+  list-style-type: square;                        /* 3rd level */
   padding-left: 2em;
 }
 
 /* Ordered lists - tiered numbering */
 ol {
-  list-style-type: decimal;  /* 1st level */
+  list-style-type: decimal;                       /* 1st level */
 }
 
 ol ol {
-  list-style-type: lower-alpha;  /* 2nd level */
+  list-style-type: lower-alpha;                   /* 2nd level */
   padding-left: 1.5em;
 }
 
 ol ol ol {
-  list-style-type: lower-roman;  /* 3rd level */
+  list-style-type: lower-roman;                  /* 3rd level */
   padding-left: 2em;
 }
 
 /* Margin below list items for readability */
 ul li, ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em;          /* For top-level list items */
+}
+
+ul ul li, ol ol li {
+  margin-bottom: 0.2em;          /* For nested list items */
 }
 
 
@@ -250,7 +254,7 @@ th, td {
 
 .sidebar-submenu {
   list-style: disc;
-  padding-left: 1.25em; /* Adds space for the bullets */
+  padding-left: 1.25em;                       /* Adds space for the bullets */
 }
 
 /*****************************************
