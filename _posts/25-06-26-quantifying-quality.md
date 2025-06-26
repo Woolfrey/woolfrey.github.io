@@ -5,6 +5,8 @@ date: 25-06-26
 categories: [customer, six sigma, define, quality, lss]
 ---
 
+> What does quality mean for your customer? A core tenet of the Lean Six Sigma project is empiricism, so it is necessary to articulate, and quantify exactly what customer means. The Critical to Quality (CTQ) tree is a useful tool and thinking exercise for developing quantifiable measures of quality. These become the basis for data collection in the Measure phase, but can also be useful as engineering specifications, and key performance indicators.
+
 ### 🧭 Navigation
 - [What is Quality, Precisely?](#what-is-quality-precisely)
     - [Quality, Step-by-Step](#quality-step-by-step)
