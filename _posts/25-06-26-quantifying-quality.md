@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quantifying Quality"
-date: 25-06-30
+date: 25-06-26
 categories: [customer, six sigma, define, quality, lss]
 ---
 
@@ -38,7 +38,7 @@ A CTQ tree contains 3 (or 4) components:
  [^1]: The Tree Diagram is one of the [7 Management & Planning Tools](https://en.wikipedia.org/wiki/Seven_management_and_planning_tools).
 
 <p align="center">
-    <img src="../assets/images/posts/2025/ctq_tree.png" height="200" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ctq_tree.png" height="200" width="auto" loading="lazy"/>
     <br>
     <em> The structure of a CTQ tree. </em>
 </p>
@@ -98,7 +98,7 @@ In the Define phase, this operational definition only needs to be high-level. If
 In a [previous post](/customer/six%20sigma/define/sipoc/lss/2025/06/19/who-is-your-customer/) I used an example of the time I made lamingtons for friends and colleagues whilst I was living in Italy. These are an Australian delicacy, consisting of a sponge cake, dipped in chocolate sauce, and rolled in coconut shavings. I developed a SIPOC, which is a tool used to identify who receives the output of a process, i.e. the customer. Then based on customer feedback, we can proceed with developing the CTQ tree.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/lamingtons.jpg" height="250" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/lamingtons.jpg" height="250" width="auto" loading="lazy"/>
     <br>
     <em> Delicious lamingtons, made by me! </em>
 </p>
@@ -106,7 +106,7 @@ In a [previous post](/customer/six%20sigma/define/sipoc/lss/2025/06/19/who-is-yo
 One of the problems I had was that my first batch was perfect, and all subsequent batches were too dense and flat. Below is how a CTQ tree might be developed for making good lamingtons:
 
 <p align="center">
-    <img src="../assets/images/posts/2025/ctq_lamingtons.png" height="175" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ctq_lamingtons.png" height="175" width="auto" loading="lazy"/>
     <br>
     <em> A CTQ tree for properly made lamingtons. </em>
 </p>
@@ -124,9 +124,9 @@ In late 2024, we met at the University of Warwick for a workshop to develop a pl
 Below is the initial draft we developed, and below is my refined version.
 
 <p align="center">
-    <img src="../assets/images/projects/terabotics_ctq_photo.jpg" width="500" height="auto" loading="lazy"/>
+    <img src="/assets/images/projects/terabotics_ctq_photo.jpg" width="500" height="auto" loading="lazy"/>
     <br>
-    <img src="../assets/images/posts/2025/ctq_phantom.png" width="500" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ctq_phantom.png" width="500" height="auto" loading="lazy"/>
     <br>
     <em> A CTQ tree to define engineering specifications of a phantom forearm for skin contact sensing. </em>
 </p>
@@ -142,7 +142,7 @@ Another thing to note is, the first draft we developed (pictured above) had a fe
 From about 2006 to early 2007, I worked as a barista. I became quite skilled at making coffee, and I had a very strict process. The proof of my efforts was the reputation I developed for making excellent quality coffee.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/cappucino.jpg" width="200" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/cappucino.jpg" width="200" height="auto" loading="lazy"/>
     <br>
     <em> A cappuccino I made working as a barista in 2007. </em>
 </p>
@@ -160,7 +160,7 @@ A CTQ tree is developed based on customer requirements, but how we achieve those
 For example, here is a customer-centric CTQ of what makes a good cappucino:
 
 <p align="center">
-    <img src="../assets/images/posts/2025/ctq_coffee.png" height="130" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/ctq_coffee.png" height="130" width="auto" loading="lazy"/>
     <br>
     <em> A CTQ tree for a cappuccino </em>
 </p>
@@ -168,7 +168,7 @@ For example, here is a customer-centric CTQ of what makes a good cappucino:
 But based on my expert knowledge above, here is the QFD that relates the quality factors for a good coffee to the technical aspects involved in making it. Notice that there are multiple factors that affect the flavour, and, from a production side, many of them are interrelated (as seen in the "roof" part of the diagram).
 
 <p align="center">
-    <img src="../assets/images/posts/2025/qfd_coffee.png" height="400" width="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/qfd_coffee.png" height="400" width="auto" loading="lazy"/>
     <br>
     <em> A matrix diagram, or quality function deployment (QFD), relating customer requirements to technical specifications for coffee production. </em>
 </p>
