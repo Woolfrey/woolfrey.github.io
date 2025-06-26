@@ -29,7 +29,7 @@ In the Define phase it is also necessary to articulate who the customer is of a 
 
 The problem is, a customer might not always be clear or precise in what they mean. But, since LSS is based on empiricism, it is necessary to translate vague customer requirements in to quantifiable metrics. That way we can collect and scrutinise the data in the Measure and Analyse phases.
 
-The Citical-To-Quality (CTQ) tree is a standard LSS tool used in the Define phase. It helps refine vague, or subjective notions about quality in to objective measurements.[^1] This is integral because these metrics become the basis for the data collection plan in the Measure phase.
+The Citical-To-Quality (CTQ) tree is a standard LSS tool used in the Define phase. It helps refine vague, or subjective notions about quality in to objective measurements.[^1]
 
 A CTQ tree contains 3 (or 4) components:
 1. What the customer needs,
@@ -68,7 +68,7 @@ Notice that all these examples don't give adequate descriptors from which to bui
 
 The next step is to list what quality entails. These should be **adjectives**. It can be difficult for people to start jumping to numerical quantities, so using descriptive words helps build momentum. A useful thing to ask is _what does good look like?_. Conversely, if you're having trouble coming up with ideas, a better question to ask is _what does bad look like?_.
 
-In a previous post, I mentioned a poor experience I had at a hotel. Below are some examples of turning a bad experience in to a performance requirement:
+In a [previous post](/customer/six%20sigma/define/quality/lss/2025/06/21/kano/), I mentioned a poor experience I had at a hotel. Below are some examples of turning a bad experience in to a performance requirement:
 - Tepid water in the shower $\longrightarrow$ How water consistently available in the bathroom.
 - Having to turn the tap really hard to stop water flowing $\longrightarrow$ Faucet can be turned off with minimal effort. 
 - Coffee is weak and watery $\longrightarrow$ Espresso available for breakfast. 
@@ -119,7 +119,7 @@ On my first batch (where the sponge cake quality was perfect), the chocolate lay
 
 ### Medical Phantom Organ
 
-Whilst working on the [Terabotics project](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/ultrafastphotonics/emmasthzgroup/terabotics/) with the University of Leeds, other postdocs and I won a mini competition for our mini research proposal. The idea was to make artificial limbs with the same optical and mechanical properties as a human (a phantom limb / organ). It could be used for testing and experiments using THz sensing in skin contact measurements.
+Whilst working on the [Terabotics project](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/ultrafastphotonics/emmasthzgroup/terabotics/) with the University of Leeds, other postdocs and I won a competition for our mini research proposal. The idea was to make artificial limbs with the same optical and mechanical properties as a human (a phantom limb / organ). It could be used for testing and experiments using THz sensing in skin contact measurements.
 
 In late 2024, we met at the University of Warwick for a workshop to develop a plan for how we were going to make these things. It had never been done before (phantom organs exist, but not phantom limbs for this specific technology), so the CTQ tree was the perfect tool to take a vague definition and refine it into quantitative engineering specifications.
 
@@ -164,7 +164,7 @@ For example, here is a customer-centric CTQ of what makes a good cappucino:
 <p align="center">
     <img src="/assets/images/posts/2025/ctq_coffee.png" height="130" width="auto" loading="lazy"/>
     <br>
-    <em> A CTQ tree for a cappuccino </em>
+    <em> A CTQ tree for a cappuccino. </em>
 </p>
 
 But based on my expert knowledge above, here is the QFD that relates the quality factors for a good coffee to the technical aspects involved in making it. Notice that there are multiple factors that affect the flavour, and, from a production side, many of them are interrelated (as seen in the "roof" part of the diagram).
