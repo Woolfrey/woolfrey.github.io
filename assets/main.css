@@ -109,13 +109,8 @@ ol ol ol {
 
 /* Margin below list items for readability */
 ul li, ol li {
-  margin-bottom: 0.5em;          /* For top-level list items */
+  margin-bottom: 0.5em;
 }
-
-ul ul li, ol ol li {
-  margin-bottom: 0.2em;          /* For nested list items */
-}
-
 
 /*****************************************
  * Blockquotes
