@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hamiltonian Mechanics"
-date: 2025-06-21
+date: 2025-06-25
 categories: [lagrange, hamiltonian, mechanics, hamilton]
 ---
 
