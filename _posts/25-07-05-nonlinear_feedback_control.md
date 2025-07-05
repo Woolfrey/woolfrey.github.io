@@ -83,6 +83,8 @@ Either way, we end up with some complicated, trigonometric functions that:
 1. Don't give us a clear method for reasoning about stability, and
 2. Don't allow us to reason abstractly about other nonlinear systems.
 
+[🔝 Back to top.](#top)
+
 ### No, Energy
 
 Clearly, brute forcing mathematics won't get us anywhere, which signifies we should change strategy. There is another physics paradigm we can appeal to instead: energy. The total energy in the system is:
@@ -118,7 +120,7 @@ which is non-increasing. We can conclude that a system is stable if:
 1. Its energy is non-increasing, and
 2. A better *kind* of stable if the energy is decreasing.
 
----
+[🔝 Back to top.](#top)
 
 ### The Hamiltonian
 
@@ -150,7 +152,7 @@ These give a gradient vector which points in the direction that the system is ch
     <em> Phase portrait of a swinging pendulum. A conservative system remains on the same level set (contour line). A dissipative system always moves below its current level set. </em>
 </p>
 
----
+[🔝 Back to top.](#top)
 
 ## Lyapunov Stability
 
@@ -205,6 +207,7 @@ We can see that these 3 definitions form a nested hierarchy (see figure below):
     <em> Every exponentially stable system is asymptotically stable, and every asymptotically stable system is Lyapunov stable. </em>
 </p>
 
+[🔝 Back to top.](#top)
 
 ## A 3-Step Process
 
@@ -237,6 +240,8 @@ where $x_0$ is the resting position. It is quadratic in both position (configura
     <em> The energy in a mass-spring-damper system is quadratic with respect to both position, and velocity.</em>
 </p>
 
+[🔝 Back to top.](#top)
+
 ## Quaternions
 
 Quaternions are sophisticated mathematical objects that are used to represent orientation in 3D space. They are used in animation, videogames, aerospace, and robotics. In the latter two fields, orientation control is particularly important. Quaternions form a Lie group $\mathbb{H}$, and those which represent orientation are a subset of this $\mathbb{S}^3\subset\mathbb{H}$. Lie groups have specific rules for combining objects, which can make them highly nonlinear. In specific cases, Lyapunov stability is the most straightforward method for stability proofs.
@@ -266,6 +271,8 @@ $$
 $$
 
 Before we can formulate the feedback control problem, we will need several important properties to exploit.
+
+[🔝 Back to top.](#top)
 
 ### Properties of Quaternions
 
@@ -358,7 +365,8 @@ $$
 \mathbf{x} = \mathbf{x}_d~\longrightarrow~\boldsymbol{\epsilon} = \mathbf{0}. \tag{24}
 $$
 
----
+
+[🔝 Back to top.](#top)
 
 ### Feedback Control
 
@@ -402,6 +410,8 @@ The animation below shows a robot using quaternion feedback control. It is a sta
 </p>
 
 > A very important note here: both $\boldsymbol{v}$ and $-\boldsymbol{v}$ represent the same orientation with quaternions! This can cause your robot to suddenly spin 360$^\circ$ toward the desired orientation. Since quaternions can be represented as a 4D vector, we can check if they are point in the same direction using the dot product. If $\boldsymbol{v}_d \cdot \boldsymbol{v} < 0$, then simply use $-\boldsymbol{\varepsilon}_e$ in the feedback control law to spin the opposite direction.
+
+[🔝 Back to top.](#top)
 
 [^1]: Lyapunov, A. M. (1892). The General Problem of the Stability of Motion. Kharkov Mathematical Society. Originally in Russian. English translation by A.T. Fuller, London: Taylor & Francis, 1992.
 
