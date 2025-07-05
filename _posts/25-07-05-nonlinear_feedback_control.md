@@ -16,7 +16,7 @@ categories: [feedback, control, nonlinear, quaternion, robot]
     - [The Hamiltonian](#the-hamiltonian)
 - [Lyapunov Stability](#lyapunov-stability)
 - [A 3 Step Process](#a-3-step-process)
-- [Quaternions](#quaternion-feedback)
+- [Quaternions](#quaternion)
     - [Properties](#properties-of-quaternions)
     - [Feedback Control](#feedback-control)
 
