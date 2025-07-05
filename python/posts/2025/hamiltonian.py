@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 from matplotlib.colors import LinearSegmentedColormap
 
 # Custom colours (normalized to [0, 1])
@@ -14,10 +13,12 @@ colors = [dress_blues, white, antique_white]
 custom_cmap = LinearSegmentedColormap.from_list("my_cmap", colors, N=256)
 
 # Pendulum parameters
-m = 1.0
-l = 1.0
-I = 1.0
-g = 9.81
+c = 1.0                    # Damping coefficient
+g = 9.81                    # Gravitational acceleration        
+I = 1.0                     # Moment of inertia
+l = 1.0                     # Length of the pendulum
+m = 1.0                     # Mass of the pendulum
+
 
 # Hamiltonian and vector field
 def H(p, q):
@@ -25,17 +26,16 @@ def H(p, q):
 
 def hamiltonian_vector_field(p, q):
     dq = p / I
-    dp = -m * g * l * np.sin(q)
+    dp = -m * g * l * np.sin(q) - c * p
     return dq, dp
 
-# Symplectic Euler integrator
 def simulate_trajectory(p0, q0, dt, steps):
     q_traj = [q0]
     p_traj = [p0]
     for _ in range(steps):
         q = q_traj[-1]
         p = p_traj[-1]
-        dp = -m * g * l * np.sin(q)
+        dp = -m * g * l * np.sin(q) - c * p
         p_new = p + dt * dp
         dq = p_new / I
         q_new = q + dt * dq
@@ -43,11 +43,12 @@ def simulate_trajectory(p0, q0, dt, steps):
         q_traj.append(q_new)
     return np.array(q_traj), np.array(p_traj)
 
+
 # Initial conditions and trajectory
 q0 = np.pi / 3
 p0 = 2.5
 dt = 0.01
-steps = 228
+steps = 225
 q_traj, p_traj = simulate_trajectory(p0, q0, dt, steps)
 
 # Grid for phase portrait
@@ -56,12 +57,20 @@ p_vals = np.linspace(-10, 10, 300)
 Q, P   = np.meshgrid(q_vals, p_vals)
 H_vals = H(P, Q)
 
-# Setup figure and subplots
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
+# Setup figure
+fig, ax1 = plt.subplots(figsize=(7, 6), dpi = 200)
 
-# --- Phase portrait (left) ---
+# --- Phase portrait ---
 contour = ax1.contourf(Q, P, H_vals, levels=20, cmap=custom_cmap)
-dot, = ax1.plot([], [], 'ro')
+ax1.plot(q_traj, p_traj, 'r-', label='Trajectory')
+
+# Arrow at the last step
+q_last = q_traj[-1]
+p_last = p_traj[-1]
+dq, dp = hamiltonian_vector_field(p_last, q_last)
+ax1.arrow(q_last, p_last, dq * 0.1, dp * 0.1,
+          head_width=0.3, head_length=0.5, fc='r', ec='r', label='Final vector')
+
 ax1.set_xlim(-2 * np.pi, 2 * np.pi)
 ax1.set_ylim(-10, 10)
 ax1.set_xticks([])
@@ -84,39 +93,9 @@ ax1.xaxis.set_ticks_position('top')
 ax1.yaxis.set_ticks_position('right')
 
 # (Optional) Add ticks manually if you want control over them
+# ...existing code...
 ax1.set_xticks([0])
 ax1.set_yticks([0])
 
-# --- Pendulum animation (right) ---
-pendulum_line, = ax2.plot([], [], 'o-', lw=5, color='black')
-ax2.set_xlim(-1.2, 1.2)
-ax2.set_ylim(-1.2, 0.2)
-ax2.set_aspect('equal')
-ax2.axis('off')
-
-# Mutable container for the arrow
-arrow_artist = [None]
-
-def update(frame):
-    q = q_traj[frame]
-    p = p_traj[frame]
-
-    dot.set_data([q], [p])
-
-    if arrow_artist[0] is not None:
-        arrow_artist[0].remove()
-
-    dq, dp = hamiltonian_vector_field(p, q)
-    arrow_artist[0] = ax1.arrow(q, p, dq * 0.3, dp * 0.3,
-                                head_width=0.3, head_length=0.5, fc='r', ec='r')
-
-    x = l * np.sin(q)
-    y = -l * np.cos(q)
-    pendulum_line.set_data([0, x], [0, y])
-
-    return dot, arrow_artist[0], pendulum_line
-
-# Create animation
-ani = FuncAnimation(fig, update, frames=steps, interval=20, blit=False)
 plt.tight_layout()
 plt.show()
