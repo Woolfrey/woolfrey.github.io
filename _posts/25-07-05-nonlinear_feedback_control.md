@@ -25,7 +25,7 @@ categories: [feedback, control, nonlinear, quaternion, robot]
 The swinging pendulum on a grandfather clock moves back and forth in perpetuity (well, almost). Normally in control theory, when we talk about stability, we talk about system states where it is not moving. Or, in the case of trajectory tracking, the tracking error converges to zero. But a swinging pendulum isn't exactly *unstable*. Its rhythmic motion is deliberately controlled at a rate of 1Hz. How can we reason about this kind of stability?
 
 <p align="center">
-    <img src="../assets/images/posts/2025/grandfather_clock.gif" width="200" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/grandfather_clock.gif" width="200" height="auto" loading="lazy"/>
     <br>
     <em> The pendulum of a grandfather clock swings back-and-forth, consistently, at 1Hz </em>
 </p>
@@ -50,7 +50,7 @@ where:
 
 
 <p align="center">
-    <img src="../assets/images/posts/2025/pendulum_diagram.png" width="200" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pendulum_diagram.png" width="200" height="auto" loading="lazy"/>
     <br>
     <em> Physical modeling of a swinging pendulum.</em>
 </p>
@@ -144,8 +144,8 @@ These give a gradient vector which points in the direction that the system is ch
 
 
 <p align="center">
-    <img src="../assets/images/posts/2025/pendulum_phase_portrait_1.png" width="200" height="auto" loading="lazy"/>
-    <img src="../assets/images/posts/2025/pendulum_phase_portrait_2.png" width="200" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pendulum_phase_portrait_1.png" width="200" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pendulum_phase_portrait_2.png" width="200" height="auto" loading="lazy"/>
     <br>
     <em> Phase portrait of a swinging pendulum. A conservative system remains on the same level set (contour line). A dissipative system always moves below its current level set. </em>
 </p>
@@ -200,7 +200,7 @@ We can see that these 3 definitions form a nested hierarchy (see figure below):
 - All asymptotically stable systems are Lyapunov stable.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/lyapunov_venn_diagram.png" width="250" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/lyapunov_venn_diagram.png" width="250" height="auto" loading="lazy"/>
     <br>
     <em> Every exponentially stable system is asymptotically stable, and every asymptotically stable system is Lyapunov stable. </em>
 </p>
@@ -232,7 +232,7 @@ E(x,\dot{x}) = \frac{1}{2}m\dot{x}^2 + \frac{1}{2}k(x-x_0)^2
 where $x_0$ is the resting position. It is quadratic in both position (configuration), and velocity. In a more abstract sense, it contains the *sum-of-squares* $x^2,~\dot{x}^2$. So, the sum-of-squared errors is often the best choice for a Lyapunov candidate function.
 
 <p align="center">
-    <img src="../assets/images/posts/2025/mass_spring_damper_sideways.png" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/mass_spring_damper_sideways.png" width="400" height="auto" loading="lazy"/>
     <br>
     <em> The energy in a mass-spring-damper system is quadratic with respect to both position, and velocity.</em>
 </p>
@@ -396,7 +396,7 @@ If we design $\mathbf{K}$ so that it is positive definite (symmetric, with posit
 The animation below shows a robot using quaternion feedback control. It is a standard part of [RobotLibrary](https://github.com/Woolfrey/software_robot_library).
 
 <p align="center">
-    <img src="../assets/images/posts/2025/quaternion_feedback.gif" width="250" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/quaternion_feedback.gif" width="250" height="auto" loading="lazy"/>
     <br>
     <em> Quaternion feedback used to control the orientation. </em>
 </p>
