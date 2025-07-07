@@ -16,7 +16,7 @@ categories: [feedback, control, nonlinear, quaternion, robot]
     - [The Hamiltonian](#the-hamiltonian)
 - [Lyapunov Stability](#lyapunov-stability)
 - [A 3 Step Process](#a-3-step-process)
-- [Quaternions](#quaternion)
+- [Quaternions](#quaternions)
     - [Properties](#properties-of-quaternions)
     - [Feedback Control](#feedback-control)
 
@@ -313,7 +313,7 @@ $$
     -\boldsymbol{\varepsilon}
 \end{bmatrix}
 ~\Longrightarrow~
-\mathbf{v}\cdot\bar{\mathbf{v}} = \boldsymbol{\iota}. \tag{20}
+\boldsymbol{v}\cdot\bar{\boldsymbol{v}} = \boldsymbol{\iota}. \tag{20}
 $$
 
 **Time Derivative:**  
