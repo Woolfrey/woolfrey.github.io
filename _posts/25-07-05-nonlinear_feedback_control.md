@@ -67,7 +67,8 @@ where:
 - $\omega = \sqrt{\tfrac{g}{l}}$, and
 - $sn(\cdot)$ is the Jacobi sine elliptic function.
 
-Or we can do what most lazy academics do and assume $\sin(q)\approx q$ when $q\approx 0$ such that:
+Or we can do what most lazy academics do and abstract away all utility by assuming sin(q) ≈ q when q ≈ 0 such
+that:
 
 $$
 \begin{align}
@@ -124,7 +125,7 @@ which is non-increasing. We can conclude that a system is stable if:
 
 ### The Hamiltonian
 
-The combination of $q$ and $\dot{q}$ is known as *state space*, and is very common in system dynamics. But Sir William Rowan Hamilton took an alternative approach using $q$ (the configuration), and momentum $p$. The momentum for the pendulum is:
+The combination of $q$ and $\dot{q}$ is known as _state space_, and is very common in system dynamics. But Sir William Rowan Hamilton took an alternative approach using $q$ (the configuration), and momentum $p$. Combined, these form _phase space_.  The momentum for the pendulum is:
 
 $$
 p = ml^2\dot{q}. \tag{8}
@@ -156,7 +157,7 @@ These give a gradient vector which points in the direction that the system is ch
 
 ## Lyapunov Stability
 
-Aleksandr Mikhailovich Lyapunov published a thesis on _A General Problem of the Stability of Motion_[^1]. As you might have guessed, there are some mathematical definitions named after him that classify the different degrees of stability. Being a mathematician, he provided some esoteric, albeit rigorous definitions. But, from my experience, asking a mathematician about concepts in control theory is the very definition of masochism.
+Aleksandr Mikhailovich Lyapunov published a thesis on _A General Problem of the Stability of Motion_[^1]. As you might have guessed, there are some mathematical definitions named after him that classify the different degrees of stability. But, from my experience, asking a mathematician about concepts in control theory is the very definition of masochism.
 
 > **masochism:** (noun)  
 > Asking a mathematician about control theory.
@@ -236,6 +237,8 @@ where $x_0$ is the resting position. It is quadratic in both position (configura
 
 <p align="center">
     <img src="/assets/images/posts/2025/mass_spring_damper_sideways.png" width="400" height="auto" loading="lazy"/>
+    <br>
+    <img src="/assets/images/posts/2025/mass_spring_damper_energy.png" width="400" height="auto" loading="lazy"/>
     <br>
     <em> The energy in a mass-spring-damper system is quadratic with respect to both position, and velocity.</em>
 </p>
@@ -333,7 +336,18 @@ $$
 \end{bmatrix} \tag{21}
 $$
 
-where $\boldsymbol{\omega}\in\mathbb{R}^3$ is the angular velocity vector (rad/s).
+where $\boldsymbol{\omega}\in\mathbb{R}^3$ is the angular velocity vector (rad/s), and:
+
+$$
+    S(\boldsymbol{\omega}) =
+    \begin{bmatrix}
+        \phantom{-}0 & -\omega_z & \phantom{-}\omega_y \\
+        \phantom{-}\omega_z & \phantom{-}0 & -\omega_x \\
+        -\omega_y & \phantom{-}\omega_x & 0
+    \end{bmatrix} \tag{22}
+$$
+
+is a skew-symmetric matrix.
 
 **Quaternion Error:**  
 Now we can give a proper definition to the quaternion error. We apply the closure and inverse between the desired and actual:
@@ -348,7 +362,7 @@ $$
 \begin{bmatrix}
     \eta_d\eta + \boldsymbol{\varepsilon}_d^T\boldsymbol{\varepsilon} \\
     \eta\boldsymbol{\varepsilon}_d -\eta_d\boldsymbol{\varepsilon} - \boldsymbol{\varepsilon}_d\times\boldsymbol{\varepsilon}
-\end{bmatrix} \tag{22}
+\end{bmatrix} \tag{23}
 $$
 
 We can see that if $\boldsymbol{v} = \boldsymbol{v}_d$ then this leads to the identity.
@@ -356,13 +370,13 @@ We can see that if $\boldsymbol{v} = \boldsymbol{v}_d$ then this leads to the id
 An analogy is addition over real vectors $\mathbf{x}\in\mathbb{R}^n$ which also form a Lie group. To define error, we would use addition (closure) with subtraction (inverse):
 
 $$
-\boldsymbol{\epsilon} = \mathbf{x}_d + (-\mathbf{x}). \tag{23}
+\boldsymbol{\epsilon} = \mathbf{x}_d + (-\mathbf{x}). \tag{24}
 $$
 
 When $\mathbf{x} = \mathbf{x}_d$, we get the identity element (zero):
 
 $$
-\mathbf{x} = \mathbf{x}_d~\longrightarrow~\boldsymbol{\epsilon} = \mathbf{0}. \tag{24}
+\mathbf{x} = \mathbf{x}_d~\longrightarrow~\boldsymbol{\epsilon} = \mathbf{0}. \tag{25}
 $$
 
 
@@ -374,8 +388,8 @@ This proof for quaternion feedback control is from a research paper you can find
 
 $$
 \begin{align}
-    V(\boldsymbol{e}) &= \left(\eta_d - \eta\right)^2 + \left(\boldsymbol{\varepsilon}_d - \boldsymbol{\varepsilon}\right)^T\left(\boldsymbol{\varepsilon}_d - \boldsymbol{\varepsilon}\right) \tag{25a} \\
-    &= 2 - 2\left(\eta_d\eta +\boldsymbol{\varepsilon}_d^T\boldsymbol{\varepsilon}\right) \ge 0 \tag{25b}
+    V(\boldsymbol{e}) &= \left(\eta_d - \eta\right)^2 + \left(\boldsymbol{\varepsilon}_d - \boldsymbol{\varepsilon}\right)^T\left(\boldsymbol{\varepsilon}_d - \boldsymbol{\varepsilon}\right) \tag{26a} \\
+    &= 2 - 2\left(\eta_d\eta +\boldsymbol{\varepsilon}_d^T\boldsymbol{\varepsilon}\right) \ge 0 \tag{26b}
 \end{align}
 $$
 
@@ -384,19 +398,19 @@ Notice that with sufficient algebraic manipulation this reduces to the scalar co
 Second, we take the time derivative, substituting in the quaternion velocity equation to obtain:
 
 $$
-\dot{V}(\boldsymbol{e},\dot{\boldsymbol{e}}) = -2\dot{\eta}_e = \left(\boldsymbol{\omega}_d - \boldsymbol{\omega}\right)^T\boldsymbol{\varepsilon}_e. \tag{26}
+\dot{V}(\boldsymbol{e},\dot{\boldsymbol{e}}) = -2\dot{\eta}_e = \left(\boldsymbol{\omega}_d - \boldsymbol{\omega}\right)^T\boldsymbol{\varepsilon}_e. \tag{27}
 $$
 
 Third, we choose our control input $\boldsymbol{\omega}$ so that this will asymptotically decay:
 
 $$
-\boldsymbol{\omega} \triangleq \boldsymbol{\omega}_d + \mathbf{K}\boldsymbol{\varepsilon}_e \tag{27}
+\boldsymbol{\omega} \triangleq \boldsymbol{\omega}_d + \mathbf{K}\boldsymbol{\varepsilon}_e \tag{28}
 $$
 
 where $\mathbf{K}\in\mathbb{R}^{3\times 3}$ is a gain matrix. If we substitute this in, then:
 
 $$
-\dot{V}(\boldsymbol{e},\dot{\boldsymbol{e}}) = -\boldsymbol{\varepsilon}_e^T\mathbf{K}\boldsymbol{\varepsilon}_e < 0 ~\forall \boldsymbol{\varepsilon}_e\ne\mathbf{0}. \tag{28}
+\dot{V}(\boldsymbol{e},\dot{\boldsymbol{e}}) = -\boldsymbol{\varepsilon}_e^T\mathbf{K}\boldsymbol{\varepsilon}_e < 0 ~\forall \boldsymbol{\varepsilon}_e\ne\mathbf{0}. \tag{29}
 $$
 
 If we design $\mathbf{K}$ so that it is positive definite (symmetric, with positive, real, eigenvalues) then this is guaranteed to be monotonically non-increasing. Thus the feedback control law is asymptotically stable. An easy choice for $\mathbf{K}$ is to make it a diagonal matrix.
