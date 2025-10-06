@@ -122,10 +122,10 @@ This becomes our reference or anchor point for separating out the reproducibilit
 
 ### 2. Operator
 
-We then compute operator means $\bar{y}_{1\cdot\cdot}, \bar{y}_{2\cdot\cdot}, \dots, \bar{y}_{n_o\cdot\cdot}$:
+We then compute operator means:
 
 $$
-    \bar{y}_{\cdot i\cdot} = \frac{1}{n_p n_r}\sum_{j=1}^{n_p}\sum_{k=1}^{n_r} y_{ijk} \tag{4}
+    \bar{y}_{\cdot i\cdot} = \frac{1}{n_p n_r}\sum_{j=1}^{n_p}\sum_{k=1}^{n_r} y_{ijk}. \tag{4}
 $$
 
 Then we compute the (sample) variance for all the operator measurements:
@@ -136,7 +136,7 @@ $$
 
 ### 3. Part
 
-Next we compute the mean for each part $\bar{y}_{\cdot 1 \cdot}, \bar{y}_{\cdot 2 \cdot }, \dots, \bar{y}_{\cdot n_p \cdot}$:
+Next we compute the mean for each part:
 
 $$
 \bar{y}_{\cdot j\cdot} = \frac{1}{n_o n_r}\sum_{i=1}^{n_o} \sum_{k=1}^{n_r} y_{ijk} \tag{6}
@@ -335,7 +335,7 @@ The median value is 37g; this is 1g higher than advertised. There is also an out
 The table below shows the results of the gauge study:
 
 <p align="center">
-    <img src="/assets/images/posts/2025/gauge_results_kitchen.png" width="300" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/gauge_results_kitchen.png" width="400" height="auto" loading="lazy"/>
 <p>
 
 The estimated gauge capability $C_{gauge} \approx 0.2 < 1$ which is not good. Likewise, the number of distinct categories was estimated to be 2 ($< 50) which again, is not good.
@@ -345,13 +345,13 @@ The estimated resolution is about 1.4 grams (99% confidence), so probably closer
 The pareto chart below show the cumlative contribution for the sources of measurement variance. There is significant variance coming from the scales themselves; the repeatability.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/pareto_kitchen.png" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pareto_kitchen.png" width=500" height="auto" loading="lazy"/>
 </p>
 
 When we plot individual observations by operator we can see that they line up with the 1g resolution of the scales themselves. Not much insight here.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/operator_kitchen.png" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/operator_kitchen.png" width="500" height="auto" loading="lazy"/>
 </p>
 
 Plotting the observations by part reveals another story. Despite the low resolution of the scales, the part measurements are quite inconsistent across operators. Look at bag no. 7 for example. There was a 2g discrepency between Operator A and Operator C. Operators weren't even able to measure the _same_ part consistently.
@@ -360,7 +360,9 @@ Plotting the observations by part reveals another story. Despite the low resolut
     <img src="/assets/images/posts/2025/operator_by_part_kitchen.png" width="800" height="auto" loading="lazy"/>
 </p>
 
-> **Conclusion:** These scales are not good if we want to control the weight of M&M bags in a production line!
+
+> Conclusion: These scales are not good if we want to control the weight of M&M bags in a production line!
+
 
 [🔝 Back to top.](#top)
 
@@ -378,17 +380,19 @@ The digital display has a resolution of 0.001g (remember this for later).
 
 The stem and leaf plot below shows the distribution of measurements obstained during the gauge study. Immediately we can see, due to the higher resolution, a wider distriubtion of values. But interestingly, the median lies in the 37g range:
 
+
 | Stem | Leaves |
-|----:|:-------|
+|-----:|:-------|
 |    37 | .136 .138 .138 .139 .140 .142 .143 .146 .146 .146 .146 .148 .507 .511 .516 .521 .523 .523 .532 .533 .533 .537 .542 .572 .842 .849 .850 .853 .854 .855 .885 .885 .894 .894 .894 .898 .945 .956 .962 .962 .964 .974 |
 |    38 | .117 .117 .118 .119 .121 .122 |
 |    39 | .429 .429 .433 .436 .442 .444 .475 .476 .476 .485 .486 .489 |
 
+
 The table below shows the results of the gauge study:
 
 <p align="center">
-    <img src="/assets/images/posts/2025/gauge_results_lab.png" width="300" height="auto" loading="lazy"/>
-<p>
+    <img src="/assets/images/posts/2025/gauge_results_lab.png" width="400" height="auto" loading="lazy"/>
+</p>
 
 The estimated gauge capability is $C_{gauge} \approx 20 \gg 1$, so this is a _very_ good gauge. The distinct number of categories is also 170 $\gg$ 5, which supports this.
 
@@ -397,13 +401,13 @@ My estimated resolution of the gauge is 0.02g (99% confidence), so it seems that
 The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/pareto_lab.png" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pareto_lab.png" width="500" height="auto" loading="lazy"/>
 </p>
 
 When we look at observations by operator, we get consistent distributions:
 
 <p align="center">
-    <img src="/assets/images/posts/2025/operator_lab.png" width="400" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/operator_lab.png" width="500" height="auto" loading="lazy"/>
 </p>
 
 And when we examine operator-by-part, we can see that all operators are measuring each part consistently. So, unlike the kitchen scales, this measuring device does not appear to be susceptible to operator idiosynchrasies.
@@ -412,7 +416,7 @@ And when we examine operator-by-part, we can see that all operators are measurin
     <img src="/assets/images/posts/2025/operator_by_part_lab.png" width="800" height="auto" loading="lazy"/>
 </p>
 
-> **Conclusions:** These scales are extremely precise. Probably _too_ precise for weighing bags of M&Ms. It means we could use a potentially cheaper set of scales for controlling production.
+> Conclusions: These scales are extremely precise. Probably _too_ precise for weighing bags of M&Ms. It means we could use a potentially cheaper set of scales for controlling production.
 
 [🔝 Back to top.](#top)
 
@@ -428,7 +432,7 @@ By performing a systematic gauge study we can isolate these sources of error.
 
 We have also seen that the interaction between operator and the measuring device can have an effect on measurement variance, as evinced by the study of my [kitchen scales](#kitchen-scales).
 
-Moreover, it is important to select a gauge that is appropriate to the measuring task. My kitchen scales are sufficient for cooking at home, but probably not for a production line. Conversely, the lab scale are probably _too_ precise for such a task.
+Moreover, it is important to select a gauge that is appropriate to the measuring task. My kitchen scales are sufficient for cooking at home, but probably not for a production line. Conversely, the lab scale are probably too_ precise for such a task
 
 It seems that Mars Inc. (who produce M&Ms) are over-filling their bags. Value for money!
 
