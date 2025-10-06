@@ -370,7 +370,7 @@ Plotting the observations by part reveals another story. Despite the low resolut
 
 The lab scales are from Kern & Sohn, and are about 20 times more expensive (thankfully I didn't have to pay for them!).
 
-<p align="center"/>
+<p align="center">
     <img src="/assets/images/posts/2025/lab_scales.png" width="300" height="auto" loading="lazy"/>
     <br>
     <em> Kern PCB Economy Precision Balance </em>
