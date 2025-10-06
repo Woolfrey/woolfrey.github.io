@@ -398,7 +398,7 @@ The estimated gauge capability is $C_{gauge} \approx 20 \gg 1$, so this is a _ve
 
 My estimated resolution of the gauge is 0.02g (99% confidence), so it seems that the 3rd decimal place.
 
-The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales.
+The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales is not useful.
 
 <p align="center">
     <img src="/assets/images/posts/2025/pareto_lab.png" width="500" height="auto" loading="lazy"/>
