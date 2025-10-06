@@ -338,7 +338,7 @@ The table below shows the results of the gauge study:
     <img src="/assets/images/posts/2025/gauge_results_kitchen.png" width="400" height="auto" loading="lazy"/>
 </p>
 
-The estimated gauge capability $C_{gauge} \approx 0.2 < 1$ which is not good. Likewise, the number of distinct categories was estimated to be 2 ($< 50) which again, is not good.
+The estimated gauge capability $C_{gauge} \approx 0.2 < 1$ which is not good. Likewise, the number of distinct categories was estimated to be $2 < 5$ which again, is not good.
 
 The estimated resolution is about 1.4 grams (99% confidence), so probably closer to 2g if we were to be conservative and round up.
 
