@@ -13,6 +13,7 @@ You can find your way around this website with the links on the left panel 👈
 
 ### ⌨️ Coding Projects
 Here are some of my main projects:
+- [tufteplotlib](https://pypi.org/project/tufteplotlib/): A Python library for generating beautiful, minimalist graphs in the style of [Edward Tufte](https://www.edwardtufte.com/).
 - [RobotLibrary](https://github.com/Woolfrey/software_robot_library): My C++ library for robot motion control.
 - [ROS2](https://docs.ros.org/en/humble/index.html) packages implementing RobotLibrary for real-time robot control:
    - [serial_link_interfaces](https://github.com/Woolfrey/interface_serial_link)
