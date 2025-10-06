@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data
-df = pd.read_csv("~/workspace/woolfrey.github.io/assets/docs/posts/2025/pareto_spir.csv")
+df = pd.read_csv("~/workspace/woolfrey.github.io/assets/data/pareto_spir.csv")
 df.columns = df.columns.str.strip()
 df = df.sort_values(by="Vote", ascending=False)
 

@@ -50,7 +50,7 @@ where:
 
 
 <p align="center">
-    <img src="/assets/images/posts/2025/pendulum_diagram.png" width="300" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pendulum_diagram.png" width="200" height="auto" loading="lazy"/>
     <br>
     <em> Physical modeling of a swinging pendulum.</em>
 </p>

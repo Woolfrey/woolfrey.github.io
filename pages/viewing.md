@@ -40,6 +40,7 @@ permalink: /viewing/
 | <img src="../assets/images/films/nausicaa.jpg" width="100" height="auto"/> | Nausicaa of the Valley of the Wind | 1984 | Hayao Miyazaki | action, fantasy, science fiction |
 | <img src="../assets/images/films/neon_genesis.jpg" width="100" height="auto" loading="lazy"/>| Neon Genesis Evangelion | 1995 | Hideaki Anno | science fiction |
 | <img src="../assets/images/films/nightcrawler.jpg" width="100" height="auto" loading="lazy"/> | Nightcrawler | 2014 | Dan Gilroy | thriller |
+| <img src="../assets/images/films/oculus.jpeg" width="100" height="auto" loading="lazy"/> | Oculus | 2013 | Mike Flanagan | horror |
 | <img src="../assets/images/films/oldboy.jpeg" width="100" height="auto" loading="lazy"/> | Oldboy | 2003 | Park Chan-wook | action, revenge |
 | <img src="../assets/images/films/princess_mononoke.png" width="100" height="auto" loading="lazy"/> | Princess Mononoke | 2001 | Hayao Miyazaki | fantasy |
 | <img src="../assets/images/films/redbelt.jpeg" width="100" height="auto" loading="lazy"/> | Redbelt | 2008 | David Mamet | action, drama |
