@@ -345,7 +345,7 @@ The estimated resolution is about 1.4 grams (99% confidence), so probably closer
 The pareto chart below show the cumlative contribution for the sources of measurement variance. There is significant variance coming from the scales themselves; the repeatability.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/pareto_kitchen.png" width=500" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pareto_kitchen.png" width="500" height="auto" loading="lazy"/>
 </p>
 
 When we plot individual observations by operator we can see that they line up with the 1g resolution of the scales themselves. Not much insight here.
