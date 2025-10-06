@@ -254,7 +254,7 @@ A good process has $C_p \approx 1$. As shown in the diagram below, the specifica
 We can extend this idea to our gauge. We can take the ratio of the process standard deviation over 6 times the gauge R&R:
 
 $$
-    C_{gauge} = \frac{s_p}{6\cdot s_{gauge}} \tag{17}
+    C_{gauge} = \frac{s_p}{6\cdot s_{grr}} \tag{17}
 $$
 
 That is, our process variation is 6 times larger than Gauge R&R. An excellent gauge will have $C_{gauge} \approx 1$. 
@@ -273,8 +273,8 @@ For example, a z-score of 1.96 equates to 95% probability, or confidence. We can
 
 $$
 \begin{align}
-    z = \frac{\Delta p}{s_{gauge}} &= 1.96 \tag{18a}\\
-                        \Delta p &= 1.96 \cdot s_{gauge} \tag{18b}
+    z = \frac{\Delta p}{s_{grr}} &= 1.96 \tag{18a}\\
+                        \Delta p &= 1.96 \cdot s_{grr} \tag{18b}
 
 \end{align}
 $$
