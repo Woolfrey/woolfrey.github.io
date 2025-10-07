@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gauge Repeatability & Reproducability"
+title: "Gauge Repeatability & Reproducibility"
 date: 25-10-06
 categories: [lss, six-sigma, gauge, gauge-rr, statistics, spc]
 ---
