@@ -5,7 +5,7 @@ permalink: /viewing/
 ---
 
 | | Title | Year | Director | Genre |
-|-|-------|------|----------|-------|
+|-|:------|:----:|:---------|:------|
 | <img src="../assets/images/films/a_tale_of_two_sisters.jpg" width="100" height="auto"/> | A Tale of Two Sisters | 2004 | Kim Jee-woon | horror, mystery |
 | <img src="../assets/images/films/after_midnight.jpg" width="100" height="auto" loading="lazy"/> | After Midnight | 2019 | Jeremy Gardner, Christian Stella | drama, horror |
 | <img src="../assets/images/films/ai.jpg" width="100" height="auto"/> | A.I.: Artificial Intelligence | 2001 | Steven Spielberg | science fiction |
@@ -45,7 +45,7 @@ permalink: /viewing/
 | <img src="../assets/images/films/princess_mononoke.png" width="100" height="auto" loading="lazy"/> | Princess Mononoke | 2001 | Hayao Miyazaki | fantasy |
 | <img src="../assets/images/films/redbelt.jpeg" width="100" height="auto" loading="lazy"/> | Redbelt | 2008 | David Mamet | action, drama |
 | <img src="../assets/images/films/revenant.jpg" width="100" height="auto" loading="lazy"/> | Revenant, The | 2015 | Alejandro G. Iñárritu | action, western |
-| <img src="../assets/images/films/ring.jpg" width="100" height="auto" loading="lazy"/> | Ring, The | 2002 | Gore Verbinski | horror |s
+| <img src="../assets/images/films/ring.jpg" width="100" height="auto" loading="lazy"/> | Ring, The | 2002 | Gore Verbinski | horror |
 | <img src="../assets/images/films/samurai_jack.jpeg" width="100" height="auto"/> | Samurai Jack |2001 | Genndy Tartakovsky | action, science fiction |
 | <img src="../assets/images/films/saw.jpg" width="100" height="auto"/> | Saw | 2004 | James Wan | horror, thriller |
 |<img src="../assets/images/films/snowpiercer.jpg" width="100" height="auto" loading="lazy"/> | Snowpiercer | 2013 | Bong Joon Ho | action, science fiction |
