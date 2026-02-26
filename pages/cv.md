@@ -99,6 +99,7 @@ I specialise in systemic thinking and complex problem solving. I’m equally goo
 
 <a id="teaching"></a>
 ## Teaching and Supervision
+
 | Year(s) | Role        |
 |---------|-------------|
 | 2025 - Present | **PhD Co-Supervisor** <br> _University of Technology Sydney_ <br><br> • Co-supervising a PhD student researching model predictive contouring control applied to robotic hip replacement surgery. <br> • Mentoring in control theory, fundamental robotics concepts, and research methods, including experimental design, simulation, and implementation. <br> • Coaching the student on articulating research problems, solutions, and benefits to both professional and academic audiences.  <br> • Providing guidance in C++ programming to support simulation, testing, and integration of robotic control algorithms. |
