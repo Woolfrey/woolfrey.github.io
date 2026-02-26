@@ -37,7 +37,7 @@ I was terrified of failing (maths wasn't my best subject in high school), so I s
 
 Simultaneously, whilst doing my bachelor's degree, I received a scholarship to work with Transport for New South Wales (TfNSW) and I became involved with the [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) and Continuous Improvement methodology. I earned my Six Sigma Green Belt whilst working for Sydney Trains. I later completed the Black Belt course with the University of Technology Sydney (UTS) Business School during my doctorate.
 
- I am currently with the [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds. I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
+I then spent 2 years in [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds.  I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
 
 [🔝 Back to top.](#top)
 
