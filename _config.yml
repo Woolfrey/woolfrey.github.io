@@ -1,5 +1,9 @@
 title: Jon Woolfrey
-description: I like solving problems.
+description: |
+  PhD
+  Lean Six Sigma Black Belt
+  BE Mechatronics (Hons.)
+  Cert. IV Mechanical Trades
 theme: minima
 
 # Specify location of additional pages
@@ -10,9 +14,6 @@ collections:
     
 # Additional sidebar info
 sidebar_info:
-  titles:
-  - "Robotics Engineer 🤖"
-  - "Lean Six Sigma Black Belt 🥋"
   email:    "jonathan.woolfrey@gmail.com"
   linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
   github:   "https://github.com/woolfrey/"
