@@ -5,35 +5,35 @@ permalink: /cv/
 ---
 <a id="top"></a>
 
-> Check out some of the work I've done in the projects link on the side, or just click [here](/projects/).
+<a href="../assets/docs/2026-06-27_curriculum_vitae.pdf">📄 Download PDF version of my CV.</a>
+
+> You can see some examples of the work I've done in the projects link on the side, or just click [here](/projects/).
 
 ### 🧭 Navigation
 - [Skills](#skills)
 - [Work](#work)
 - [Education](#education)
 - [Other Qualifications](#other)
-- [Teaching & Supervision](#teaching)
 - [Publications](/publications/)
 
 <a id="skills"></a>
 ## Skills
 
 #### Technical:
-- Statistical analysis & modelling
-    - Regression & time-series analysis
-    - Hypothesis testing
-    - Design of experiments (DoE)
-- Mathematical optimisation (quadratic, nonlinear, differential dynamic programming)
-- Predictive & optimal control of robots
-- Classical mechanics & multibody dynamics
-- Mechanical design (3D CAD, production drawings, configuration management)
+- Mathematical optimisation
+- Statistics
+   - Regression
+   - Hypothesis testing
+   - Design of experiments
+- Classical mechanics
+- Robot control
+- Mechanical design
 
 #### Soft:
-- Technical project leadership (research & engineering teams)
-- Structured problem solving (Six Sigma, DMAIC)
-- Root cause analysis & systems thinking
-- Workshop facilitation & cross-functional collaboration
-- Technical communication (executive & stakeholder presentations)
+- Systems thinking
+- Project management (Six Sigma & DMAIC)
+- Root cause analysis
+- Workshopping
 
 #### Programming Languages:
 - C++ (advanced)
@@ -42,7 +42,7 @@ permalink: /cv/
 
 #### Spoken Languages:
 - 🇬🇧 English (native)
-- 🇮🇹 Italian (intermediate)
+- 🇮🇹 Italian (beginner)
 
 [🔝 Back to top.](#top)
 
@@ -51,6 +51,7 @@ permalink: /cv/
 
 | Year(s) | Role |
 |---------|------|
+| January 2026 – <br> Present | **Independent Business & Engineering Consultant** <br> _Sydney, Australia_ <br><br> • Leading a business process improvement investigation with an estimated impact of **$500,000** for <a href="https://thebutcherspantry.com.au/">The Butcher's Pantry</a>, involving: <br>&nbsp;&nbsp;&nbsp;&nbsp;– Designing and analysing customer surveys. <br> &nbsp;&nbsp;&nbsp;&nbsp; – Identifying key performance indicators (KPIs) for analysis.<br> &nbsp;&nbsp;&nbsp;&nbsp;– Hosting root cause analysis workshops. <br> • Developing force-feedback control algorithms for <a href="https://crestrobotics.co/">Crest Robotics</a> to enable remote operation of high-voltage switchgear, reducing human exposure to hazardous environments.<br> • Collaborating with the Italian Institute of Technology to develop predictive control for dynamic collision avoidance of mobile robots, involving:<br>&nbsp;&nbsp;&nbsp;&nbsp;– Designing reusable C++ software architecture for trajectory generation and control. <br>&nbsp;&nbsp;&nbsp;&nbsp;– Integrating the software into a <a href="https://docs.nav2.org/">ROS 2 Nav2</a> plugin for deployment on the <a href="https://icub.iit.it/products/r1-robot">R1 humanoid robot</a>.<br> • Collaborating with the University of Technology Sydney on nonlinear regression to characterise the behaviour of non-Newtonian fluids (oobleck) for force control in human–robot interaction. | 
 | February 2024 – <br> January 2026 | **Research Fellow** <br> _University of Leeds, United Kingdom_ <br> <br> • Provided expertise on  software design & control methods for the [Terabotics project](https://warwick.ac.uk/fac/sci/physics/research/condensedmatt/ultrafastphotonics/emmasthzgroup/terabotics/) (high-frequency light sensors with robotic systems in cancer diagnosis). <br> • Secured **£22,000** in competitive, and international research funding. <br> • Principal Investigator on an international collaboration for [magnetic tentacle robots for heart intervention](https://wun.ac.uk/wun/research/view/magnetically-controlled-tentacle-robots-for-transcatheter-structural-heart-intervention/) with the University of Technology Sydney, and Chinese University of Hong Kong. <br> • Designed and implemented a [C++ library for robot control](https://github.com/Woolfrey/software_robot_library) with modular [ROS2 action servers](https://github.com/Woolfrey/server_serial_link) to support complex robot manipulation tasks. <br> • Led a [cross-disciplinary workshop](https://woolfrey.github.io/projects/#terabotics-workshop) between physicists and engineers for a mini-project involving: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Enumerating engineering specifications, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Identifying risks & countermeasures, and <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Sequencing task dependencies.|
 | July 2021 – <br> December 2023 | **Postdoc** <br> _Humanoid Sensing & Perception, Istituto Italiano di Tecnologia_ <br> <br> • Team leader for Humanoid Sensing & Perception on the [ergoCub humanoid robot project](https://ergocub.eu/) which involved: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Leading [collaborative planning workshops](https://woolfrey.github.io/projects/\#ergocub), <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  − Directing Agile sprints to meet project deadlines,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  − Chairing weekly project progress meetings. <br> • Designed and implemented [bimanual control classes](https://github.com/hsp-iit/ergocub-bimanual) in C++ for the ergoCub and iCub2 robots. <br> •  Developed and deployed a [convex optimization algorith](https://github.com/Woolfrey/software_simple_qp) for real-time robot control.  <br> • Developed interface definition layers (IDLs) for controlling a humanoid robot as part of an [autonomous human–robot interaction system](https://github.com/ergoCub-HSP/ergocub-manipulation) involving perception and decision trees.|
 | February 2015 – <br> June 2020 | **Doctoral Candidate / Engineer / Research Associate** <br> _Center for Autonomous Systems, University of Technology Sydney_ <br> <br> • Contributed to the [submerged pile inspection robot](https://www.youtube.com/watch?v=hFtW2cXaHYk) by <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Designing mechanical components in SolidWorks, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Developing technical drawings for production, and <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Developing a hierarchy and version control system to manage engineering files. <br> • Led [collaborative design workshops](https://woolfrey.github.io/projects/\#submerged-pile-inspection-robot) for prototype development to: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Identify critical use cases, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; −Enumerate engineering specifications, and <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; − Brainstorm innovative features. <br> • Developed predictive control algorithms in C++ for robot arms on moving platforms.<br> • Collected and analyzed time-series data for wave motion prediction, implementing real-time forecasting algorithms in MATLAB. |
