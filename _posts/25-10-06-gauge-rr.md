@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gauge Repeatability & Reproducability"
+title: "Gauge Repeatability & Reproducibility"
 date: 25-10-06
 categories: [lss, six-sigma, gauge, gauge-rr, statistics, spc]
 ---
@@ -254,7 +254,7 @@ A good process has $C_p \approx 1$. As shown in the diagram below, the specifica
 We can extend this idea to our gauge. We can take the ratio of the process standard deviation over 6 times the gauge R&R:
 
 $$
-    C_{gauge} = \frac{s_p}{6\cdot s_{gauge}} \tag{17}
+    C_{gauge} = \frac{s_p}{6\cdot s_{grr}} \tag{17}
 $$
 
 That is, our process variation is 6 times larger than Gauge R&R. An excellent gauge will have $C_{gauge} \approx 1$. 
@@ -273,8 +273,8 @@ For example, a z-score of 1.96 equates to 95% probability, or confidence. We can
 
 $$
 \begin{align}
-    z = \frac{\Delta p}{s_{gauge}} &= 1.96 \tag{18a}\\
-                        \Delta p &= 1.96 \cdot s_{gauge} \tag{18b}
+    z = \frac{\Delta p}{s_{grr}} &= 1.96 \tag{18a}\\
+                        \Delta p &= 1.96 \cdot s_{grr} \tag{18b}
 
 \end{align}
 $$
@@ -336,16 +336,16 @@ The table below shows the results of the gauge study:
 
 <p align="center">
     <img src="/assets/images/posts/2025/gauge_results_kitchen.png" width="400" height="auto" loading="lazy"/>
-<p>
+</p>
 
-The estimated gauge capability $C_{gauge} \approx 0.2 < 1$ which is not good. Likewise, the number of distinct categories was estimated to be 2 ($< 50) which again, is not good.
+The estimated gauge capability $C_{gauge} \approx 0.2 < 1$ which is not good. Likewise, the number of distinct categories was estimated to be $2 < 5$ which again, is not good.
 
 The estimated resolution is about 1.4 grams (99% confidence), so probably closer to 2g if we were to be conservative and round up.
 
 The pareto chart below show the cumlative contribution for the sources of measurement variance. There is significant variance coming from the scales themselves; the repeatability.
 
 <p align="center">
-    <img src="/assets/images/posts/2025/pareto_kitchen.png" width=500" height="auto" loading="lazy"/>
+    <img src="/assets/images/posts/2025/pareto_kitchen.png" width="500" height="auto" loading="lazy"/>
 </p>
 
 When we plot individual observations by operator we can see that they line up with the 1g resolution of the scales themselves. Not much insight here.
@@ -370,7 +370,7 @@ Plotting the observations by part reveals another story. Despite the low resolut
 
 The lab scales are from Kern & Sohn, and are about 20 times more expensive (thankfully I didn't have to pay for them!).
 
-<p align="center"/>
+<p align="center">
     <img src="/assets/images/posts/2025/lab_scales.png" width="300" height="auto" loading="lazy"/>
     <br>
     <em> Kern PCB Economy Precision Balance </em>
@@ -398,7 +398,7 @@ The estimated gauge capability is $C_{gauge} \approx 20 \gg 1$, so this is a _ve
 
 My estimated resolution of the gauge is 0.02g (99% confidence), so it seems that the 3rd decimal place.
 
-The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales.
+The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales is not useful.
 
 <p align="center">
     <img src="/assets/images/posts/2025/pareto_lab.png" width="500" height="auto" loading="lazy"/>
