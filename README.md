@@ -8,7 +8,7 @@ You can find your way around this website with the links on the left panel 👈
 
 - Coursera: My guest lectures for the Technical University of Munich:
    - [Lean Production Fundamentals](https://www.coursera.org/learn/lean-production-fundamentals/)
-   - [Advanced Lean Production \& Continuous Improvement](https://www.coursera.org/learn/advanced-lean-production-continuous-improvement/)
+   - [Advanced Lean Production & Continuous Improvement](https://www.coursera.org/learn/advanced-lean-production-continuous-improvement/)
 - [Github](https://github.com/Woolfrey): Explore my coding projects and repositories.
 - [LinkedIn](https://www.linkedin.com/in/jonathanwoolfrey/): For professional connections.
 - [YouTube](https://www.youtube.com/@Woolfrey/videos): For robot videos, lectures, and more.
