@@ -226,6 +226,74 @@ li > ol {
 }
 
 /* ============================================================
+   ALL POSTS PAGE (filters + list)
+   ============================================================ */
+.post-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--AntiqueWhite);
+}
+
+.post-filters label {
+  color: var(--BlackOnyx);
+  font-weight: bold;
+}
+
+.post-filters select,
+.post-filters button {
+  font: inherit;
+  padding: 4px 8px;
+  border: 1px solid var(--DressBlues);
+  border-radius: 4px;
+  background-color: white;
+  color: var(--BlackOnyx);
+}
+
+.post-filters button {
+  cursor: pointer;
+  background-color: var(--DressBlues);
+  color: var(--AntiqueWhite);
+}
+
+.post-filters button:hover {
+  background-color: var(--CendreBlue);
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--AntiqueWhite);
+}
+
+.post-list .post-date {
+  display: inline-block;
+  min-width: 8em;
+  color: var(--DressBlues);
+  font-size: 0.85em;
+}
+
+.post-list .post-categories {
+  display: block;
+  margin-top: 2px;
+  margin-left: 8.5em;
+  font-size: 0.75em;
+  font-style: italic;
+  color: var(--CendreBlue);
+}
+
+.post-list-empty {
+  color: var(--DressBlues);
+  font-style: italic;
+}
+/* ============================================================
    COMMENTS SECTION
    ============================================================ */
 #comments {
