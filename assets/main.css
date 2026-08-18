@@ -210,6 +210,21 @@ li > ol {
   font-size: 0.75rem;
 }
 
+.see-all-posts {
+  display: block;
+  margin-top: 5px;
+  padding-left: 1.25em;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--AntiqueWhite);
+  text-decoration: none;
+}
+
+.see-all-posts:hover {
+  color: var(--SuperLemon);
+  text-decoration: underline;
+}
+
 /* ============================================================
    COMMENTS SECTION
    ============================================================ */
