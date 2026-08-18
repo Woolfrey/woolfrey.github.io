@@ -3,6 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>Jon Woolfrey</title>
+
+    {% comment %}
+      Build a short, plain-text snippet for link previews (LinkedIn, Slack,
+      etc). For posts, pull the text between a pair of <!--preview--> markers
+      if present. Everything else falls back to the site description.
+    {% endcomment %}
+    {% assign og_title = page.title | default: site.title %}
+    {% assign og_url = page.url | absolute_url %}
+    {% assign og_type = "website" %}
+
+    {% if page.layout == "post" %}
+      {% assign og_type = "article" %}
+      {% assign preview_parts = page.content | split: "<!--preview-->" %}
+      {% if preview_parts.size >= 3 %}
+        {% assign og_description = preview_parts[1] | strip_html | strip | truncate: 250 %}
+      {% else %}
+        {% assign og_description = page.excerpt | strip_html | strip | truncate: 250 %}
+      {% endif %}
+    {% else %}
+      {% assign og_description = site.description | strip_html %}
+    {% endif %}
+
+    <meta name="description" content="{{ og_description | xml_escape }}">
+    <meta property="og:type" content="{{ og_type }}">
+    <meta property="og:title" content="{{ og_title | xml_escape }}">
+    <meta property="og:description" content="{{ og_description | xml_escape }}">
+    <meta property="og:url" content="{{ og_url }}">
+    <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ og_title | xml_escape }}">
+    <meta name="twitter:description" content="{{ og_description | xml_escape }}">
+
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script type="text/javascript"
