@@ -118,7 +118,7 @@ li > ol {
    SIDEBAR
    ============================================================ */
 .sidebar {
-  width: 320px;
+  width: 280px;
   flex-shrink: 0;
   box-sizing: border-box;
   background-color: var(--DressBlues);
@@ -166,6 +166,10 @@ li > ol {
 .sidebar-info p {
   margin: 5px 0;
   font-size: 0.8em;
+}
+
+.sidebar-info .qualification {
+  font-size: 0.65em;
 }
 
 .sidebar-info .icon-link {
