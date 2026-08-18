@@ -1,6 +1,6 @@
-/*****************************************
- * Root Theme Colors
- *****************************************/
+/* ============================================================
+   THEME COLORS
+   ============================================================ */
 :root {
   --AntiqueWhite: #ede3d2;
   --BlackOnyx:    #2c282c;
@@ -9,9 +9,9 @@
   --SuperLemon:   #e4bf45;
 }
 
-/*****************************************
- * Base Layout
- *****************************************/
+/* ============================================================
+   BASE LAYOUT
+   ============================================================ */
 body {
   display: flex;
   flex-direction: row;
@@ -19,9 +19,6 @@ body {
   padding: 0;
 }
 
-/*****************************************
- * Main Content Area
- *****************************************/
 .content {
   flex: 1;
   padding: 10px;
@@ -29,9 +26,21 @@ body {
   text-align: justify;
 }
 
-/*****************************************
- * Links in Content
- *****************************************/
+/* ============================================================
+   TYPOGRAPHY (main content)
+   ============================================================ */
+h1 {
+  color: var(--BlackOnyx);
+  border-bottom: 1px solid var(--BlackOnyx);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h2, h3, h4, p, ol, ul {
+  color: var(--BlackOnyx);
+}
+
+/* Links */
 .content a,
 .content a:visited,
 ul li a {
@@ -45,69 +54,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-/*****************************************
- * Headings & Text
- *****************************************/
-h1 {
-  color: var(--BlackOnyx);
-  border-bottom: 1px solid var(--BlackOnyx);
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-h2, h3, h4, p,
-ol, ul {
-  color: var(--BlackOnyx);
-}
-
-/*****************************************
- * Lists - tiered styling
- *****************************************/
-
-/* Base padding for all lists */
-ol, ul {
-  padding-left: 1em;
-  margin-bottom: 1em;                             /* add spacing below lists */
-}
-
-/* Unordered lists - tiered bullets */
-ul {
-  list-style-type: disc;                          /* 1st level */
-}
-
-ul ul {
-  list-style-type: circle;                        /* 2nd level */
-  padding-left: 1.5em;
-}
-
-ul ul ul {
-  list-style-type: square;                        /* 3rd level */
-  padding-left: 2em;
-}
-
-/* Ordered lists - tiered numbering */
-ol {
-  list-style-type: decimal;                       /* 1st level */
-}
-
-ol ol {
-  list-style-type: lower-alpha;                   /* 2nd level */
-  padding-left: 1.5em;
-}
-
-ol ol ol {
-  list-style-type: lower-roman;                  /* 3rd level */
-  padding-left: 2em;
-}
-
-/* Margin below list items for readability */
-ul li, ol li {
-  margin-bottom: 0.5em;
-}
-
-/*****************************************
- * Blockquotes
- *****************************************/
+/* Blockquotes */
 blockquote {
   border-left: 4px solid var(--CendreBlue);
   padding-left: 1em;
@@ -115,9 +62,7 @@ blockquote {
   font-style: italic;
 }
 
-/*****************************************
- * Tables
- *****************************************/
+/* Tables */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -129,19 +74,29 @@ th, td {
   color: var(--BlackOnyx);
 }
 
-/*****************************************
- * Site Title
- *****************************************/
-.site-title {
-  color: var(--AntiqueWhite);
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  text-align: left;
+/* ============================================================
+   LISTS (tiered bullets / numbering)
+   ============================================================ */
+ol, ul {
+  padding-left: 1em;
+  margin-bottom: 1em;
 }
 
-/*****************************************
- * MathJax and Custom Math Styling
- *****************************************/
+ul li, ol li {
+  margin-bottom: 0.5em;
+}
+
+ul               { list-style-type: disc; }        /* 1st level */
+ul ul            { list-style-type: circle; padding-left: 1.5em; }  /* 2nd level */
+ul ul ul         { list-style-type: square; padding-left: 2em; }    /* 3rd level */
+
+ol               { list-style-type: decimal; }      /* 1st level */
+ol ol            { list-style-type: lower-alpha; padding-left: 1.5em; } /* 2nd level */
+ol ol ol         { list-style-type: lower-roman; padding-left: 2em; }   /* 3rd level */
+
+/* ============================================================
+   MATHJAX
+   ============================================================ */
 .MathJax_Display,
 .MathJax_SVG,
 .MathJax_HTML,
@@ -149,9 +104,9 @@ th, td {
   color: var(--BlackOnyx);
 }
 
-/*****************************************
- * Sidebar Container
- *****************************************/
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
 .sidebar {
   width: 320px;
   flex-shrink: 0;
@@ -160,23 +115,33 @@ th, td {
   padding: 5px 10px;
 }
 
-/*****************************************
- * Sidebar Typography
- *****************************************/
-.sidebar h1, 
-.sidebar h2, 
-.sidebar h3, 
-.sidebar h4, 
-.sidebar h5, 
-.sidebar h6, 
-.sidebar p, 
-.sidebar li {
+.sidebar h1, .sidebar h2, .sidebar h3,
+.sidebar h4, .sidebar h5, .sidebar h6,
+.sidebar p, .sidebar li {
   color: var(--AntiqueWhite);
 }
 
-/*****************************************
- * Sidebar Info Box
- *****************************************/
+.site-title {
+  color: var(--AntiqueWhite);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Sidebar links (nav + info box) share the same hover behavior */
+.sidebar ul li a,
+.sidebar-info .icon-link {
+  color: var(--AntiqueWhite);
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover,
+.sidebar-info .icon-link:hover {
+  color: var(--SuperLemon);
+  text-decoration: underline;
+}
+
+/* Info box (email / LinkedIn / GitHub) */
 .sidebar-info {
   margin: 5px 0;
   padding: 5px 0;
@@ -185,26 +150,16 @@ th, td {
 }
 
 .sidebar-info p {
-  color: var(--AntiqueWhite);
   margin: 5px 0;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .sidebar-info .icon-link {
-  color: var(--AntiqueWhite);
-  text-decoration: none;
   display: inline-block;
   margin-right: 10px;
 }
 
-.sidebar-info .icon-link:hover {
-  color: var(--SuperLemon);
-  text-decoration: underline;
-}
-
-/*****************************************
- * Sidebar Navigation Links
- *****************************************/
+/* Nav list */
 .sidebar ul {
   padding: 0;
   list-style: none;
@@ -214,42 +169,32 @@ th, td {
   margin-bottom: 5px;
 }
 
-.sidebar ul li a {
-  color: var(--AntiqueWhite);
-  text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-  color: var(--SuperLemon);
-  text-decoration: underline;
-}
-
+/* Posts submenu */
 .sidebar-posts {
   margin: 10px 0;
   padding: 5px 0;
   border-top: 1px solid var(--AntiqueWhite);
 }
 
-.sidebar .sidebar-posts > span {
-  color: var(--AntiqueWhite) !important;
+.sidebar-posts > span {
+  color: var(--AntiqueWhite);
   font-weight: bold;
   display: block;
-  margin-bottom: 1px;
   margin-bottom: 5px;
+}
+
+.sidebar-submenu {
+  list-style: disc;
+  padding-left: 1.25em;
 }
 
 .sidebar-submenu a {
   font-size: 0.75rem;
 }
 
-.sidebar-submenu {
-  list-style: disc;
-  padding-left: 1.25em;                       /* Adds space for the bullets */
-}
-
-/*****************************************
- * Comments Section
- *****************************************/
+/* ============================================================
+   COMMENTS SECTION
+   ============================================================ */
 #comments {
   max-width: 100%;
   width: 800px;
