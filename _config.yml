@@ -2,6 +2,10 @@ title: Jon Woolfrey
 description: "PhD <br> Lean Six Sigma Black Belt <br> BE Mechatronics (Hons.) <br> Cert. IV Mechanical Trades"
 theme: minima
 
+# Controls where post.excerpt cuts off - put <!--more--> in a post
+# wherever you want the teaser (used on the homepage) to stop.
+excerpt_separator: "<!--more-->"
+
 # Specify location of additional pages
 collections:
   pages:
