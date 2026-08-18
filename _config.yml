@@ -6,10 +6,6 @@ theme: minima
 # used in link previews on LinkedIn, Slack, etc.)
 url: "https://woolfrey.github.io"
 
-# Controls where post.excerpt cuts off - put <!--more--> in a post
-# wherever you want the teaser (used on the homepage) to stop.
-excerpt_separator: "<!--more-->"
-
 # Specify location of additional pages
 collections:
   pages:
