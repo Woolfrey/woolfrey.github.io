@@ -43,10 +43,23 @@ Here are some of my main projects:
 
 {% assign latest = site.posts.first %}
 
+{% comment %}
+  Prefer a <!--preview--> ... <!--preview--> snippet if the post has one
+  (kept short and hand-written, same one used for LinkedIn/Slack link
+  previews). Falls back to the <!--more--> excerpt for older posts that
+  don't have preview markers yet.
+{% endcomment %}
+{% assign preview_parts = latest.content | split: "<!--preview-->" %}
+{% if preview_parts.size >= 3 %}
+  {% assign preview = preview_parts[1] %}
+{% else %}
+  {% assign preview = latest.excerpt %}
+{% endif %}
+
 ### [{{ latest.title }}]({{ latest.url | relative_url }})
 
 <p style="font-size: 0.85em; color: var(--DressBlues);">{{ latest.date | date: "%B %-d, %Y" }}</p>
 
-{{ latest.excerpt }}
+{{ preview }}
 
 [Read more →]({{ latest.url | relative_url }})
