@@ -94,6 +94,16 @@ ol               { list-style-type: decimal; }      /* 1st level */
 ol ol            { list-style-type: lower-alpha; padding-left: 1.5em; } /* 2nd level */
 ol ol ol         { list-style-type: lower-roman; padding-left: 2em; }   /* 3rd level */
 
+/* Nested lists (any ul/ol directly inside an li) get their own tighter
+   top/bottom spacing instead of inheriting the 1em block margin above -
+   otherwise the gap before the first sub-item collapses to ~0, and the
+   gap after the last sub-item doubles up with the next top-level item. */
+li > ul,
+li > ol {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
 /* ============================================================
    MATHJAX
    ============================================================ */
@@ -113,6 +123,10 @@ ol ol ol         { list-style-type: lower-roman; padding-left: 2em; }   /* 3rd l
   box-sizing: border-box;
   background-color: var(--DressBlues);
   padding: 5px 10px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .sidebar h1, .sidebar h2, .sidebar h3,
