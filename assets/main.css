@@ -153,9 +153,11 @@ th, td {
  * Sidebar Container
  *****************************************/
 .sidebar {
-  width: 290px;
+  width: 320px;
+  flex-shrink: 0;
+  box-sizing: border-box;
   background-color: var(--DressBlues);
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 /*****************************************
