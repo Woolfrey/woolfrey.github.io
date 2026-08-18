@@ -44,17 +44,11 @@ Here are some of my main projects:
 {% assign latest = site.posts.first %}
 
 {% comment %}
-  Prefer a <!--preview--> ... <!--preview--> snippet if the post has one
-  (kept short and hand-written, same one used for LinkedIn/Slack link
-  previews). Falls back to the <!--more--> excerpt for older posts that
-  don't have preview markers yet.
+  Prefer the post's own `preview:` front matter field if set (same one
+  used for LinkedIn/Slack link previews). Falls back to the <!--more-->
+  excerpt for older posts that don't have a preview field yet.
 {% endcomment %}
-{% assign preview_parts = latest.content | split: "<!--preview-->" %}
-{% if preview_parts.size >= 3 %}
-  {% assign preview = preview_parts[1] %}
-{% else %}
-  {% assign preview = latest.excerpt %}
-{% endif %}
+{% assign preview = latest.preview | default: latest.excerpt %}
 
 ### [{{ latest.title }}]({{ latest.url | relative_url }})
 
