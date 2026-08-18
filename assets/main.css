@@ -118,7 +118,7 @@ li > ol {
    SIDEBAR
    ============================================================ */
 .sidebar {
-  width: 280px;
+  width: 300px;
   flex-shrink: 0;
   box-sizing: border-box;
   background-color: var(--DressBlues);
