@@ -2,6 +2,10 @@ title: Jon Woolfrey
 description: "PhD <br> Lean Six Sigma Black Belt <br> BE Mechatronics (Hons.) <br> Cert. IV Mechanical Trades"
 theme: minima
 
+# Needed so absolute_url produces real, full URLs (e.g. for og:url meta tags
+# used in link previews on LinkedIn, Slack, etc.)
+url: "https://woolfrey.github.io"
+
 # Controls where post.excerpt cuts off - put <!--more--> in a post
 # wherever you want the teaser (used on the homepage) to stop.
 excerpt_separator: "<!--more-->"
