@@ -3,7 +3,6 @@ layout: page
 title: "All Posts"
 permalink: /posts/
 ---
-# All Posts
 
 <style>
   .post-list {
@@ -11,7 +10,6 @@ permalink: /posts/
     margin: 0;
     padding: 0;
   }
-
   .post-list li {
     display: grid;
     grid-template-columns: minmax(6.5rem, max-content) 1fr;
@@ -21,25 +19,27 @@ permalink: /posts/
     padding: 0.6rem 0;
     border-bottom: 1px solid #eaeaea;
   }
-
   .post-date {
     grid-column: 1;
     grid-row: 1;
     white-space: nowrap;
     color: #666;
     font-variant-numeric: tabular-nums;
+    text-align: left;
+    justify-self: start;
   }
-
   .post-list li a {
     grid-column: 2;
     grid-row: 1;
+    justify-self: start;
   }
-
   .post-categories {
     grid-column: 2;
     grid-row: 2;
     font-size: 0.85em;
     color: #888;
+    text-align: left;
+    justify-self: start;
   }
 </style>
 
