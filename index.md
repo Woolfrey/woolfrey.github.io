@@ -7,7 +7,7 @@ title: Jon Woolfrey
 
 ---
 
-### 🖋️ Latest Post
+#### 🖋️ Latest Post
 
 {% assign latest = site.posts.first %}
 
@@ -19,7 +19,7 @@ title: Jon Woolfrey
 
 {{ preview }}
 
-[Read more →]({{ latest.url | relative_url }})
+[Read more →]({{ latest.url | relative_url }}) [All posts →]({{ "/posts/" | relative_url }})
 
 ---
 
