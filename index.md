@@ -21,15 +21,14 @@ title: Jon Woolfrey
 
 [Read more →]({{ latest.url | relative_url }}) [All posts →]({{ "/posts/" | relative_url }})
 
-📬 Stay Updated:
-
 <style>
   .subscribe-box {
     margin: 1rem 0;
     padding: 1rem 1.25rem;
     border: 1px solid #eaeaea;
     border-radius: 6px;
-    max-width: 28rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .subscribe-box p.subscribe-lead {
@@ -83,7 +82,7 @@ title: Jon Woolfrey
 </style>
 
 <div class="subscribe-box">
-  <p class="subscribe-lead">Get new posts by email — robotics, control theory, and Six Sigma, sent whenever I publish something new.</p>
+  <p class="subscribe-lead">Get email notifications when I post something new:</p>
   <form action="https://buttondown.com/api/emails/embed-subscribe/Woolfrey" method="post" class="embeddable-buttondown-form">
     <label for="bd-email">Enter your email</label>
     <input type="email" name="email" id="bd-email" placeholder="you@example.com" aria-label="Enter your email" required />
@@ -91,8 +90,6 @@ title: Jon Woolfrey
   </form>
   <p class="subscribe-footer"><a href="https://buttondown.com/refer/Woolfrey" target="_blank">Powered by Buttondown.</a></p>
 </div>
-
-Prefer RSS? [Subscribe via feed]({{ "/feed.xml" | relative_url }}) instead.
 
 ---
 
