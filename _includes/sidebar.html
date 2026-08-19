@@ -9,9 +9,9 @@
 </ul>
 
 <div class="sidebar-posts">
-  <span>Posts:</span>
+  <span>Latest posts:</span>
   <ul class="sidebar-submenu">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:3 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
