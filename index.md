@@ -21,6 +21,76 @@ title: Jon Woolfrey
 
 [Read more →]({{ latest.url | relative_url }}) [All posts →]({{ "/posts/" | relative_url }})
 
+<style>
+  .subscribe-box {
+    margin: 1rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .subscribe-box p.subscribe-lead {
+    margin: 0 0 0.6rem 0;
+    font-size: 0.95em;
+    color: #444;
+  }
+
+  .subscribe-box form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .subscribe-box label {
+    display: none;
+  }
+
+  .subscribe-box input[type="email"] {
+    flex: 1 1 12rem;
+    padding: 0.45rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+
+  .subscribe-box input[type="submit"] {
+    padding: 0.45rem 0.9rem;
+    border: none;
+    border-radius: 4px;
+    background: #222;
+    color: #fff;
+    font-size: 0.95em;
+    cursor: pointer;
+  }
+
+  .subscribe-box input[type="submit"]:hover {
+    background: #444;
+  }
+
+  .subscribe-box p.subscribe-footer {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.75em;
+    color: #999;
+  }
+
+  .subscribe-box p.subscribe-footer a {
+    color: #999;
+  }
+</style>
+
+<div class="subscribe-box">
+  <p class="subscribe-lead">Get email notifications when I post something new:</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/Woolfrey" method="post" class="embeddable-buttondown-form">
+    <label for="bd-email">Enter your email</label>
+    <input type="email" name="email" id="bd-email" placeholder="you@example.com" aria-label="Enter your email" required />
+    <input type="submit" value="Subscribe" />
+  </form>
+  <p class="subscribe-footer"><a href="https://buttondown.com/refer/Woolfrey" target="_blank">Powered by Buttondown.</a></p>
+</div>
+
 ---
 
 #### 🖥️ Find Me Online
@@ -54,4 +124,3 @@ Here are some of my main projects:
 - [The Butcher's Pantry](https://thebutcherspantry.com.au/): A business improvement initiative to boost sales & revenue.
 - [Crest Robotics](https://crestrobotics.co/): Helping solve force feedback control for teleoperated robots.
 - [Robotic hip replacement surgery](https://www.uts.edu.au/research/centres/robotics-institute/partner-us/health-robotics) at the University of Technology Sydney.
-
