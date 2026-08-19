@@ -7,21 +7,24 @@ permalink: /posts/
 
 <style>
   .jw-post-list {
+    display: grid;
+    grid-template-columns: minmax(6.5rem, max-content) 1fr;
+    column-gap: 1rem;
+    row-gap: 0;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
   .jw-post-row {
-    display: grid;
-    grid-template-columns: minmax(6.5rem, max-content) 1fr;
-    column-gap: 1rem;
-    align-items: baseline;
-    padding: 0.6rem 0;
-    border-bottom: 1px solid #eaeaea;
+    display: contents;
   }
 
   .jw-post-date {
+    grid-column: 1;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eaeaea;
+    align-self: baseline;
     white-space: nowrap;
     color: #666;
     font-variant-numeric: tabular-nums;
@@ -29,6 +32,10 @@ permalink: /posts/
   }
 
   .jw-post-main {
+    grid-column: 2;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eaeaea;
+    align-self: baseline;
     display: block;
     width: 100%;
     margin: 0;
