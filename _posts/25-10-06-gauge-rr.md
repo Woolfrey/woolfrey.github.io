@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Gauge Repeatability & Reproducibility"
+title: "Gauge Repeatability and Reproducibility"
 date: 25-10-06
-categories: [lss, six-sigma, gauge, gauge-rr, statistics, spc]
+categories: [lss, six sigma, gauge, gauge rr, statistics, spc]
 image: /assets/images/posts/2025/m&ms.png
 preview: "Whenever you measure something, there can be multiple sources of error: the measuring device, the thing being measured, the person or agent making the observation. If you want to be precise with your estimates, its important to understand where the error is coming from. In this post I show a gauge study I did on 2 sets of scales for measuring the weights of bags of M&Ms"
 ---
