@@ -3,13 +3,27 @@ layout: default
 title: Jon Woolfrey
 ---
 
-#### 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Welcome 🇮🇹 Benvenuti 🇦🇺 G'Day
+## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Welcome 🇮🇹 Benvenuti 🇦🇺 G'Day
 
-This is a portal to my online content.
+---
 
-You can find your way around this website with the links on the left panel 👈
+### 🖋️ Latest Post
 
-### 🖥️ Find Me Online
+{% assign latest = site.posts.first %}
+
+{% assign preview = latest.preview | default: latest.excerpt %}
+
+#### [{{ latest.title }}]({{ latest.url | relative_url }})
+
+<p style="font-size: 0.85em; color: var(--DressBlues);">{{ latest.date | date: "%B %-d, %Y" }}</p>
+
+{{ preview }}
+
+[Read more →]({{ latest.url | relative_url }})
+
+---
+
+#### 🖥️ Find Me Online
 
 - Coursera: My guest lectures for the Technical University of Munich:
   * [Lean Production Fundamentals](https://www.coursera.org/learn/lean-production-fundamentals/)
@@ -18,7 +32,9 @@ You can find your way around this website with the links on the left panel 👈
 - [LinkedIn](https://www.linkedin.com/in/jonathanwoolfrey/): For professional connections.
 - [YouTube](https://www.youtube.com/@Woolfrey/videos): For robot videos, lectures, and more.
 
-### ⌨️ Coding Projects
+---
+
+#### ⌨️ Coding Projects
 
 Here are some of my main projects:
 
@@ -31,29 +47,11 @@ Here are some of my main projects:
 - [Simple QP Solver](https://github.com/Woolfrey/software_simple_qp): A light-weight convex optimisation algorithm.
 - [ergoCub-bimanual](https://github.com/hsp-iit/ergocub-bimanual): Two-handed grasping control of a humanoid robot using [YARP](https://www.yarp.it/latest/).
 
-### 🤝 Current Collaborations
+---
+
+#### 🤝 Current Collaborations
 
 - [The Butcher's Pantry](https://thebutcherspantry.com.au/): A business improvement initiative to boost sales & revenue.
 - [Crest Robotics](https://crestrobotics.co/): Helping solve force feedback control for teleoperated robots.
 - [Robotic hip replacement surgery](https://www.uts.edu.au/research/centres/robotics-institute/partner-us/health-robotics) at the University of Technology Sydney.
 
----
-
-## Latest Post
-
-{% assign latest = site.posts.first %}
-
-{% comment %}
-  Prefer the post's own `preview:` front matter field if set (same one
-  used for LinkedIn/Slack link previews). Falls back to the <!--more-->
-  excerpt for older posts that don't have a preview field yet.
-{% endcomment %}
-{% assign preview = latest.preview | default: latest.excerpt %}
-
-### [{{ latest.title }}]({{ latest.url | relative_url }})
-
-<p style="font-size: 0.85em; color: var(--DressBlues);">{{ latest.date | date: "%B %-d, %Y" }}</p>
-
-{{ preview }}
-
-[Read more →]({{ latest.url | relative_url }})
