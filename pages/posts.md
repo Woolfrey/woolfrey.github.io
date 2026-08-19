@@ -3,7 +3,6 @@ layout: page
 title: "All Posts"
 permalink: /posts/
 ---
-# All Posts
 
 <style>
   .jw-post-list {
