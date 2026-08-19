@@ -3,45 +3,50 @@ layout: page
 title: "All Posts"
 permalink: /posts/
 ---
+# All Posts
 
 <style>
-  .post-list {
+  .jw-post-list {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  .post-list li {
+
+  .jw-post-row {
     display: grid;
     grid-template-columns: minmax(6.5rem, max-content) 1fr;
     column-gap: 1rem;
-    row-gap: 0.15rem;
     align-items: baseline;
     padding: 0.6rem 0;
     border-bottom: 1px solid #eaeaea;
   }
-  .post-date {
-    grid-column: 1;
-    grid-row: 1;
+
+  .jw-post-date {
     white-space: nowrap;
     color: #666;
     font-variant-numeric: tabular-nums;
+    margin: 0;
+  }
+
+  .jw-post-main {
+    display: block;
+    width: 100%;
+    margin: 0;
     text-align: left;
-    justify-self: start;
   }
-  .post-list li a {
-    grid-column: 2;
-    grid-row: 1;
-    justify-self: start;
+
+  .jw-post-main a {
+    display: block;
+    margin: 0;
   }
-    .post-categories {
-      grid-column: 2;
-      grid-row: 2;
-      font-size: 0.85em;
-      color: #888;
-      text-align: left;
-      justify-self: start;
-      margin: 0;
-    }
+
+  .jw-post-tags {
+    display: block;
+    font-size: 0.85em;
+    color: #888;
+    margin: 0.15rem 0 0 0;
+    text-align: left;
+  }
 </style>
 
 <div class="post-filters">
@@ -55,7 +60,7 @@ permalink: /posts/
   </select>
   <button id="reset-filters" type="button">Reset</button>
 </div>
-<ul id="post-list" class="post-list"></ul>
+<ul id="post-list" class="jw-post-list"></ul>
 <p id="post-list-empty" class="post-list-empty" hidden>No posts match those filters.</p>
 <script>
 (async function () {
@@ -66,6 +71,7 @@ permalink: /posts/
   const resetButton = document.getElementById('reset-filters');
   const list        = document.getElementById('post-list');
   const emptyNotice = document.getElementById('post-list-empty');
+
   // Populate Year dropdown, newest first
   const years = [...new Set(posts.map(p => p.year))].sort().reverse();
   years.forEach(y => {
@@ -74,6 +80,7 @@ permalink: /posts/
     opt.textContent = y;
     yearSelect.appendChild(opt);
   });
+
   // Populate Category dropdown, alphabetically
   const categories = [...new Set(posts.flatMap(p => p.categories))].sort();
   categories.forEach(c => {
@@ -82,6 +89,7 @@ permalink: /posts/
     opt.textContent = c;
     catSelect.appendChild(opt);
   });
+
   function render() {
     const y = yearSelect.value;
     const c = catSelect.value;
@@ -89,14 +97,17 @@ permalink: /posts/
       (!y || p.year === y) && (!c || p.categories.includes(c))
     );
     list.innerHTML = filtered.map(p => `
-      <li>
-        <span class="post-date">${p.display_date}</span>
-        <a href="${p.url}">${p.title}</a>
-        <span class="post-categories">${p.categories.join(', ')}</span>
+      <li class="jw-post-row">
+        <span class="jw-post-date">${p.display_date}</span>
+        <div class="jw-post-main">
+          <a href="${p.url}">${p.title}</a>
+          <span class="jw-post-tags">${p.categories.join(', ')}</span>
+        </div>
       </li>
     `).join('');
     emptyNotice.hidden = filtered.length !== 0;
   }
+
   yearSelect.addEventListener('change', render);
   catSelect.addEventListener('change', render);
   resetButton.addEventListener('click', () => {
