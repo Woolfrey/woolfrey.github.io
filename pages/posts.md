@@ -33,14 +33,15 @@ permalink: /posts/
     grid-row: 1;
     justify-self: start;
   }
-  .post-categories {
-    grid-column: 2;
-    grid-row: 2;
-    font-size: 0.85em;
-    color: #888;
-    text-align: left;
-    justify-self: start;
-  }
+    .post-categories {
+      grid-column: 2;
+      grid-row: 2;
+      font-size: 0.85em;
+      color: #888;
+      text-align: left;
+      justify-self: start;
+      margin: 0;
+    }
 </style>
 
 <div class="post-filters">
