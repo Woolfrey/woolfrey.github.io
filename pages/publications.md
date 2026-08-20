@@ -4,7 +4,11 @@ title: "Publications"
 permalink: /publications/
 ---
 
+- Cheng, C., Li, T., **Woolfrey, J.**, Zhao, L., Huang, S. (2026). _MR-MPCC: Model Predictive Contouring Control for Robotic Manipulator Tracking under Moving Reference Frames_ IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+
 - Greenidge, N. J., ..., **Woolfrey, J**, ..., & Valdastri, P. (2025). _Harnessing the oloid shape in magnetically driven robots to enable high-resolution ultrasound imaging_. Science Robotics, 10(100), eadq4198. [[Link]](https://www.science.org/doi/abs/10.1126/scirobotics.adq4198)
+
+- Cheng, C., Li, T., **Woolfrey, J.**, Zhao, L., Huang, S. (2024). _Robot Drawing on a Moving Paperboard_. Australasian Conference on Robotics and Automation (ACRA), [[Link]](https://opus.lib.uts.edu.au/bitstream/10453/187787/2/Paper.pdf)
 
 - **Woolfrey, J.**, Ajoudani, A., Lu, W., & Natale, L. (2024). _Optimal Configurations for Stiffness and Compliance in Human & Robot Arms_. PLOS One, 19(5), e0302987. [[Link]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0302987)
   
@@ -23,5 +27,3 @@ permalink: /publications/
 - **Woolfrey, J.**, Liu, D., & Carmichael, M. (2016). _Kinematic Control of An Autonomous Underwater Vehicle-Manipulator System (AUVMS) Using Autoregressive Prediction of Vehicle Motion and Model Predictive Control_. In 2016 IEEE International Conference on Robotics and Automation (ICRA) (pp. 4591-4596). IEEE. [[Link]](https://ieeexplore.ieee.org/abstract/document/7487660)
 
 [🔝 Back to top.](#top)
-
-[⬅️ Back to CV.](/cv/)

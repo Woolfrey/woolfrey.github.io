@@ -6,14 +6,9 @@ permalink: /projects/
 
 <a name="top"></a>
 
-This page contains a comprehensive (but not exhaustive!) list of contributions I've made to projects throughout my career as a professional engineer. It demonstrates the range, and versatility of my skills:
-- Team leadership,
-- Collaborative project planning,
-- Empirical data analysis, and
-- Robot control.
+This page contains a comprehensive (but not exhaustive!) list of contributions I've made to projects throughout my career as a professional engineer.
 
 I've applied many of the [7 management & planning Tools](https://en.wikipedia.org/wiki/Seven_management_and_planning_tools), the [7 basic tools of qualiy](https://en.wikipedia.org/wiki/Seven_basic_tools_of_quality). There are also some fun robot demonstrations.
-
 
 ## 🧭 Navigation
 
@@ -394,7 +389,6 @@ I programmed the upper-body control to enable quick implementation of different 
   <br>
   <em> The ergoCub recognises a handshake and offers its hand. </em>
 </p>
-
 
 [⬆️ Back to top](#top)
 

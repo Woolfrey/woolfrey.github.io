@@ -17,10 +17,6 @@ I also like:
 
 I've also taken a liking to cooking in the past few years.
 
-> You can find more details on my work experience & education on the left. 👈
-
-> You can find examples of the projects I've worked on, and evidence of my skills in project management, planning, and robot control on the left, too. 👈
-
 ### 🧭 Navigation:
 - [A Bit of History](#history)
 - [Places I've Lived](#places)
@@ -38,8 +34,6 @@ I was terrified of failing (maths wasn't my best subject in high school), so I s
 Simultaneously, whilst doing my bachelor's degree, I received a scholarship to work with Transport for New South Wales (TfNSW) and I became involved with the [Lean Six Sigma](https://en.wikipedia.org/wiki/Lean_Six_Sigma) and Continuous Improvement methodology. I earned my Six Sigma Green Belt whilst working for Sydney Trains. I later completed the Black Belt course with the University of Technology Sydney (UTS) Business School during my doctorate.
 
 I then spent 2 years in [STORM Lab](https://www.stormlabuk.com/) at the University of Leeds.  I am also a guest lecturer and teaching assistant for the Lean Six Sigma [Yellow Belt course](https://www.edx.org/certificates/professional-certificate/tumx-six-sigma-and-lean?webview=false&campaign=Lean+Six+Sigma+Yellow+Belt%3A+Quantitative+Tools+for+Quality+and+Productivity&source=edx&product_category=professional-certificate&placement_url=https%3A%2F%2Fwww.edx.org%2Fcertificates%2Fprofessional-certificate) by the Technical University of Munich (TUM) on [edX.org](https://www.edx.org/).
-
-[🔝 Back to top.](#top)
 
 <a name="places"></a>
 ## Places I've Lived
@@ -73,8 +67,6 @@ I then took another research position Leeds, England, for 2 years. The weather w
     <br>
     <em> A photo of Saltaire United Reform Church, West Yorkshire, England, taken in May 2025. </em>
 </p>
-
-[🔝 Back to top.](#top)
 
 <a name="recipe"></a>
 ## My Favourite Recipe: Pasta all'Amatriciana
