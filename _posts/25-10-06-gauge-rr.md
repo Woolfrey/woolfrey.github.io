@@ -400,7 +400,7 @@ The table below shows the results of the gauge study:
 
 The estimated gauge capability is $C_{gauge} \approx 20 \gg 1$, so this is a _very_ good gauge. The distinct number of categories is also 170 $\gg$ 5, which supports this.
 
-My estimated resolution of the gauge is 0.02g (99% confidence), so it seems that the 3rd decimal place.
+My estimated resolution of the gauge is 0.02g (99% confidence), so it seems that the 3rd decimal place on the digital display is obsolete.
 
 The pareto chart below shows that, within the study, all the variance in the measurements were due to the differences in bags themselves. This is in stark contrast to the kitchen scales is not useful.
 
