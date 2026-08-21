@@ -1,24 +1,17 @@
 title: Jon Woolfrey
 description: "PhD <br> Lean Six Sigma Black Belt <br> BE Mechatronics (Hons.) <br> Cert. IV Mechanical Trades"
 theme: minima
-
-# Needed so absolute_url produces real, full URLs (e.g. for og:url meta tags
-# used in link previews on LinkedIn, Slack, etc.)
 url: "https://woolfrey.github.io"
-
-# Specify location of additional pages
 collections:
   pages:
     output: true
     permalink: /:name/
     
-# Additional sidebar info
 sidebar_info:
   email:    "jonathan.woolfrey@gmail.com"
   linkedin: "https://www.linkedin.com/in/jonathanwoolfrey/"
   github:   "https://github.com/woolfrey/"
   
-# Sidebar navigation links with active state
 sidebar:
   - title: "Home"
     url: "/"
@@ -35,14 +28,18 @@ sidebar:
     url: "/reading/"
   - title: "Recommended Viewing"
     url: "/viewing/"
-
-# Specify kramdown as the Markdown processor
 markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
   syntax_highlighter_opts:
     disable : true
-
-# Other configurations
 permalink: pretty
+
+exclude:
+  - venv/
+  - python/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
