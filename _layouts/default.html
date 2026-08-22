@@ -5,9 +5,9 @@
     <title>Jon Woolfrey</title>
 
     {% comment %}
-      Build a short, plain-text snippet for link previews (LinkedIn, Slack,
-      etc). For posts, pull the text between a pair of <!--preview--> markers
-      if present. Everything else falls back to the site description.
+      Metadata for link previews (LinkedIn, Slack, etc). The `preview:`
+      front matter field is the single source of truth for post
+      descriptions -- falls back to site description for non-post pages.
     {% endcomment %}
     {% assign og_title = page.title | default: site.title %}
     {% assign og_url = page.url | absolute_url %}
@@ -23,12 +23,7 @@
 
     {% if page.layout == "post" %}
       {% assign og_type = "article" %}
-      {% assign preview_parts = page.content | split: "<!--preview-->" %}
-      {% if preview_parts.size >= 3 %}
-        {% assign og_description = preview_parts[1] | strip_html | strip | truncate: 250 %}
-      {% else %}
-        {% assign og_description = page.excerpt | strip_html | strip | truncate: 250 %}
-      {% endif %}
+      {% assign og_description = page.preview | default: page.excerpt | strip_html | strip | truncate: 250 %}
     {% else %}
       {% assign og_description = site.description | strip_html %}
     {% endif %}
