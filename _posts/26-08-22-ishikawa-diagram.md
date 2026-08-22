@@ -3,8 +3,8 @@ categories: [lss, root cause, ishikawa, problem solving]
 date: 26-08-22
 layout: post
 title: "The Ishikawa (Fishbone) Diagram"
-image: ../assets/images/posts/2025/ishikawa_diagram.png
-preview: 
+image: ../assets/images/posts/2026/ishikawa_diagram.png
+preview: "The Ishikawa, or Fishbone diagram, is one of the 7 basic tools of quality. It's a useful conceptual tool for structuring ideation in the service of problem solving. In this post I introduce my method for implementing the tool in root cause analysis, and give 2 applied examples of where I've used it to help solve real-world problems."
 ---
 
 > The Ishikawa, or Fishbone diagram, is one of the 7 basic tools of quality. It's a useful conceptual tool for structuring ideation in the service of problem solving. In this post I introduce my method for implementing the tool in root cause analysis, and give 2 applied examples of where I've used it to help solve real-world problems.
