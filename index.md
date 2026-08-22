@@ -19,12 +19,19 @@ title: Jon Woolfrey
 
 {{ preview }}
 
-[Read more →]({{ latest.url | relative_url }}) [All posts →]({{ "/posts/" | relative_url }})
+[Read more →]({{ latest.url | relative_url }})
+
+Other recent posts:
+
+{% for post in site.posts offset: 1 limit: 3 %}
+- [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
+- [All posts →]({{ "/posts/" | relative_url }})
 
 <style>
   .subscribe-box {
-    margin: 1rem 0;
-    padding: 1rem 1.25rem;
+    margin: 0.6rem 0;
+    padding: 0.6rem 0.85rem;
     border: 1px solid #eaeaea;
     border-radius: 6px;
     width: 100%;
@@ -32,14 +39,14 @@ title: Jon Woolfrey
   }
 
   .subscribe-box p.subscribe-lead {
-    margin: 0 0 0.6rem 0;
-    font-size: 0.95em;
+    margin: 0 0 0.4rem 0;
+    font-size: 0.85em;
     color: #444;
   }
 
   .subscribe-box form {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -49,20 +56,20 @@ title: Jon Woolfrey
   }
 
   .subscribe-box input[type="email"] {
-    flex: 1 1 12rem;
-    padding: 0.45rem 0.6rem;
+    flex: 1 1 10rem;
+    padding: 0.3rem 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
 
   .subscribe-box input[type="submit"] {
-    padding: 0.45rem 0.9rem;
+    padding: 0.3rem 0.7rem;
     border: none;
     border-radius: 4px;
     background: #222;
     color: #fff;
-    font-size: 0.95em;
+    font-size: 0.85em;
     cursor: pointer;
   }
 
@@ -71,8 +78,8 @@ title: Jon Woolfrey
   }
 
   .subscribe-box p.subscribe-footer {
-    margin: 0.5rem 0 0 0;
-    font-size: 0.75em;
+    margin: 0.35rem 0 0 0;
+    font-size: 0.7em;
     color: #999;
   }
 
