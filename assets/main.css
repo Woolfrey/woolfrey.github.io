@@ -10,6 +10,23 @@
 }
 
 /* ============================================================
+   FONTS
+   ============================================================
+   Call var(--jw-font-body) or var(--jw-font-heading) any time you
+   want to force one of these explicitly (e.g. a one-off element
+   that shouldn't inherit its parent's font). Everywhere else,
+   the rules below already apply these by default. */
+:root {
+  --jw-font-body:    'Crimson Pro', Georgia, serif;
+  --jw-font-heading: 'Crimson Pro', Georgia, serif;
+  /* Crimson Pro has a smaller x-height than Inter, so it reads
+     visually smaller at the same nominal font-size. This scale
+     factor compensates wherever the heading font is applied.
+     Nudge this one number if it still looks off either way. */
+  --jw-font-heading-scale: 1.1;
+}
+
+/* ============================================================
    BASE LAYOUT
    ============================================================ */
 body {
@@ -17,6 +34,7 @@ body {
   flex-direction: row;
   margin: 0;
   padding: 0;
+  font-family: var(--jw-font-body);
 }
 
 .content {
@@ -29,6 +47,21 @@ body {
 /* ============================================================
    TYPOGRAPHY (main content)
    ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--jw-font-heading);
+}
+
+/* Scoped to .content so these don't double up with the ambient
+   scale already applied to .sidebar below -- the sidebar's own
+   h2 (site title) picks up the correction from its parent instead
+   of from an explicit size here. */
+.content h1 { font-size: calc(1.60em * var(--jw-font-heading-scale)); }
+.content h2 { font-size: calc(1.40em * var(--jw-font-heading-scale)); }
+.content h3 { font-size: calc(1.20em * var(--jw-font-heading-scale)); }
+.content h4 { font-size: calc(1.00em * var(--jw-font-heading-scale)); }
+.content h5 { font-size: calc(0.80em * var(--jw-font-heading-scale)); }
+.content h6 { font-size: calc(0.70em * var(--jw-font-heading-scale)); }
+
 h1 {
   color: var(--BlackOnyx);
   border-bottom: 1px solid var(--BlackOnyx);
@@ -105,6 +138,35 @@ li > ol {
 }
 
 /* ============================================================
+   CODE
+   ============================================================
+   No rule previously existed for these, so they were falling
+   back to the browser's default monospace size (~13px), which
+   reads smaller than body text set via --jw-font-body. Split
+   into two rules since kramdown nests <code> inside <pre> for
+   fenced blocks -- ":not(pre) > code" catches only inline spans,
+   since a fenced block's <code> always has <pre> as its parent. */
+
+/* Inline `code` spans. Padding is in em, not px, so it stays
+   proportional to the 1.5em font-size above instead of looking
+   cramped or oversized if that value changes later. */
+:not(pre) > code {
+  font-size: 1.20em;
+  background-color: var(--AntiqueWhite);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+/* Fenced ``` code blocks (kramdown renders these as <pre><code>) */
+pre {
+  font-size: 1.20em;
+  background-color: var(--AntiqueWhite);
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+/* ============================================================
    MATHJAX
    ============================================================ */
 .MathJax_Display,
@@ -118,7 +180,7 @@ li > ol {
    SIDEBAR
    ============================================================ */
 .sidebar {
-  width: 300px;
+  width: 270px;
   flex-shrink: 0;
   box-sizing: border-box;
   background-color: var(--DressBlues);
@@ -127,6 +189,8 @@ li > ol {
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  font-family: var(--jw-font-heading);
+  font-size: calc(1em * var(--jw-font-heading-scale));
 }
 
 .sidebar h1, .sidebar h2, .sidebar h3,
@@ -203,7 +267,7 @@ li > ol {
 
 .sidebar-submenu {
   list-style: disc;
-  padding-left: 1.25em;
+  padding-left: 1.0em;
 }
 
 .sidebar-submenu a {
@@ -293,6 +357,61 @@ li > ol {
   color: var(--DressBlues);
   font-style: italic;
 }
+/* ============================================================
+   RECOMMENDED READING / VIEWING (media list)
+   ============================================================
+   The sort/genre/year controls above this list reuse the
+   .post-filters / .post-list-empty classes already defined above --
+   only the card row layout itself is new. */
+.jw-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.jw-media-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--AntiqueWhite);
+}
+
+.jw-media-cover {
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+
+.jw-media-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.jw-media-title {
+  font-weight: bold;
+  color: var(--BlackOnyx);
+}
+
+.jw-media-meta {
+  font-size: 0.85em;
+  color: var(--DressBlues);
+}
+
+.jw-media-tags {
+  font-size: 0.75em;
+  font-style: italic;
+  color: var(--CendreBlue);
+}
+
+.jw-media-synopsis {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: var(--BlackOnyx);
+}
+
 /* ============================================================
    COMMENTS SECTION
    ============================================================ */
