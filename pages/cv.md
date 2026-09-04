@@ -3,15 +3,15 @@ layout: page
 title: "Curriculum Vitae"
 permalink: /cv/
 ---
-<a id="top"></a>
+
 
 <style>
   .cv-row {
     display: grid;
-    grid-template-columns: minmax(9rem, max-content) 1fr;
-    column-gap: 1.5rem;
+    grid-template-columns: minmax(7rem, max-content) 1fr;
+    column-gap: 1.0rem;
     padding: 1rem 0;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #ede3d2;
   }
 
   .cv-date {
@@ -45,7 +45,7 @@ permalink: /cv/
 
 > You can see some examples of the work I've done in the projects link on the side, or just click [here](/projects/).
 
-### 🧭 Navigation
+#### 🧭 Navigation
 - [Skills](#skills)
 - [Work](#work)
 - [Education](#education)
