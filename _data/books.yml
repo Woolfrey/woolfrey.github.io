@@ -1,0 +1,407 @@
+- title: Action in Perception
+  author: Alva Noe
+  year: 2004
+  genre:
+  - perception
+  - philosophy
+  cover: /assets/images/book_covers/action_in_perception.jpg
+  synopsis: 'Noe argues that perception relies on self-motion. Without bodies capable of movement, we would literally not be able to see.'
+- title: Bad Science
+  author: Ben Goldacre
+  year: 2008
+  genre:
+  - science
+  - statistics
+  - medicine
+  cover: /assets/images/book_covers/bad_science.jpg
+  synopsis: ''
+- title: Beautiful Evidence
+  author: Edward Tufte
+  year: 2006
+  genre:
+  - statistics
+  - graphics
+  - charts
+  - diagrams
+  cover: /assets/images/book_covers/beautiful_evidence.jpeg
+  synopsis: ''
+- title: 'Biomimicry : Innovation Inspired by Nature'
+  author: Janine Benyus
+  year: 1997
+  genre:
+  - design
+  - problem solving
+  - systems thinking
+  cover: /assets/images/book_covers/biomimicry.jpg
+  synopsis: ''
+- title: Book of Why, The
+  author: Judea Pearl
+  year: 2018
+  genre:
+  - statistics
+  - computer science
+  - A.I.
+  cover: /assets/images/book_covers/book_of_why.jpg
+  synopsis: ''
+- title: Brutal Simplicity of Thought
+  author: Lord Saatchi
+  year: 2011
+  genre:
+  - philosophy
+  cover: /assets/images/book_covers/brutal_simplicty_of_thought.jpg
+  synopsis: ''
+- title: Case for Working With Your Hands, The
+  author: Matthew Crawford
+  year: 2009
+  genre:
+  - philosophy
+  - work
+  - management
+  - epistemology
+  cover: /assets/images/book_covers/case_for_working_with_your_hands.jpg
+  synopsis: ''
+- title: Change by Design
+  author: Tim Brown
+  year: 2009
+  genre:
+  - design
+  - problem solving
+  - business
+  cover: /assets/images/book_covers/change_by_design.jpg
+  synopsis: ''
+- title: Complete Cthulhu Mythos Tales, The
+  author: H.P. Lovecraft
+  year: 2016
+  genre:
+  - horror
+  - fiction
+  cover: /assets/images/book_covers/complete_cthulhu.jpg
+  synopsis: ''
+- title: Complete Tales and Poems of Edgar Allan Poe, The
+  author: Edgar Allan Poe
+  year: 1938
+  genre:
+  - horror
+  - fiction
+  cover: /assets/images/book_covers/complete_tales_and_poems.jpg
+  synopsis: ''
+- title: Count of Monte Cristo, The
+  author: Alexandre Dumas
+  year: 1844
+  genre:
+  - drama
+  - fiction
+  - revenge
+  cover: /assets/images/book_covers/count_of_monte_cristo.jpeg
+  synopsis: 'Falsely imprisoned, a man escapes and plots a decades-long revenge against his wrongdoers. '
+- title: Data Analysis for Politics & Policy
+  author: Edward Tufte
+  year: 1974
+  genre:
+  - statistics
+  - management
+  cover: /assets/images/book_covers/data_analysis_for_politics_and_policy.jpg
+  synopsis: ''
+- title: Delft Design Guide, The
+  author: TU Delft
+  year: 2013
+  genre:
+  - design
+  - problem solving
+  - engineering
+  cover: /assets/images/book_covers/delft_design_guide.jpg
+  synopsis: ''
+- title: Design of Everyday Things, The
+  author: Don Norman
+  year: 1988
+  genre:
+  - design
+  - psychology
+  - human error
+  cover: /assets/images/book_covers/design_of_everyday_things.jpg
+  synopsis: ''
+- title: Dracula
+  author: Bram Stoker
+  year: 1897
+  genre:
+  - horror
+  - science
+  - fiction
+  cover: /assets/images/book_covers/dracula.jpeg
+  synopsis: ''
+- title: End of Science, The
+  author: John Horgan
+  year: 1996
+  genre:
+  - science
+  cover: /assets/images/book_covers/end_of_science.jpg
+  synopsis: ''
+- title: Envisioning Information
+  author: Edward Tufte
+  year: 1990
+  genre:
+  - statistics
+  - graphics
+  - charts
+  - diagrams
+  cover: /assets/images/book_covers/envisioning_information.jpg
+  synopsis: ''
+- title: Farewell to Reason
+  author: Paul Feyerabend
+  year: 1987
+  genre:
+  - philosophy
+  - science
+  cover: /assets/images/book_covers/farewell_to_reason.jpeg
+  synopsis: ''
+- title: Gulag Archipelago, The
+  author: Aleksandr Solzhenitsyn
+  year: 1973
+  genre:
+  - history
+  - politics
+  cover: /assets/images/book_covers/gulag_archipelago.jpeg
+  synopsis: ''
+- title: House of Leaves
+  author: Mark Z. Danielewski
+  year: 2000
+  genre:
+  - horror
+  cover: /assets/images/book_covers/house_of_leaves.jpg
+  synopsis: ''
+- title: Human Error
+  author: James Reason
+  year: 1990
+  genre:
+  - human error
+  - psychology
+  - management
+  cover: /assets/images/book_covers/human_error.jpg
+  synopsis: ''
+- title: I Think You'll Find It's a Bit More Complicated Than That
+  author: Ben Goldacre
+  year: 2014
+  genre:
+  - science
+  - statistics
+  - medicine
+  cover: /assets/images/book_covers/i_think_youll_find.jpg
+  synopsis: ''
+- title: Lateral Thinking
+  author: Edward de Bono
+  year: 1970
+  genre:
+  - creativity
+  - problem solving
+  cover: /assets/images/book_covers/lateral_thinking.jpg
+  synopsis: ''
+- title: Life Changing Magic of Tidying Up, The
+  author: Marie Kondo
+  year: 2011
+  genre:
+  - wellbeing
+  cover: /assets/images/book_covers/life_changing_magic.jpg
+  synopsis: ''
+- title: Living with Complexity
+  author: Don Norman
+  year: 2010
+  genre:
+  - design
+  - psychology
+  cover: /assets/images/book_covers/living_with_complexity.jpg
+  synopsis: ''
+- title: Logic of Scientific Discovery, The
+  author: Karl Popper
+  year: 1934
+  genre:
+  - philosophy
+  - science
+  cover: /assets/images/book_covers/logic_of_scientific_discovery.jpg
+  synopsis: ''
+- title: Lost In Math
+  author: Sabine Hossenfelder
+  year: 2018
+  genre:
+  - mathematics
+  - physics
+  - science
+  cover: /assets/images/book_covers/lost_in_math.jpg
+  synopsis: ''
+- title: 'Mathematics and Art : A Cultural History'
+  author: Lynn Gamwell
+  year: 2015
+  genre:
+  - art
+  - mathematics
+  - culture
+  cover: /assets/images/book_covers/mathematics_and_art.jpg
+  synopsis: ''
+- title: 'Noise : A Flaw in Human Judgement'
+  author: Daniel Kahneman, Olivier Sibony, Cass Sunstein
+  year: 2021
+  genre:
+  - psychology
+  - management
+  cover: /assets/images/book_covers/noise.jpg
+  synopsis: ''
+- title: Principles of Scientific Management, The
+  author: Frederick Taylor
+  year: 1911
+  genre:
+  - management
+  - production
+  - lean
+  cover: /assets/images/book_covers/principles_of_scientific_management.jpg
+  synopsis: ''
+- title: 'Signal & The Noise: The Art and Science of Prediction, The'
+  author: Nate Silver
+  year: 2012
+  genre:
+  - statistics
+  - data
+  - prediction
+  - forecasting
+  cover: /assets/images/book_covers/signal_and_the_noise.jpg
+  synopsis: ''
+- title: Six Thinking Hats
+  author: Edward de Bono
+  year: 1985
+  genre:
+  - creativity
+  - problem solving
+  - management
+  cover: /assets/images/book_covers/six_thinking_hats.jpg
+  synopsis: ''
+- title: Solving Complex Problems
+  author: Alexander de Haan
+  year: 2012
+  genre:
+  - systems thinking
+  - problem solving
+  cover: /assets/images/book_covers/solving_complex_problems.jpg
+  synopsis: ''
+- title: Start With Why
+  author: Simon Sinek
+  year: 2009
+  genre:
+  - management
+  - business
+  - philosophy
+  cover: /assets/images/book_covers/start_with_why.jpg
+  synopsis: ''
+- title: Strategic Design
+  author: Giulia Calabretta
+  year: 2016
+  genre:
+  - design
+  - management
+  - business
+  cover: /assets/images/book_covers/strategic_design.jpg
+  synopsis: ''
+- title: Structure of Scientific Revolutions, The
+  author: Thomas Kuhn
+  year: 1962
+  genre:
+  - science
+  - philosophy
+  cover: /assets/images/book_covers/structure_of_scientific_revolutions.jpg
+  synopsis: ''
+- title: Thinking, Fast and Slow
+  author: Daniel Kahneman
+  year: 2011
+  genre:
+  - psychology
+  - management
+  - human error
+  cover: /assets/images/book_covers/thinking_fast_and_slow.jpg
+  synopsis: ''
+- title: 'Thinking in Systems : A Primer'
+  author: Donella Meadows
+  year: 2008
+  genre:
+  - systems thinking
+  - problem solving
+  cover: /assets/images/book_covers/thinking_in_systems.jpg
+  synopsis: ''
+- title: To Be A Machine
+  author: Mark O'Connell
+  year: 2017
+  genre:
+  - philosophy
+  - science
+  - A.I.
+  cover: /assets/images/book_covers/to_be_a_machine.jpg
+  synopsis: ''
+- title: Today and Tomorrow
+  author: Henry Ford
+  year: 1926
+  genre:
+  - management
+  - production
+  - lean
+  - business
+  cover: /assets/images/book_covers/today_and_tomorrow.jpg
+  synopsis: ''
+- title: 'Toyota Production System : Beyond Large Scale Production'
+  author: Taiichi Ohno
+  year: 1978
+  genre:
+  - management
+  - production
+  - lean
+  cover: /assets/images/book_covers/toyota_production_system.jpg
+  synopsis: ''
+- title: 'Toyota Way : 14 Management Principles from the World''s Greatest Manufacturer, The'
+  author: Jeffrey Liker
+  year: 2004
+  genre:
+  - management
+  - production
+  - lean
+  - business
+  cover: /assets/images/book_covers/toyota_way.jpg
+  synopsis: ''
+- title: Visual Display of Quantitative Information, The
+  author: Edward Tufte
+  year: 1983
+  genre:
+  - statistics
+  - graphics
+  - charts
+  - diagrams
+  cover: /assets/images/book_covers/visual_display.jpg
+  synopsis: ''
+- title: Visual Explanations
+  author: Edward Tufte
+  year: 1997
+  genre:
+  - statistics
+  - graphics
+  - charts
+  - diagrams
+  cover: /assets/images/book_covers/visual_explanations.jpg
+  synopsis: ''
+- title: Wizard of Oz, The
+  author: L. Frank Baum
+  year: 1900
+  genre:
+  - fiction
+  - fantasy
+  cover: /assets/images/book_covers/wizard_of_oz.jpg
+  synopsis: ''
+- title: World Beyond Your Head, The
+  author: Matthew Crawford
+  year: 2015
+  genre:
+  - philosophy
+  - wellbeing
+  - perception
+  cover: /assets/images/book_covers/world_beyond_your_head.jpg
+  synopsis: ''
+- title: Zen and the Art of Motorcycle Maintenance
+  author: Robert Pirsig
+  year: 1974
+  genre:
+  - philosophy
+  cover: /assets/images/book_covers/zen_motorcycle.jpg
+  synopsis: ''

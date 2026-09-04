@@ -1,0 +1,477 @@
+- title: A Tale of Two Sisters
+  director: Kim Jee-woon
+  year: 2004
+  genre:
+  - horror
+  - mystery
+  cover: /assets/images/films/a_tale_of_two_sisters.jpg
+  synopsis: ''
+- title: After Midnight
+  director: Jeremy Gardner, Christian Stella
+  year: 2019
+  genre:
+  - drama
+  - horror
+  cover: /assets/images/films/after_midnight.jpg
+  synopsis: ''
+- title: 'A.I.: Artificial Intelligence'
+  director: Steven Spielberg
+  year: 2001
+  genre:
+  - science fiction
+  cover: /assets/images/films/ai.jpg
+  synopsis: ''
+- title: Akira
+  director: Katsuhiro Otomo
+  year: 1988
+  genre:
+  - science fiction
+  cover: /assets/images/films/akira.jpg
+  synopsis: ''
+- title: Alien
+  director: Ridley Scott
+  year: 1979
+  genre:
+  - horror
+  - science fiction
+  cover: /assets/images/films/alien.jpg
+  synopsis: ''
+- title: Aliens
+  director: Ridley Scott
+  year: 1986
+  genre:
+  - action
+  - horror
+  - science fiction
+  cover: /assets/images/films/aliens.jpg
+  synopsis: ''
+- title: Annihilation
+  director: Alex Garland
+  year: 2018
+  genre:
+  - horror
+  - science fiction
+  cover: /assets/images/films/annihilation.jpeg
+  synopsis: ''
+- title: Apocalypto
+  director: Mel Gibson
+  year: 2006
+  genre:
+  - action
+  - adventure
+  cover: /assets/images/films/apocalypto.jpg
+  synopsis: ''
+- title: Battle Royale
+  director: Kinji Fukasaku
+  year: 2001
+  genre:
+  - action
+  - drama
+  cover: /assets/images/films/battle_royale.jpg
+  synopsis: ''
+- title: Chocolate
+  director: Prachya Pinkaew
+  year: 2008
+  genre:
+  - action
+  cover: /assets/images/films/chocolate.jpg
+  synopsis: ''
+- title: Color Out of Space, The
+  director: Richard Stanley
+  year: 2020
+  genre:
+  - horror
+  - science fiction
+  cover: /assets/images/films/color_out_of_space.jpg
+  synopsis: ''
+- title: Crouching Tiger, Hidden Dragon
+  director: Ang Lee
+  year: 2000
+  genre:
+  - action
+  - drama
+  cover: /assets/images/films/crouching_tiger.jpg
+  synopsis: ''
+- title: Curse of the Golden Flower
+  director: Zhang Yimou
+  year: 2007
+  genre:
+  - action
+  - drama
+  cover: /assets/images/films/golden_flower.jpg
+  synopsis: ''
+- title: Descent, The
+  director: Neil Marshall
+  year: 2005
+  genre:
+  - horror
+  cover: /assets/images/films/descent.jpeg
+  synopsis: ''
+- title: Dark Knight, The
+  director: Christopher Nolan
+  year: 2008
+  genre:
+  - action
+  cover: /assets/images/films/dark_knight.jpg
+  synopsis: ''
+- title: Edge of Tomorrow, The
+  director: Doug Liman
+  year: 2014
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/edge_of_tomorrow.jpg
+  synopsis: ''
+- title: Empire Strikes Back, The
+  director: Irvin Kershner
+  year: 1980
+  genre:
+  - fantasy
+  - science fiction
+  cover: /assets/images/films/empire_strikes_back.jpg
+  synopsis: ''
+- title: Endless, The
+  director: Justin Benson, Aaron Moorhead
+  year: 2017
+  genre:
+  - horror
+  - science fiction
+  cover: /assets/images/films/endless.png
+  synopsis: ''
+- title: End of Evangelion, The
+  director: Hideaki Anno, Kazuya Tsurumaki
+  year: 1997
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/end_of_evangelion.jpg
+  synopsis: ''
+- title: Grand Budapest Hotel, The
+  director: Wes Anderson
+  year: 2014
+  genre:
+  - comedy
+  cover: /assets/images/films/grand_budapest_hotel.jpg
+  synopsis: ''
+- title: Hereditary
+  director: Ari Aster
+  year: 2018
+  genre:
+  - horror
+  cover: /assets/images/films/hereditary.jpg
+  synopsis: ''
+- title: Interstellar
+  director: Christopher Nolan
+  year: 2014
+  genre:
+  - science fiction
+  cover: /assets/images/films/interstellar.jpg
+  synopsis: ''
+- title: It Follows
+  director: David Robert Mitchell
+  year: 2015
+  genre:
+  - horror
+  cover: /assets/images/films/it_follows.jpg
+  synopsis: ''
+- title: Jurassic Park
+  director: Steven Spielberg
+  year: 1993
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/jurassic_park.jpeg
+  synopsis: ''
+- title: 'Kill Bill: Vol. 1'
+  director: Quentin Tarantino
+  year: 2003
+  genre:
+  - action
+  cover: /assets/images/films/kill_bill.jpg
+  synopsis: ''
+- title: Kumiko The Treasure Hunter
+  director: David Zellner
+  year: 2014
+  genre:
+  - comedy
+  - adventure
+  cover: /assets/images/films/kumiko_treasure_hunter.jpg
+  synopsis: ''
+- title: Kung Fu Hustle
+  director: Stephen Chow
+  year: 2005
+  genre:
+  - action
+  - comedy
+  cover: /assets/images/films/kung_fu_hustle.jpg
+  synopsis: ''
+- title: Let The Right One In
+  director: Tomas Alfredson
+  year: 2008
+  genre:
+  - horror
+  cover: /assets/images/films/let_the_right_one_in.jpg
+  synopsis: ''
+- title: Little Miss Sunshine
+  director: Valerie Faris, Jonathan Dayton
+  year: 2006
+  genre:
+  - comedy
+  cover: /assets/images/films/little_miss_sunshine.jpg
+  synopsis: ''
+- title: Man From Nowhere, The
+  director: Lee Jeong-beom
+  year: 2010
+  genre:
+  - action
+  - thriller
+  cover: /assets/images/films/man_from_nowhere.jpg
+  synopsis: ''
+- title: Melancholia
+  director: Lars von Trier
+  year: 2011
+  genre:
+  - drama
+  cover: /assets/images/films/melancholia.jpg
+  synopsis: ''
+- title: Memento
+  director: Christopher Nolan
+  year: 2000
+  genre:
+  - thriller
+  cover: /assets/images/films/memento.jpeg
+  synopsis: ''
+- title: Menu, The
+  director: Mark Mylod
+  year: 2022
+  genre:
+  - drama
+  - thriller
+  cover: /assets/images/films/menu.jpg
+  synopsis: ''
+- title: My Neighbour Totoro
+  director: Hayao Miyazaki
+  year: 1989
+  genre:
+  - fantasy
+  cover: /assets/images/films/totoro.jpg
+  synopsis: ''
+- title: Moon
+  director: Duncan Jones
+  year: 2009
+  genre:
+  - science fiction
+  cover: /assets/images/films/moon.jpg
+  synopsis: ''
+- title: Muriel's Wedding
+  director: P. J. Hogan
+  year: 1994
+  genre:
+  - comedy
+  cover: /assets/images/films/muriels_wedding.jpeg
+  synopsis: ''
+- title: Nausicaa of the Valley of the Wind
+  director: Hayao Miyazaki
+  year: 1984
+  genre:
+  - action
+  - fantasy
+  - science fiction
+  cover: /assets/images/films/nausicaa.jpg
+  synopsis: ''
+- title: Neon Genesis Evangelion
+  director: Hideaki Anno
+  year: 1995
+  genre:
+  - science fiction
+  cover: /assets/images/films/neon_genesis.jpg
+  synopsis: ''
+- title: Nightcrawler
+  director: Dan Gilroy
+  year: 2014
+  genre:
+  - thriller
+  cover: /assets/images/films/nightcrawler.jpg
+  synopsis: ''
+- title: Nosferatu
+  director: Robert Eggers
+  year: 2024
+  genre:
+  - horror
+  cover: /assets/images/films/nosferatu.jpg
+  synopsis: ''
+- title: Oculus
+  director: Mike Flanagan
+  year: 2013
+  genre:
+  - horror
+  cover: /assets/images/films/oculus.jpeg
+  synopsis: ''
+- title: Oldboy
+  director: Park Chan-wook
+  year: 2003
+  genre:
+  - action
+  - revenge
+  cover: /assets/images/films/oldboy.jpeg
+  synopsis: ''
+- title: Prestige, The
+  director: Christopher Nolan
+  year: 2006
+  genre:
+  - thriller
+  - science fiction
+  cover: /assets/images/films/prestige.jpg
+  synopsis: ''
+- title: Princess Mononoke
+  director: Hayao Miyazaki
+  year: 2001
+  genre:
+  - fantasy
+  cover: /assets/images/films/princess_mononoke.png
+  synopsis: ''
+- title: Quest for Fire
+  director: Jean-Jacques Annaud
+  year: 1982
+  genre:
+  - adventure
+  cover: /assets/images/films/quest_for_fire.jpeg
+  synopsis: ''
+- title: Redbelt
+  director: David Mamet
+  year: 2008
+  genre:
+  - action
+  - drama
+  cover: /assets/images/films/redbelt.jpeg
+  synopsis: ''
+- title: Revenant, The
+  director: Alejandro G. Iñárritu
+  year: 2015
+  genre:
+  - action
+  - western
+  cover: /assets/images/films/revenant.jpg
+  synopsis: ''
+- title: Ring, The
+  director: Gore Verbinski
+  year: 2002
+  genre:
+  - horror
+  cover: /assets/images/films/ring.jpg
+  synopsis: ''
+- title: Samurai Jack
+  director: Genndy Tartakovsky
+  year: 2001
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/samurai_jack.jpeg
+  synopsis: ''
+- title: Saw
+  director: James Wan
+  year: 2004
+  genre:
+  - horror
+  - thriller
+  cover: /assets/images/films/saw.jpg
+  synopsis: ''
+- title: Silver Brumby, The
+  director: John Tatoulis
+  year: 1993
+  genre:
+  - drama
+  cover: /assets/images/films/silver_brumby.jpg
+  synopsis: ''
+- title: Snowpiercer
+  director: Bong Joon Ho
+  year: 2013
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/snowpiercer.jpg
+  synopsis: ''
+- title: Spirited Away
+  director: Hayao Miyazaki
+  year: 2001
+  genre:
+  - fantasy
+  cover: /assets/images/films/spirited_away.jpg
+  synopsis: ''
+- title: Strictly Ballroom
+  director: Baz Lurhmann
+  year: 1992
+  genre:
+  - drama
+  cover: /assets/images/films/strictly_ballroom.jpg
+  synopsis: ''
+- title: Synchronic
+  director: Aaron Moorhead
+  year: 2019
+  genre:
+  - science fiction
+  - thriller
+  cover: /assets/images/films/synchronic.jpg
+  synopsis: ''
+- title: Teenage Mutant Ninja Turtles
+  director: Steve Barron
+  year: 1990
+  genre:
+  - action
+  cover: /assets/images/films/ninja_turtles.jpg
+  synopsis: ''
+- title: 'Terminator 2: Judgement Day'
+  director: James Cameron
+  year: 1991
+  genre:
+  - action
+  - science fiction
+  cover: /assets/images/films/terminator_2.jpg
+  synopsis: ''
+- title: Thing, The
+  director: John Carpenter
+  year: 1982
+  genre:
+  - horror
+  - science fiction
+  cover: /assets/images/films/thing.jpg
+  synopsis: ''
+- title: Trigun
+  director: Satoshi Nishimura
+  year: 2010
+  genre:
+  - action
+  - comedy
+  cover: /assets/images/films/trigun.jpg
+  synopsis: ''
+- title: Tokyo Gore Police
+  director: Yoshihiro Nishimura
+  year: 2008
+  genre:
+  - action
+  - horror
+  - science fiction
+  cover: /assets/images/films/tokyo_gore_police.jpg
+  synopsis: ''
+- title: Wheels on Meals
+  director: Sammo Hung
+  year: 1984
+  genre:
+  - action
+  - comedy
+  cover: /assets/images/films/wheels_on_meals.jpg
+  synopsis: ''
+- title: White Chicks
+  director: Keenen Ivory Wayans
+  year: 2004
+  genre:
+  - comedy
+  cover: /assets/images/films/white_chicks.jpg
+  synopsis: ''
+- title: Witch, The
+  director: Robert Eggers
+  year: 2015
+  genre:
+  - horror
+  cover: /assets/images/films/witch.jpg
+  synopsis: ''
