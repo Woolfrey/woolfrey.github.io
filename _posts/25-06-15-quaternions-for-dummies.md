@@ -48,7 +48,7 @@ and multiplied it by Eqn. (1) then we would get:
 $$
 \begin{align}
     e^{i\psi}\cdot \mathrm{z} &= \left(\cos(\psi) + i\cdot\sin(\psi)\right)\left(\mathrm{x} +i\cdot \mathrm{y}\right) \tag{4a} \\
-    &= \mathrm{x}\cdot\cos(\psi) - \mathrm{y}\cdot\sin(\psi) + i\left(\mathrm{x}\cdot\sin(\psi) - \mathrm{y}\cdot\cos(\psi)\right) \tag{4b}
+    &= \mathrm{x}\cdot\cos(\psi) - \mathrm{y}\cdot\sin(\psi) + i\left(\mathrm{x}\cdot\sin(\psi) + \mathrm{y}\cdot\cos(\psi)\right) \tag{4b}
 \end{align}
 $$
 
