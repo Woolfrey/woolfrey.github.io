@@ -238,8 +238,9 @@ Programming features like these ensure you can't even run the code, thus prevent
 - Error-proofing has been quietly designed into many aspects of modern life.
 - It doesn't have to be physical; even good software design prevents errors.
 
----
+[🔝 Back to top.](#top)
 
+---
 
 [^1]: Wiegmann, D. A., & Shappell, S. A. (2017). "A Human Error Approach to Aviation Accident Analysis: The Human Factors Analysis and Classification System". Routledge.
 [^2]: Reason, J. (2000). "Human Error: Models and Management". Bmj, 320(7237), 768-770.
